@@ -1,0 +1,5 @@
+<div class="wrapper{{#if options.modifier}}--{{options.modifier}}{{/if}}{{#if options.classes}} {{options.classes}}{{/if}}"
+	{{#if options.module}} data-js-module="{{options.module}}"{{/if}}
+	{{#if options.module-options}} data-js-options="{{options.module-options}}"{{/if}}>
+{{{yield}}}
+</div>

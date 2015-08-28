@@ -1,0 +1,54 @@
+/* ===================================================
+TEASER COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-teaser"] {
+	.teaser__link {
+	}
+	.teaser__wrapper {
+		@include float;
+
+		margin-top: 2rem;
+	}
+	.teaser__date {
+	}
+	.teaser__headline {
+		font-size: 2rem;
+		font-weight: $font-bold;
+		font-family: $font-family;
+		margin-bottom: 1rem;
+	}
+	.teaser__content {
+	}
+	.teaser__footer {
+	}
+}
+
+/* ---------------------------------------------------
+Modifier
+--------------------------------------------------- */
+.c-teaser--home {
+	@include span-columns(3);
+	@include omega(4n);
+	margin-bottom: 3rem;
+
+	@include media(map-get($bp, tablet-p)) {
+		@include omega-reset(4n);
+		@include span-columns(4);
+		@include omega(3n);
+	}
+
+	@include media(map-get($bp, mobile-l)) {
+		@include omega-reset(3n);
+		@include span-columns(6);
+		@include omega(2n);
+	}
+
+	@include media(map-get($bp, mobile-p)) {
+		@include omega-reset(2n);
+		@include span-columns(12);
+	}
+}

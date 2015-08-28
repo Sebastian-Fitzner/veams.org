@@ -1,0 +1,66 @@
+.b-toggler {
+	float: right;
+	margin-left: 2rem;
+
+	.toggler__link {
+		@include transform(rotate(0deg));
+		@include transition(.5s ease-in-out);
+
+		width: 33px;
+		height: 32px;
+		display: block;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.toggler__icon-wrapper {
+		.toggler__icon {
+			@include transform(rotate(0deg));
+			@include transition(.25s ease-in-out);
+
+			display: block;
+			position: absolute;
+			height: 2px;
+			width: 100%;
+			background: color(highlight-dark);
+			opacity: 1;
+			left: 0;
+
+			&:nth-child(1) {
+				top: 0;
+			}
+
+			&:nth-child(2) {
+				top: 14px;
+			}
+
+			&:nth-child(3) {
+				top: 28px;
+			}
+		}
+	}
+
+	.toggler__text {
+		@include hidden-text;
+	}
+
+	.is-active .toggler__icon {
+
+		&:nth-child(1) {
+			@include transform(rotate(135deg));
+
+			top: 18px;
+		}
+
+		&:nth-child(2) {
+			opacity: 0;
+			left: -60px;
+		}
+
+		&:nth-child(3) {
+			@include transform(rotate(-135deg));
+
+			top: 18px;
+		}
+	}
+}

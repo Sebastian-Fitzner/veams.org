@@ -1,0 +1,34 @@
+---
+component: article
+---
+
+<article class="c-article{{#if articleModifierClass}}--{{articleModifierClass}}{{/if}} {{articleClasses}}" data-css="c-article">
+
+	{{#if articleHeader}}
+		{{> c-article__header articleHeader}}
+	{{/if}}
+
+	{{#if articleFigure }}
+		{{> c-figure articleFigure}}
+	{{/if}}
+
+	<div class="article__content {{articleContentClasses}}">
+		{{#if articleSummary}}
+			{{{truncate articleContent articleSummary "..." }}}
+		{{else}}
+		{{! Use md files (md article-md) or json content (article-content) or both}}
+
+			{{{ articleContent }}}
+
+			{{#if articleRTE}}
+				{{> c-rte articleRTE}}
+			{{/if}}
+
+		{{/if}}
+	</div>
+
+	{{#if articleFooter}}
+		{{> c-article__footer articleFooter}}
+	{{/if}}
+
+</article>

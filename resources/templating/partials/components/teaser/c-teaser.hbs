@@ -1,0 +1,37 @@
+---
+component: teaser
+---
+
+<div class="c-teaser{{#if teaserModifierClass}}--{{teaserModifierClass}}{{/if}}{{#if teaserClasses}} {{teaserClasses}}{{/if}}" data-css="c-teaser"{{#if teaserJSAtom}} data-js-atom="{{teaserJSAtom}}"{{/if}}>
+	{{#if teaserLink}}
+	<a class="teaser__link" href="#" title="{{teaserHeadline}}">
+	{{/if}}
+
+	{{#if teaserFigure}}
+		{{> c-figure teaserFigure}}
+	{{/if}}
+
+	<div class="teaser__wrapper">
+		{{#if teaserDate}}
+			<time class="teaser__date" datetime="2014-11-13T20:00+00:00">{{teaserDate}}</time>
+		{{/if}}
+
+		{{#if teaserHeadline}}
+			<h3 class="teaser__headline">{{{teaserHeadline}}}</h3>
+		{{/if}}
+
+		<div class="teaser__content">
+			{{> c-rte teaserRTE}}
+		</div>
+	</div>
+
+	{{#if teaserFooter}}
+		<div class="teaser__footer">
+			{{{teaserFooter}}}
+		</div>
+	{{/if}}
+
+	{{#if teaserLink}}
+	</a>
+	{{/if}}
+</div>

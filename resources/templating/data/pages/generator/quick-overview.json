@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"article-class": "",
+			"article-header": true,
+			"article-h1": "The Installation of PG is easy. It bases on NodeJS and Yeoman and uses Grunt and Bower.",
+			"article-h2": "Here we go with PG!",
+			"article-md": [
+				{
+					"article-md-path": "resources/templates/data/pages/getting-started/quick-overview.md"
+				}
+			]
+		}
+	]
+}

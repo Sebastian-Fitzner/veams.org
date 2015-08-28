@@ -1,0 +1,55 @@
+{
+	"simple": {
+		"articleModifierClass": "custom",
+		"articleClasses": "is-top",
+		"articleHeader": {
+			"articleHeaderClasses": "is-header",
+			"articleDate": "10.04.2015",
+			"articleH1": "Article Headline",
+			"articleH2": "Article Subline",
+			"articleIntro": "Article Intro"
+		},
+		"articleContentClasses": "is-visible",
+		"articleContent": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>",
+		"articleMd": "markdown/text.md",
+		"articleFooter": {
+			"articleFooterClasses": "is-margin",
+			"articleFooterLink": "Read more"
+		}
+	},
+	"image": {
+		"articleModifierClass": "image",
+		"articleClasses": "is-bottom",
+		"articleHeader": {
+			"articleHeaderClasses": "is-header",
+			"articleDate": "12.04.2015",
+			"articleH1": "Article Headline with Images",
+			"articleH2": "Article Subline",
+			"articleIntro": "Article Intro"
+		},
+		"articleFigure": {
+			"figureModifierClass": "article",
+			"pictureUrlStd": "img/temp/img-element/pic-02-769.jpg",
+			"picture320": "img/temp/img-element/pic-02-320.jpg",
+			"picture320_2x": "img/temp/img-element/pic-02-320_2x.jpg",
+			"picture480": "img/temp/img-element/pic-02-480.jpg",
+			"picture480_2x": "img/temp/img-element/pic-02-480_2x.jpg",
+			"picture481": "img/temp/img-element/pic-02-640.jpg",
+			"picture481_2x": "img/temp/img-element/pic-02-640_2x.jpg",
+			"picture768": "img/temp/img-element/pic-02-768.jpg",
+			"picture768_2x": "img/temp/img-element/pic-02-768_2x.jpg",
+			"picture769": "img/temp/img-element/pic-02-769.jpg",
+			"picture769_2x": "img/temp/img-element/pic-02-769_2x.jpg",
+			"figureCaption": {
+				"captionHeadline": "This is my figure."
+			}
+		},
+		"articleContentClasses": "is-visible",
+		"articleContent": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>",
+		"articleMd": "markdown/text.md",
+		"articleFooter": {
+			"articleFooterClasses": "is-margin",
+			"articleFooterLink": "Read more"
+		}
+	}
+}

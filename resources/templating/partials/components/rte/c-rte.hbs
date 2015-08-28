@@ -1,0 +1,15 @@
+---
+component: rich-text-editor
+---
+
+<div class="c-rte{{#if rteModifierClass}}--{{rteModifierClass}}{{/if}} {{rteClasses}}" data-css="c-rte">
+	{{#if rteMd}}
+		{{md rteMd}}
+	{{/if}}
+
+	{{#if rtes}}
+		{{#each rtes}}
+			{{md rteMd}}
+		{{/each}}
+	{{/if}}
+</div>

@@ -1,0 +1,101 @@
+/* ===================================================
+RTE COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+
+[data-css="c-rte"] {
+	h3 {
+		font-size: 2rem;
+		font-weight: $font-light;
+		line-height: 3rem;
+
+		margin: 2.75rem 0;
+		padding-top: 2.75rem;
+
+		text-transform: uppercase;
+
+		color: darken(color(highlight-dark), 20);
+	}
+	h4 {
+		font-size: 1.9rem;
+		font-weight: $font-light;
+		line-height: 2.5rem;
+
+		margin: 2rem 0;
+		padding: 0.5rem;
+
+		color: #000;
+		background: #fff;
+	}
+	a {
+		text-decoration: none;
+
+		color: #fff;
+		background: lighten(color(highlight-main), 5);
+
+		@include transition(300ms ease all);
+		&:hover {
+			color: #eee;
+			background: color(highlight-dark);
+		}
+	}
+	strong,
+	b {
+		font-weight: bold;
+	}
+	em {
+		font-style: italic;
+	}
+	ul,
+	ol {
+		margin-left: 6rem;
+		li {
+			line-height: 2.6rem;
+
+			margin: 1rem 0;
+			a {
+				color: #fff;
+			}
+		}
+	}
+	ul {
+		list-style: square;
+	}
+	ol {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+
+		list-style: decimal;
+	}
+	img {
+		display: block;
+
+		max-width: 100%;
+		height: auto;
+		margin: 1rem auto;
+	}
+
+	/*
+	Paragraph
+	----------------------------- */
+	p {
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+
+/* ---------------------------------------------------
+Modifier
+--------------------------------------------------- */
+.c-rte--teaser-home {
+	p {
+		font-family: $font-family;
+		font-weight: $font-light;
+	}
+}

@@ -1,0 +1,19 @@
+<header class="article__header{{#if articleHeaderClasses}} {{articleHeaderClasses}}{{/if}}">
+
+	{{#if articleDate }}
+		<time class="article__header-time" datetime="{{articleDatetime}}">{{articleDate}}</time>
+	{{/if}}
+
+	{{#if articleH1 }}
+		<h1 class="article__header-headline">{{ articleH1 }}</h1>
+	{{/if}}
+
+	{{#if articleH2 }}
+		<h2 class="article__header-subline">{{ articleH2 }}</h2>
+	{{/if}}
+
+	{{#if articleIntro}}
+		<p class="article__header-intro">{{articleIntro}}</p>
+	{{/if}}
+
+</header>

@@ -1,0 +1,37 @@
+/* ---------------------------------------------------
+Global Settings
+--------------------------------------------------- */
+@import "../../bower-components/neat/app/assets/stylesheets/neat-helpers";
+
+$column: 73px;
+$gutter: 22px;
+$grid-columns: 12;
+$max-width: 1360px;
+$min-width: false; // This variable will be used in veams-scss for bp()
+
+/* ---------------------------------------------------
+Breakpoints
+--------------------------------------------------- */
+$bp: (
+	tablet-l: new-breakpoint(max-width 1024px 12),
+	tablet-p: new-breakpoint(max-width 768px 12),
+	mobile-l: new-breakpoint(max-width 640px 12),
+	mobile-p: new-breakpoint(max-width 480px 12)
+);
+
+/* ---------------------------------------------------
+Colors
+--------------------------------------------------- */
+$colors: (
+	highlight-main: #499EA2,
+	highlight-dark: #373737,
+	highlight-light: #F5F5F5
+);
+
+/* ---------------------------------------------------
+Fonts
+--------------------------------------------------- */
+$font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 900;

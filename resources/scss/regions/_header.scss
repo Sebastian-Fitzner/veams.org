@@ -1,0 +1,15 @@
+.header {
+	padding: 1rem 0;
+}
+
+.r-header-left,
+.r-header-right {
+	vertical-align: middle;
+}
+
+.r-header-left {
+	@include span-columns(6, table);
+}
+.r-header-right {
+	@include span-columns(6, table);
+}

@@ -1,0 +1,16 @@
+.b-github {
+	float: right;
+
+	@include bp(420px) {
+		display: none;
+	}
+
+	.github__headline {
+		@include hidden-text;
+	}
+	.github__link {
+		@include sprites-github-mark;
+
+		display: block;
+	}
+}

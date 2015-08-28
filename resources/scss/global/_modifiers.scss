@@ -1,0 +1,17 @@
+/* ===================================================
+GLOBAL MODIFIERS
+=================================================== */
+
+.is-container {
+	/*
+	General Styles
+	----------------------- */
+	@include outer-container;
+
+	padding: 0 1rem;
+}
+
+.is-table-lyt {
+	@include fill-parent();
+	@include row(table);
+}

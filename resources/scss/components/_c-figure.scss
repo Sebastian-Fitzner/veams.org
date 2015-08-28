@@ -1,0 +1,37 @@
+/* ===================================================
+FIGURE COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-figure"] {
+	.figure__wrapper {
+	}
+
+	.figure__caption {
+	}
+
+	.figure__caption-inner {
+	}
+
+	.figure__caption-headline {
+	}
+
+	.figure__caption-content {
+	}
+}
+
+/* ---------------------------------------------------
+Modifier
+--------------------------------------------------- */
+.c-figure--teaser-home {
+	float: left;
+	width: 100%;
+	display: block;
+
+	.figure__wrapper {
+//		-webkit-clip-path: polygon(0 11%, 59% 94%, 100% 1%);
+//		clip-path: polygon(0 11%, 59% 94%, 100% 1%);
+	}
+}

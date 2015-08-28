@@ -1,0 +1,14 @@
+/* ===================================================
+BLOCK: LOGO
+=================================================== */
+
+.b-logo {
+	.logo__headline {
+		@include hidden-text;
+	}
+	.logo__link {
+		@include sprites-veams-std;
+
+		display: block;
+	}
+}

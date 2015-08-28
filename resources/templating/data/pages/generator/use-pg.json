@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"article-class": "",
+			"article-header": true,
+			"article-h1": "One line in your console ... ",
+			"article-h2": "... and a few minutes later be productive!",
+			"article-md": [
+				{
+					"article-md-path": "resources/templates/data/pages/getting-started/use-pg.md"
+				}
+			]
+		}
+	]
+}

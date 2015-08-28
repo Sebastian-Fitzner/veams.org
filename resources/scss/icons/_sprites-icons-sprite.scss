@@ -1,0 +1,50 @@
+@mixin sprites-bg-svg() {
+	background-image: url("../img/sprites/sprites-icons-sprite.svg");
+}
+%sprites-bg-svg {
+	@include sprites-bg-svg();
+}
+@mixin sprites-bg-size() {
+	background-size: 255px 70px;
+}
+%sprites-bg-size {
+	@include sprites-bg-size();
+}
+
+@mixin sprites-bg-png() {
+	background-image: url("../img/sprites/sprites-icons-sprite-medium.png");
+}
+%sprites-bg-png {
+	@include sprites-bg-png();
+}
+@mixin sprites-github-mark() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 33px;
+	height: 32px;
+	background-position: 0 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-github-mark {
+	@include sprites-github-mark();
+}
+
+@mixin sprites-veams-std() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 209px;
+	height: 61px;
+	background-position: -40px 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-veams-std {
+	@include sprites-veams-std();
+}
+
+

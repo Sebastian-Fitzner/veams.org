@@ -1,0 +1,1 @@
+If you've spotted a typo or a mistake, or wish to add something on, you could write about this on [GitHub](https://github.com/Sebastian-Fitzner/pg-website) | Created by [Sebastian Fitzner](https://github.com/Sebastian-Fitzner)

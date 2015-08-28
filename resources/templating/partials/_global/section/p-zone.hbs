@@ -1,0 +1,13 @@
+{{!
+-----------------------------------------------
+Section template to wrap other content
+-----------------------------------------------
+}}
+<{{#if options.tag}}{{options.tag}}{{else}}section{{/if}}
+		class="zone{{#if options.modifier}}--{{options.modifier}}{{/if}}{{#if options.bg-color}} is-bg-{{options.bg-color}}{{/if}}{{#isnt options.is-padding false}} is-container-padding{{/isnt}}"
+		data-css="zone">
+	<div class="zone__inner{{#unless options.is-full-width}} is-container{{/unless}}">
+		{{> p-zone__content }}
+	</div>
+</{{#if options.tag}}{{options.tag}}{{else}}section{{/if}}>
+

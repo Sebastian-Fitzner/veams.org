@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"article-class": false,
+			"article-header": true,
+			"article-h1": "Features are nice ...",
+			"article-h2": "... when you know they exist!",
+			"article-md": [
+				{
+					"article-md-path": "resources/templates/data/pages/getting-started/features-in-pg.md"
+				}
+			]
+		}
+	]
+}
