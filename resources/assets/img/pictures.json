@@ -480,6 +480,166 @@
         "height": 308,
         "folder": "teaser-home",
         "path": "resources/assets/img/temp/pictures/teaser-home/pic-06--769.jpg"
+      },
+      {
+        "breakpoint": "320_2x",
+        "name": "pic-07--320_2x.jpg",
+        "width": 639,
+        "height": 394,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--320_2x.jpg"
+      },
+      {
+        "breakpoint": "320",
+        "name": "pic-07--320.jpg",
+        "width": 320,
+        "height": 197,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--320.jpg"
+      },
+      {
+        "breakpoint": "480_2x",
+        "name": "pic-07--480_2x.jpg",
+        "width": 960,
+        "height": 591,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--480_2x.jpg"
+      },
+      {
+        "breakpoint": "480",
+        "name": "pic-07--480.jpg",
+        "width": 480,
+        "height": 296,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--480.jpg"
+      },
+      {
+        "breakpoint": "640_2x",
+        "name": "pic-07--640_2x.jpg",
+        "width": 639,
+        "height": 394,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--640_2x.jpg"
+      },
+      {
+        "breakpoint": "640",
+        "name": "pic-07--640.jpg",
+        "width": 320,
+        "height": 197,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--640.jpg"
+      },
+      {
+        "breakpoint": "768_2x",
+        "name": "pic-07--768_2x.jpg",
+        "width": 800,
+        "height": 493,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--768_2x.jpg"
+      },
+      {
+        "breakpoint": "768",
+        "name": "pic-07--768.jpg",
+        "width": 399,
+        "height": 246,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--768.jpg"
+      },
+      {
+        "breakpoint": "769_2x",
+        "name": "pic-07--769_2x.jpg",
+        "width": 1000,
+        "height": 616,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--769_2x.jpg"
+      },
+      {
+        "breakpoint": "769",
+        "name": "pic-07--769.jpg",
+        "width": 500,
+        "height": 308,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-07--769.jpg"
+      },
+      {
+        "breakpoint": "320_2x",
+        "name": "pic-08--320_2x.jpg",
+        "width": 639,
+        "height": 394,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--320_2x.jpg"
+      },
+      {
+        "breakpoint": "320",
+        "name": "pic-08--320.jpg",
+        "width": 320,
+        "height": 197,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--320.jpg"
+      },
+      {
+        "breakpoint": "480_2x",
+        "name": "pic-08--480_2x.jpg",
+        "width": 960,
+        "height": 591,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--480_2x.jpg"
+      },
+      {
+        "breakpoint": "480",
+        "name": "pic-08--480.jpg",
+        "width": 480,
+        "height": 296,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--480.jpg"
+      },
+      {
+        "breakpoint": "640_2x",
+        "name": "pic-08--640_2x.jpg",
+        "width": 639,
+        "height": 394,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--640_2x.jpg"
+      },
+      {
+        "breakpoint": "640",
+        "name": "pic-08--640.jpg",
+        "width": 320,
+        "height": 197,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--640.jpg"
+      },
+      {
+        "breakpoint": "768_2x",
+        "name": "pic-08--768_2x.jpg",
+        "width": 800,
+        "height": 493,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--768_2x.jpg"
+      },
+      {
+        "breakpoint": "768",
+        "name": "pic-08--768.jpg",
+        "width": 399,
+        "height": 246,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--768.jpg"
+      },
+      {
+        "breakpoint": "769_2x",
+        "name": "pic-08--769_2x.jpg",
+        "width": 1000,
+        "height": 616,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--769_2x.jpg"
+      },
+      {
+        "breakpoint": "769",
+        "name": "pic-08--769.jpg",
+        "width": 500,
+        "height": 308,
+        "folder": "teaser-home",
+        "path": "resources/assets/img/temp/pictures/teaser-home/pic-08--769.jpg"
       }
     ]
   }

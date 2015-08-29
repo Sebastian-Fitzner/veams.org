@@ -1,0 +1,30 @@
+---
+title: Introduction
+lead: Veams contains 4 Main Instruments
+type: Getting Started
+menuLink: Introduction
+sortOrder: 01
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+	{{! WrapWith START:  }}
+		{{#wrapWith "p-zone"}}
+			{{#with introduction.article}}
+				{{> c-article }}
+			{{/with}}
+
+			{{! WrapWith START:  }}
+			{{#wrapWith "w-simple" modifier="teaser-home"}}
+				{{#with introduction.teasers}}
+					{{#each data}}
+						{{> c-teaser }}
+					{{/each}}
+				{{/with}}
+			{{/wrapWith}}
+			{{! WrapWith END:  }}
+
+		{{/wrapWith}}
+	{{! WrapWith END:  }}
+	{{/content}}
+{{/extend}}

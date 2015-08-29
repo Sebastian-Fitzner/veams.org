@@ -2,6 +2,9 @@
 bodyclass: front
 title: A Methodology and System to Build Scalable Web Apps and HTML5 Web Interfaces.
 lead: Veams is a system which is extremely extensible and efficiently architected.
+type: Getting Started
+menuLink: Home
+sortOrder: 01
 ---
 
 {{#extend "lyt-default"}}
@@ -13,14 +16,19 @@ lead: Veams is a system which is extremely extensible and efficiently architecte
 			{{/with}}
 
 			{{! WrapWith START:  }}
-			{{#wrapWith "w-simple" modifier="teaser-home" module="equal" module-options='{"childElements": "[data-js-atom=\"equal-child\"]"}'}}
+			{{#wrapWith "w-simple" modifier="teaser-home"}}
 				{{#with homepage.teasers}}
 					{{#each data}}
 						{{> c-teaser }}
 					{{/each}}
 				{{/with}}
 			{{/wrapWith}}
-		{{! WrapWith END:  }}
+			{{! WrapWith END:  }}
+			{{! WrapWith START:  }}
+			{{#wrapWith "w-simple" classes="is-centered"}}
+				{{> c-cta homepage.cta}}
+			{{/wrapWith}}
+			{{! WrapWith END:  }}
 
 		{{/wrapWith}}
 	{{! WrapWith END:  }}

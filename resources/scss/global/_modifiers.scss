@@ -15,3 +15,7 @@ GLOBAL MODIFIERS
 	@include fill-parent();
 	@include row(table);
 }
+
+.is-centered {
+	text-align: center;
+}

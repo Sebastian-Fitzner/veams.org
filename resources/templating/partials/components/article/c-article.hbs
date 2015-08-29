@@ -2,7 +2,7 @@
 component: article
 ---
 
-<article class="c-article{{#if articleModifierClass}}--{{articleModifierClass}}{{/if}} {{articleClasses}}" data-css="c-article">
+<article class="c-article{{#if articleModifierClass}}--{{articleModifierClass}}{{/if}}{{#if articleClasses}} {{articleClasses}}{{/if}}" data-css="c-article">
 
 	{{#if articleHeader}}
 		{{> c-article__header articleHeader}}
@@ -16,7 +16,6 @@ component: article
 		{{#if articleSummary}}
 			{{{truncate articleContent articleSummary "..." }}}
 		{{else}}
-		{{! Use md files (md article-md) or json content (article-content) or both}}
 
 			{{{ articleContent }}}
 

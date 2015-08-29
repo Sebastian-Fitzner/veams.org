@@ -3,5 +3,8 @@ STAGE
 =================================================== */
 
 .r-stage {
+	@extend %float;
+
 	background-color: #fff;
+	padding: 1.5rem 0;
 }

@@ -10,7 +10,8 @@ module.exports = {
 			'<%= paths.src %>/templating/layouts/*.hbs'
 		],
 		collections: [
-			'sitemap'
+			'sitemap',
+			'type'
 		]
 	},
 	veamsSCSS: {

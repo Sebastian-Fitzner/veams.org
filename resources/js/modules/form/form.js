@@ -6,16 +6,17 @@ var $ = App.$;
 
 class Form extends AppModule {
 	constructor(obj) {
-  var options = {};
+		var options = {};
 
-  super(obj, options);
+		super(obj, options);
 	}
 
 	initialize() {
-  this.form = this.$el.find('form');
+		this.form = this.$el.find('form');
 	}
 
-	render() {}
+	render() {
+	}
 }
 
 // Returns constructor

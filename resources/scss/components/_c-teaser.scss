@@ -11,7 +11,7 @@ Global Styles
 	.teaser__wrapper {
 		@include float;
 
-		margin-top: 2rem;
+		margin-top: 1rem;
 	}
 	.teaser__date {
 	}
@@ -33,6 +33,7 @@ Modifier
 .c-teaser--home {
 	@include span-columns(3);
 	@include omega(4n);
+	margin-top: 1.5rem;
 	margin-bottom: 3rem;
 
 	@include media(map-get($bp, tablet-p)) {
@@ -50,5 +51,52 @@ Modifier
 	@include media(map-get($bp, mobile-p)) {
 		@include omega-reset(2n);
 		@include span-columns(12);
+	}
+
+	&:hover,
+	.is-visible {
+		.teaser__wrapper {
+			&::after {
+				background: color(highlight-light);
+			}
+			.teaser__content {
+				opacity: 1;
+			}
+		}
+	}
+
+	.teaser__wrapper {
+		position: relative;
+
+		&::after {
+			@include transition(all $transition-duration/2 $transition-ease-method);
+			@extend %pseudo;
+
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: transparent;
+		}
+	}
+
+	.teaser__headline {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.teaser__figure {
+		z-index: 1;
+	}
+
+	.teaser__content {
+		@include centering(hv);
+
+		font-size: 1.8rem;
+		position: absolute;
+		text-align: center;
+		width: 90%;
+		z-index: 3;
+		opacity: 0;
 	}
 }

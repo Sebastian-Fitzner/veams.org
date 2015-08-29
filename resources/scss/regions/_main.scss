@@ -1,4 +1,7 @@
 .r-main {
+	@extend %float;
+
 	background-color: color(highlight-light);
 	padding: 4rem 0;
+	background-image: $bg-pattern;
 }

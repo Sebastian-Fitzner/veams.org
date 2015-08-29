@@ -8,6 +8,8 @@ require('respimage');
 var $ = App.$;
 
 // ES6 Modules
+import Sticky from './modules/sticky/sticky';
+import Navigation from './modules/navigation/navigationView';
 import ButtonInit from './modules/button/button-init';
 import Toggle from './modules/toggle/ui-toggle';
 import EqualRows from './modules/equal-row-height/equal-row-heights';
@@ -34,11 +36,7 @@ class Core {
 		 */
 		if (!App.support.touch) {
 			$('html').addClass('no-touch');
-		} else {
-			$('html').addClass('touch');
 		}
-
-
 	}
 
 	render(context) {
@@ -52,6 +50,24 @@ class Core {
 			if (height > heightMax) {
 				$(this).addClass('js-close').attr('data-max-height', height).css('height', heightMax).parent().append('<button class="js-toggle"/>');
 			}
+		});
+
+		/**
+		 * Init Sticky
+		 */
+		Helpers.loadModule({
+			el: '[data-js-module="sticky"]',
+			Module: Sticky,
+			context: context
+		});
+
+		/**
+		 * Init Navigation
+		 */
+		Helpers.loadModule({
+			el: '[data-js-module="navigation"]',
+			Module: Navigation,
+			context: context
 		});
 
 		/**

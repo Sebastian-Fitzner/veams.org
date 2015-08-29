@@ -4,35 +4,24 @@
 
 	&::after {
 		@extend %pseudo;
+		@include animation(rotateBig linear $transition-duration*140 infinite);
+		@include fx-triangle($size: 340px 170px 170px, $color: color(highlight-light), $rotation: 170deg);
 
-		right: 50px;
-		bottom: -10px;
-		width: 0;
-		height: 0;
-		border-top: 120px solid transparent;
-		border-right: 240px solid color(highlight-light);
-		border-bottom: 120px solid transparent;
-		transform: rotateZ(170deg);
+		right: 20px;
+		bottom: -50px;
 		z-index: 1;
 		mix-blend-mode: multiply;
-
-		@include animation(rotateBig linear $transition-duration*140 infinite);
 	}
 	&::before {
 		@extend %pseudo;
+		@include animation(rotateSmall linear $transition-duration*100 infinite);
+		@include fx-triangle($size: 220px 110px 110px, $color: color(highlight-main), $rotation: -290deg);
 
-		right: 75px;
-		bottom: 15px;
-		width: 0;
-		height: 0;
-		border-top: 60px solid transparent;
-		border-right: 120px solid color(highlight-main);
-		border-bottom: 60px solid transparent;
-		transform: rotateZ(-290deg);
+		right: 45px;
+		bottom: -15px;
 		z-index: 2;
 		mix-blend-mode: multiply;
 
-		@include animation(rotateSmall linear $transition-duration*100 infinite);
 	}
 
 	.stage-content__head {
@@ -43,6 +32,16 @@
 		display: block;
 		padding-bottom: 1rem;
 		color: color(highlight-main);
+
+		&::after {
+			@extend %pseudo;
+			@include animation(rotateSmaller linear $transition-duration*70 infinite);
+			@include fx-triangle($size: 90px 45px 45px, $color: color(highlight-light), $rotation: 45deg);
+			right: 45px;
+			bottom: 15px;
+			z-index: 2;
+			mix-blend-mode: hard-light;
+		}
 	}
 
 	.stage-content__lead {
@@ -82,5 +81,17 @@
 	}
 	100% {
 		transform: rotateZ(360deg) translateY(0%);
+	}
+}
+
+@include keyframes(rotateSmaller) {
+	0% {
+		transform: rotateZ(45deg) translate(-20%, 0%);
+	}
+	50% {
+		transform: rotateZ(-155deg) translate(25%, 0%);
+	}
+	100% {
+		transform: rotateZ(-315deg) translate(-20%, 0%);
 	}
 }

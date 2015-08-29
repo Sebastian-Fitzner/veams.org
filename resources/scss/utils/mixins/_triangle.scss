@@ -1,0 +1,14 @@
+@mixin fx-triangle($size: 240px 120px 120px, $color: #fff, $rotation: 270deg) {
+	$size-large: nth($size, 1);
+	$size-small-1: if(length($size) == 3, nth($size, 2), $size-large);
+	$size-small-2: if(length($size) == 3, nth($size, 3), $size-large);
+
+	@include prefix(transform, rotateZ($rotation));
+
+	height: 0;
+	width: 0;
+	border-top: $size-small-1 solid transparent;
+	border-right: $size-large solid $color;
+	border-bottom: $size-small-2 solid transparent;
+
+}

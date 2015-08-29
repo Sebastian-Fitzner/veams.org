@@ -7,10 +7,7 @@
 @import "../bower-components/veams-scss/resources/scss/veams";
  
 @import "../bower-components/bourbon/app/assets/stylesheets/bourbon";
-@import "../bower-components/neat/app/assets/stylesheets/neat"; 
-
-@import "global/modifiers";
-@import "global/wrap-with";
+@import "../bower-components/neat/app/assets/stylesheets/neat";
 
 // Icons
 @import "icons/**/*";
@@ -26,6 +23,9 @@
 
 // Globals
 @import "global/_base";
+@import "global/modifiers";
+@import "global/wrap-with";
+@import "global/sticky";
 
 // Regions
 @import "regions/**/*";

@@ -1,5 +1,17 @@
 .header {
+	@extend %float;
+
+	background-color: color(white);
 	padding: 1rem 0;
+	top: -100px;
+
+	&.is-sticky {
+		@include prefix('transition', top 300ms ease);
+		@include prefix('transition-delay', 600ms);
+
+		top: 0;
+		border-bottom: 1px solid darken(color(highlight-light), 10);
+	}
 }
 
 .r-header-left,
@@ -10,6 +22,7 @@
 .r-header-left {
 	@include span-columns(6, table);
 }
+
 .r-header-right {
 	@include span-columns(6, table);
 }

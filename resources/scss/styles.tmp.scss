@@ -11,10 +11,7 @@
 @import "../bower-components/veams-scss/resources/scss/veams";
  
 @import "../bower-components/bourbon/app/assets/stylesheets/bourbon";
-@import "../bower-components/neat/app/assets/stylesheets/neat"; 
-
-@import "global/modifiers";
-@import "global/wrap-with";
+@import "../bower-components/neat/app/assets/stylesheets/neat";
 
 // Icons
 @import "icons/_sprites-icons-sprite";
@@ -23,21 +20,26 @@
 @import "utils/functions/_colors";
 
 // Mixins
-
+@import "utils/mixins/_triangle";
 
 // Extends
 
 
 // Globals
 @import "global/_base";
+@import "global/modifiers";
+@import "global/wrap-with";
+@import "global/sticky";
 
 // Regions
 @import "regions/_header";
 @import "regions/_main";
+@import "regions/_off-canvas";
 @import "regions/_stage";
 
 // Components
 @import "components/_c-article";
+@import "components/_c-cta";
 @import "components/_c-figure";
 @import "components/_c-picture";
 @import "components/_c-rte";
@@ -46,6 +48,7 @@
 // Blocks
 @import "blocks/_b-github";
 @import "blocks/_b-logo";
+@import "blocks/_b-nav";
 @import "blocks/_b-stage-content";
 @import "blocks/_b-toggler";
 

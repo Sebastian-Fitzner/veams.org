@@ -1,0 +1,19 @@
+---
+component: cta
+---
+<{{#if ctaButton}}button{{else}}a{{/if}}
+	{{#if ctaContent}} title="{{ctaContent}}"{{/if}}
+	{{#if ctaTarget}} href="{{ctaTarget}}"{{/if}}
+		class="c-cta{{#if ctaModifierClass}}--{{ctaModifierClass}}{{/if}}{{#if ctaClass}} {{ctaClass}}{{/if}}"
+		data-css="c-cta"
+	{{#if ctaDownload}} target="_blank"{{/if}}
+	{{#if ctaJsAtom}} data-js-atom="{{ctaJsAtom}}"{{/if}}
+	{{#if ctaJsModule}} data-js-module="button" data-js-options='{
+	{{#each ctaJsOptions}}"{{ctaKey}}": "{{{ctaValue}}}"{{#if @last}}{{else}}, {{/if}}{{/each}}
+	}'{{/if}}>
+	{{#isnt ctaIcon false}}<span class="cta__icon"></span> {{/isnt}}
+	{{#if ctaUpperContent}}
+		<span class="cta__upper-content">{{ctaUpperContent}}</span>
+	{{/if}}
+	<span class="cta__content">{{ctaContent}}</span>
+</{{#if ctaButton}}button{{else}}a{{/if}}>

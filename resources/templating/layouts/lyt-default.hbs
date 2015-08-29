@@ -24,7 +24,7 @@
 	<div class="page-wrapper">
 
 		<div class="header" data-js-module="sticky">
-			<div class="is-container is-table-lyt">
+			<div class="header__inner is-container is-table-lyt">
 				<div class="r-header-left">
 					{{> b-logo }}
 				</div>
@@ -37,18 +37,23 @@
 
 		<!-- Nav
 		================================================== -->
+		<div class="r-off-canvas" data-js-module="navigation">
+			<div class="off-canvas__inner is-container">
+				{{> b-nav }}
+			</div>
+		</div>
 
 
 		<!-- Stage
 		================================================== -->
 		<section class="r-stage">
-			<div class="is-container">
+			<div class="stage__inner is-container">
 				{{> b-stage-content }}
 			</div>
 		</section>
 
 		<div class="r-main">
-			<div class="is-container">
+			<div class="main__inner is-container">
 				{{#block "main"}}{{/block}}
 			</div>
 		</div>
