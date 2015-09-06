@@ -1,0 +1,18 @@
+{
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "HandlebarsJS - Veams template engine for static site generation."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__template-engines.md"
+				}
+			]
+		}
+	}
+}

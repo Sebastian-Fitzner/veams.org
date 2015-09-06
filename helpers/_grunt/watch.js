@@ -14,6 +14,10 @@ module.exports = {
 		files: '<%= paths.src %>/ajax/**/*.{json,html}',
 		tasks: 'sync:ajax'
 	},
+	handlebars: {
+		files: '<%= paths.src %>/js/modules/**/*.hbs',
+		tasks: ['handlebars', 'replace:jsTemplates']
+	},
 	assets: {
 		files: [
 			'<%= paths.src %>/assets/**/*'
@@ -33,7 +37,7 @@ module.exports = {
 	},
 	templating: {
 		files: ['<%= paths.src %>/{templating/data,templating/layouts,templating/partials,templating/pages}/**/{,*/}*.{md,hbs,json}'],
-	    tasks: ['newer:assemble'],
+	    tasks: ['assemble'],
 	    options: {
 			spawn: false
 		}

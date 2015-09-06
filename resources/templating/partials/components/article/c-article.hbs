@@ -12,7 +12,7 @@ component: article
 		{{> c-figure articleFigure}}
 	{{/if}}
 
-	<div class="article__content {{articleContentClasses}}">
+	<div class="article__content {{articleContentClasses}}" data-js-id="toc">
 		{{#if articleSummary}}
 			{{{truncate articleContent articleSummary "..." }}}
 		{{else}}

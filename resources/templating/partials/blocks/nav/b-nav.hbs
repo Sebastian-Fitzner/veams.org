@@ -10,7 +10,7 @@ block: nav
 				{{#is data.type ../type}}
 					<li class="nav__list-item">
 						<a href="{{autolink}}" class="nav__link{{#is ../../../page.dest this.dest}} is-active{{/is}}">
-							{{data.menuLink}}
+							{{{data.menuLink}}}
 						</a>
 					</li>
 				{{/is}}

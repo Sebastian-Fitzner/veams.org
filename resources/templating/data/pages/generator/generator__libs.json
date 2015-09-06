@@ -1,0 +1,18 @@
+{
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams has some great frameworks included. Just install them without any configuration."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__libs.md"
+				}
+			]
+		}
+	}
+}

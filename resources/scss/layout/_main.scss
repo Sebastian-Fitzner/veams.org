@@ -1,0 +1,60 @@
+.r-main {
+	@extend %float;
+
+	background-color: color(highlight-light);
+	padding: 4rem 0;
+	background-image: $bg-pattern;
+
+	.main__headline {
+		font-size: 2.75rem;
+		font-weight: $font-light;
+		font-family: $font-family;
+		line-height: 1.35;
+		display: block;
+		margin-bottom: 1rem;
+		color: color(highlight-main-dark);
+		text-transform: uppercase;
+		max-width: 55%;
+
+		@include media(map-get($bp, tablet-l)) {
+			max-width: 75%;
+		}
+
+		@include media(map-get($bp, tablet-p)) {
+			max-width: 100%;
+		}
+	}
+}
+
+.r-main-top {
+	@extend %float;
+
+	margin-bottom: 2rem;
+}
+
+.r-main-left {
+	@include span-columns(8);
+
+	@include media(map-get($bp, mobile-l)) {
+		@include span-columns(12);
+	}
+}
+
+.r-main-right {
+	@include span-columns(4);
+
+	margin-right: 0;
+	float: right;
+
+	@include media(map-get($bp, mobile-l)) {
+		@include span-columns(12);
+
+		margin-bottom: 2rem;
+	}
+}
+
+.r-main-bottom {
+	@include span-columns(12);
+
+	margin-top: 4rem;
+}

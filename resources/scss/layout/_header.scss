@@ -1,0 +1,32 @@
+.header {
+	@extend %float;
+	@include transition(background-color $transition-duration $transition-ease-method);
+
+	background-color: transparent;
+	padding: 1rem 0;
+	top: -100px;
+
+	&.is-sticky {
+		@include transition(top 300ms ease, background-color $transition-duration $transition-ease-method);
+		@include prefix('transition-delay', 600ms);
+
+		background-color: color(white);
+		border-bottom: 1px solid darken(color(highlight-light), 10);
+		top: 0;
+	}
+}
+
+.r-header-left,
+.r-header-right {
+	vertical-align: middle;
+}
+
+.r-header-left {
+	@include span-columns(6, table);
+}
+
+.r-header-right {
+	@include span-columns(6, table);
+	position: relative;
+	z-index: 10;
+}

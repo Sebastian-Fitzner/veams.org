@@ -1,0 +1,25 @@
+{
+	"metadata": {
+		"title": "Which Gulp-Plugins do you want to use?",
+		"lead": "Choose Gulp-Plugins and Veams-Generator writes the configuration for you!",
+		"menuLink": "Gulp Plugins",
+		"type": "Veams-Generator",
+		"sortOrder": "05"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Generator provides also a setup with Gulp-Plugins. Just add them in the prompts."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__gulpPlugins.md"
+				}
+			]
+		}
+	}
+}

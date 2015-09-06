@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Do you want to use Veams Extensions?",
+		"lead": "Add Veams-Methodology, Veams-Sass, Veams-Components and Veams-JS to your application."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Generator combines all Veams Extensions in one single place."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__veamsExtensions.md"
+				}
+			]
+		}
+	}
+}

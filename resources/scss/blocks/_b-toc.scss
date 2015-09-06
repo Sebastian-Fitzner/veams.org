@@ -1,0 +1,19 @@
+/* ===================================================
+TOC
+=================================================== */
+
+.b-toc {
+	.toc__headline {
+		@include article-headline;
+	}
+	.toc__list-item {
+		border-bottom: 1px solid color(highlight-main);
+
+		&:first-child {
+			border-top: 1px solid color(highlight-main);
+		}
+	}
+	.toc__link {
+		@include btn($bg-colors: color(white) color(highlight-main), $font-colors: color(highlight-main-dark) color(white), $font-size: 1.95rem, $display: block);
+	}
+}

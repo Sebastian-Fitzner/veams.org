@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Installation of Veams-Generator",
+		"lead": "What is Veams-Generator?",
+		"contentTitle": "Veams-Generator scaffolds out a new application. The Installation of Veams-Generator is easy."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "How? This is really easy ..."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__usage.md"
+				}
+			]
+		}
+	}
+}

@@ -2,7 +2,8 @@
 bodyclass: front
 title: A Methodology and System to Build Scalable Web Apps and HTML5 Web Interfaces.
 lead: Veams is a system which is extremely extensible and efficiently architected.
-type: Getting Started
+contentTitle: It contains various (pluggable) instruments which are controlled by our custom Yeoman generator.
+type: Introduction
 menuLink: Home
 sortOrder: 01
 ---
@@ -11,10 +12,6 @@ sortOrder: 01
 	{{#content "main"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone"}}
-			{{#with homepage.article}}
-				{{> c-article }}
-			{{/with}}
-
 			{{! WrapWith START:  }}
 			{{#wrapWith "w-simple" modifier="teaser-home"}}
 				{{#with homepage.teasers}}
@@ -26,7 +23,7 @@ sortOrder: 01
 			{{! WrapWith END:  }}
 			{{! WrapWith START:  }}
 			{{#wrapWith "w-simple" classes="is-centered"}}
-				{{> c-cta homepage.cta}}
+				{{> c-cta links.veams-intro}}
 			{{/wrapWith}}
 			{{! WrapWith END:  }}
 

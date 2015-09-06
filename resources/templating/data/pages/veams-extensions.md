@@ -1,1 +1,0 @@
-Extend your project with Veams extensions like Veams-Sass, Veams-JS, Veams-Components and  our Veams methodology.

@@ -1,0 +1,51 @@
+{
+	"veams-intro": {
+		"ctaButton": false,
+		"ctaTarget": "introduction.html",
+		"ctaModifierClass": "home",
+		"ctaIcon": false,
+		"ctaContent": "Getting Started"
+	},
+	"generator": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Installation of Veams-Generator"
+	},
+	"generator-usage": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/using-veams.html",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Using Veams-Generator"
+	},
+	"generator-task-runners": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/task-runners.html",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Task Runners in Veams-Generator"
+	},
+	"generator-grunt": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/grunt-plugins.html",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Grunt-Plugins"
+	},
+	"generator-gulp": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/gulp-plugins.html",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Gulp-Plugins"
+	},
+	"generator-libs": {
+		"ctaButton": false,
+		"ctaTarget": "/generator/libraries.html",
+		"ctaModifierClass": "article",
+		"ctaIcon": false,
+		"ctaContent": "Frameworks and Libraries"
+	}
+}

@@ -8,61 +8,78 @@ Global Styles
 
 [data-css="c-rte"] {
 	h3 {
+		border-top: 1px solid lighten(color(highlight-dark), 60);
 		font-size: 2rem;
 		font-weight: $font-light;
-		line-height: 3rem;
-
+		line-height: 1.5;
 		margin: 2.75rem 0;
-		padding-top: 2.75rem;
-
+		padding-top: 2rem;
 		text-transform: uppercase;
-
-		color: darken(color(highlight-dark), 20);
+		color: lighten(color(highlight-dark), 35);
 	}
+
 	h4 {
 		font-size: 1.9rem;
 		font-weight: $font-light;
-		line-height: 2.5rem;
+		line-height: 1.35;
 
 		margin: 2rem 0;
-		padding: 0.5rem;
+		padding: 1rem;
 
 		color: #000;
-		background: #fff;
+		background: lighten(color(highlight-main), 20);
 	}
+
 	a {
-		text-decoration: none;
-
-		color: #fff;
-		background: lighten(color(highlight-main), 5);
-
 		@include transition(300ms ease all);
+
+		color: color(highlight-main-dark);
+		text-decoration: dotted;
+
 		&:hover {
-			color: #eee;
-			background: color(highlight-dark);
+			color: color(highlight-main);
+			text-decoration: underline;
 		}
 	}
+
 	strong,
 	b {
-		font-weight: bold;
+		font-weight: 700;
+		color: lighten(color(highlight-dark), 25);
 	}
+
 	em {
 		font-style: italic;
 	}
-	ul,
 	ol {
 		margin-left: 6rem;
 		li {
-			line-height: 2.6rem;
-
 			margin: 1rem 0;
-			a {
-				color: #fff;
-			}
 		}
 	}
 	ul {
-		list-style: square;
+		list-style: none;
+		margin-left: 2rem;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		li {
+			position: relative;
+			padding: 0.5rem 2.5rem;
+
+			&::before {
+				@extend %pseudo;
+
+				left: 0;
+				top: 12px;
+				width: 8px;
+				height: 8px;
+				background-color: color(highlight-main);
+			}
+		}
 	}
 	ol {
 		margin-top: 1rem;
@@ -82,11 +99,17 @@ Global Styles
 	Paragraph
 	----------------------------- */
 	p {
+		font-family: $font-family;
+		font-weight: $font-light;
 		margin-bottom: 1rem;
 
 		&:last-child {
 			margin: 0;
 		}
+	}
+
+	code {
+		font-family: Courier, Monospace, "Courier New", sans-serif;
 	}
 }
 

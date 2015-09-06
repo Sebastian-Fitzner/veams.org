@@ -1,0 +1,19 @@
+---
+title: Libraries and Frameworks in Veams-Generator
+lead: Add famous Sass and JavaScript Libraries/Frameworks to your project.
+menuLink: "Frameworks and Libraries Prompts"
+type: Veams-Generator
+sortOrder: 70
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START:  }}
+		{{#wrapWith "p-zone"}}
+			{{#with generator__libs.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END:  }}
+	{{/content}}
+{{/extend}}

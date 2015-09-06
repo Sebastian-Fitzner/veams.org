@@ -1,0 +1,23 @@
+/* ===================================================
+Off Canvas Region
+=================================================== */
+
+.r-off-canvas {
+	@include transition(right $transition-duration $transition-ease-method);
+
+	background-color: rgba(color(highlight-dark), 0.95);
+	height: 100%;
+	position: fixed;
+	right: -100%;
+	width: 100%;
+	z-index: 1000;
+
+	&.is-active {
+		right: 0;
+	}
+
+	.off-canvas__inner {
+		padding-top: 6rem;
+		text-align: right;
+	}
+}

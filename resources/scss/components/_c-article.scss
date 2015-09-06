@@ -1,30 +1,5 @@
 .c-article {
 	.article__header-headline {
-		font-size: 2.75rem;
-		font-weight: $font-light;
-		font-family: $font-family;
-		line-height: 1.35;
-		display: block;
-		margin-bottom: 1rem;
-		color: color(highlight-main);
-		text-transform: uppercase;
-		max-width: 55%;
-
-		@include media(map-get($bp, tablet-l)) {
-			max-width: 75%;
-		}
-
-		@include media(map-get($bp, tablet-p)) {
-			max-width: 100%;
-		}
-	}
-	.article__header-subline {
-		font-size: 2.3rem;
-		font-weight: $font-bold;
-		line-height: 3rem;
-
-		margin: 1rem 0;
-
-		color: color(highlight-main);
+		@include article-headline;
 	}
 }

@@ -20,8 +20,8 @@
 
 var config = require('./helpers/config');
 
-module.exports = function(grunt) {
-	
+module.exports = function (grunt) {
+
 	// load only used tasks and add fallbacks for those which cannot be find
 	require('jit-grunt')(grunt, {
 		'replace': 'grunt-text-replace'
@@ -44,29 +44,31 @@ module.exports = function(grunt) {
 		'sassGlobber:dev',
 		'sass:dev'
 	]);
-	
+
 	// Sprites Task
 	grunt.registerTask('icons', [
 		'dr-svg-sprites',
 		'replace:spriteUrl'
-	]); 
-	
+	]);
+
 	// JS Task
 	grunt.registerTask('jsDev', [
+		'handlebars',
+		'replace:jsTemplates',
 		'browserify:dev'
-	]); 
-	
+	]);
+
 	// Picture Task (This task creates an additional JSON file with the path to your picture)
 	grunt.registerTask('pictures', [
 		'responsive_images',
 		'imageSizeExport'
-	]); 
-	
+	]);
+
 	// Build HTML Task
 	grunt.registerTask('build-html', [
 		'assemble'
 	]);
-	
+
 	// HTML Hint Task (Check your HTML)
 	grunt.registerTask('check-html', [
 		'htmlhint'
@@ -86,45 +88,46 @@ module.exports = function(grunt) {
 		'concurrent:syncing',
 		'watchCSS',
 		// 'connect:livereload',
-		'browserSync', 
+		'browserSync',
 		'watch'
 	]);
-	
+
 	grunt.registerTask('build', [
 		'clean:dev',
-		'browserify:vendor',
+		'handlebars',
+		'replace:jsTemplates',
 		'browserify:dist',
 		'uglify',
-		'concurrent:syncing', 
+		'concurrent:syncing',
 		'sassGlobber:dist',
 		'sass:dist',
 		'sass:universal',
 		'combine_mq',
 		'autoprefixer',
 		'cssmin',
-        'assemble',
+		'assemble',
 		'concurrent:build'
 	]);
 
 	grunt.registerTask('default', [
 		'server'
 	]);
-	
+
 	// alias serve by grunt convention
 	grunt.registerTask('serve', [
 		'server'
 	]);
-	
+
 	grunt.registerTask('dist', [
 		'clean',
 		'version:prerelease',
 		'build',
 		'copy:dist'
-	]); 
-	
-	grunt.registerTask('e2e', [
-	'webdriver:e2e'
 	]);
-	
+
+	grunt.registerTask('e2e', [
+		'webdriver:e2e'
+	]);
+
 
 };

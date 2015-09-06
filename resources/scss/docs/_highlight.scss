@@ -3,13 +3,15 @@
 Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 
 */
-
+pre {
+	border: 1px solid #e1e1e1;
+	margin-bottom: 1rem;
+}
 .hljs {
 	display: block;
-
 	padding: 0.5em;
-
 	background: #f0f0f0;
+	font-size: 1.6rem;
 }
 
 .hljs,

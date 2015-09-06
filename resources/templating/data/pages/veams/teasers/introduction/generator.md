@@ -1,0 +1,1 @@
+A custom [Yeoman](http://yeoman.io/) generator builds the base and helps in scaffolding and automating many things.

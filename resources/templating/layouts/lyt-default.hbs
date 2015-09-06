@@ -54,7 +54,14 @@
 
 		<div class="r-main">
 			<div class="main__inner is-container">
-				{{#block "main"}}{{/block}}
+				<header class="main__header">
+					<h1 class="main__headline">
+						{{{contentTitle}}}
+					</h1>
+				</header>
+				<div class="main__content">
+					{{#block "main"}}{{/block}}
+				</div>
 			</div>
 		</div>
 

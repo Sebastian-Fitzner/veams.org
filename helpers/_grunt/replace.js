@@ -8,5 +8,15 @@ module.exports = {
 				to: '../img/'
 			}
 		]
+	},
+	jsTemplates: {
+		src: ['<%= paths.src %>/js/templates/templates.js'],             // source files array (supports minimatch)
+		dest: '<%= paths.src %>/js/templates/templates.js',               // destination directory or file
+		replacements: [
+			{
+				from: 'this[\"App\"]',                                      // string replacement
+				to: 'window[\"App\"]'
+			}
+		]
 	}
 };

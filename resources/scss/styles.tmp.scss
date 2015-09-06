@@ -20,6 +20,8 @@
 @import "utils/functions/_colors";
 
 // Mixins
+@import "utils/mixins/_buttons";
+@import "utils/mixins/_headlines";
 @import "utils/mixins/_triangle";
 
 // Extends
@@ -32,10 +34,10 @@
 @import "global/sticky";
 
 // Regions
-@import "regions/_header";
-@import "regions/_main";
-@import "regions/_off-canvas";
-@import "regions/_stage";
+@import "layout/_header";
+@import "layout/_main";
+@import "layout/_off-canvas";
+@import "layout/_stage";
 
 // Components
 @import "components/_c-article";
@@ -50,6 +52,7 @@
 @import "blocks/_b-logo";
 @import "blocks/_b-nav";
 @import "blocks/_b-stage-content";
+@import "blocks/_b-toc";
 @import "blocks/_b-toggler";
 
 // Docs

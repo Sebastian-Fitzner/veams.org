@@ -10,6 +10,7 @@ var $ = App.$;
 // ES6 Modules
 import Sticky from './modules/sticky/sticky';
 import Navigation from './modules/navigation/navigationView';
+import TOC from './modules/toc/tocView';
 import ButtonInit from './modules/button/button-init';
 import Toggle from './modules/toggle/ui-toggle';
 import EqualRows from './modules/equal-row-height/equal-row-heights';
@@ -67,6 +68,15 @@ class Core {
 		Helpers.loadModule({
 			el: '[data-js-module="navigation"]',
 			Module: Navigation,
+			context: context
+		});
+
+		/**
+		 * Init TOC
+		 */
+		Helpers.loadModule({
+			el: '[data-js-module="toc"]',
+			Module: TOC,
 			context: context
 		});
 

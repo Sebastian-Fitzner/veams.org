@@ -1,0 +1,35 @@
+/* ===================================================
+Button Mixins
+=================================================== */
+
+@mixin btn($padding: 1.5rem 2rem,
+$bg-colors: color(highlight-dark) color(highlight-main),
+$font-colors: color(white) color(highlight-main),
+$font-size: 3rem,
+$display: inline-block) {
+	// Padding
+	$padding-height: nth($padding, 1);
+	$padding-width: if(length($padding) == 2, nth($padding, 2), $padding-height);
+	// BG Colors
+	$bg-color: nth($bg-colors, 1);
+	$bg-color-hover: if(length($bg-colors) == 2, nth($bg-colors, 2), $bg-color);
+	// Font Colors
+	$font-color: nth($font-colors, 1);
+	$font-color-hover: if(length($font-colors) == 2, nth($font-colors, 2), $font-color);
+
+	@include transition(background-color $transition-duration $transition-ease-method);
+
+	background-color: $bg-color;
+	display: $display;
+	padding: $padding-height $padding-width;
+	font-size: $font-size;
+	color: $font-color;
+	font-family: $font-family;
+	font-weight: $font-light;
+	text-decoration: none;
+
+	&:hover {
+		background-color: $bg-color-hover;
+		color: $font-color-hover;
+	}
+}

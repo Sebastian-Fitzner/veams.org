@@ -6,3 +6,7 @@ All WrapWith elements
 	margin: 3rem 0;
 	float: left;
 }
+
+.wrapper--teaser-intro {
+	@extend %float;
+}

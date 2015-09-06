@@ -1,0 +1,25 @@
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+		{{#ifBlock "main-top"}}
+			<div class="r-main-top">
+				{{#block "main-top"}}
+				{{/block}}
+			</div>
+		{{/ifBlock}}
+		<div class="r-main-right">
+			{{#block "main-right"}}
+				{{> b-toc }}
+			{{/block}}
+		</div>
+		<div class="r-main-left">
+			{{#block "main-left"}}
+			{{/block}}
+		</div>
+		{{#ifBlock "main-bottom"}}
+			<div class="r-main-bottom">
+				{{#block "main-bottom"}}
+				{{/block}}
+			</div>
+		{{/ifBlock}}
+	{{/content}}
+{{/extend}}

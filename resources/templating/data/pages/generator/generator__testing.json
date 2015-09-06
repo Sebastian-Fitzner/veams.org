@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Which Testing and QA Tools do you want add?",
+		"lead": "Veams-Generator adds testing frameworks to your application."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "You can add Testing and Quality Assurance Tools."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__testing.md"
+				}
+			]
+		}
+	}
+}

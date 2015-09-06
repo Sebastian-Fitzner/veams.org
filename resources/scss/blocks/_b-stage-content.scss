@@ -1,6 +1,8 @@
 .b-stage-content {
 	padding: 4rem 0;
 	position: relative;
+	z-index: 0;
+	mix-blend-mode: multiply;
 
 	&::after {
 		@extend %pseudo;
