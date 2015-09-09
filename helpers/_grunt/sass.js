@@ -3,14 +3,18 @@ module.exports = {
 		outputStyle: 'nested',
 		sourceMap: true
 	},
-	dev: {
-		files: {
-			'<%= paths.dev %>/css/styles.css': '<%= paths.src %>/scss/styles.tmp.scss'
-		}
-	},
-	universal: {
-		files: {
-			'<%= paths.dev %>/css/universal.css': '<%= paths.src %>/scss/universal.scss'
-		}
+	defaults: {
+		cwd: '<%= paths.src %>/scss/',
+		src: [
+			'styles-veams.scss',
+			'styles-veams-generator.scss',
+			'styles-veams-methodology.scss',
+			'styles-veams-js.scss',
+			'styles-veams-components.scss',
+			'styles-veams-sass.scss'
+		],
+		dest: '<%= paths.dev %>/css/',
+		expand: true,
+		ext: '.css'
 	}
 };

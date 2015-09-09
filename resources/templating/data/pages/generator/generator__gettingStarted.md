@@ -1,50 +1,13 @@
-### Installation of NodeJS
+### Scaffolding
 
-Just install [NodeJS from their website](http://nodejs.org) and be sure it is in your environment path. You can check it in your console:
+Boost your web development productivity with Veams-Generator. Veams-Generator is a scaffolding tool which can help you build your web application more quickly, providing you with an automated build process and an integrated lightweight web server (Browser-Sync).
 
-``` bash
-node -v
-```
+### Setup Applications in a few Minutes
 
-### Installation of Yeoman
+The key benefit is the rapid setup time. You can easily create complex application setups with Veams-Generator in a few minutes.
 
-Install Yeoman with the following command:
+### Yeoman as Base
 
-``` bash
-npm install -g yo
-```
+Yeoman is the base for Veams-Generator. Yeoman provides a generator ecosystem. A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts.
 
-### Installation of Grunt or Gulp
-
-Install Grunt (or to be more specific Grunt-CLI) or Gulp with:
-
-``` bash
-npm install -g grunt-cli
-```
-
-``` bash
-npm install -g gulp
-```
-
-### Installation of Bower
-
-Install Bower with the following command:
-
-``` bash
-npm install -g bower
-```
-
-### Installation of Veams-Generator
-Now install our pretty neat Veams-Generator:
-
-``` bash
-npm install -g generator-veams
-```
-
-If you want to update Veams you can do the following:
-
-``` bash
-npm update -g generator-veams
-```
-
-Now we have installed all important tools to work with the standard features of Veams.
+[You want to know more?](http://yeoman.io/)

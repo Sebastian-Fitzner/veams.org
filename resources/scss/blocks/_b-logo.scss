@@ -7,8 +7,6 @@ BLOCK: LOGO
 		@include hidden-text;
 	}
 	.logo__link {
-		@include sprites-veams-std;
-
 		display: block;
 	}
 }

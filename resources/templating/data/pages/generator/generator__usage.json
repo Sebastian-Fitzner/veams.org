@@ -1,14 +1,14 @@
 {
 	"metadata": {
-		"title": "Installation of Veams-Generator",
-		"lead": "What is Veams-Generator?",
-		"contentTitle": "Veams-Generator scaffolds out a new application. The Installation of Veams-Generator is easy."
+		"title": "How to use Veams-Generator",
+		"lead": "Just one line in your console and after a cup of coffee be productive!",
+		"contentTitle": "Scaffold your project and make custom configurations."
 	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "How? This is really easy ..."
+			"articleH1": "How? It is really easy ..."
 		},
 		"articleRTE": {
 			"rteModifierClass": "content",

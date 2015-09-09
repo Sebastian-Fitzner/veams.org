@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "General metadata of your application",
+		"lead": "Let's dive in and answer the prompts."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Provide a project name and some informations about you."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/prompts/generator__general.md"
+				}
+			]
+		}
+	}
+}

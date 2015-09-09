@@ -1,4 +1,8 @@
 {
+	"metadata": {
+		"title": "Which Template Engine do you want to install?",
+		"lead": "Use HandlebarsJS for static site generation."
+	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
@@ -10,7 +14,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/generator/generator__template-engines.md"
+					"rteMd": "resources/templating/data/pages/generator/prompts/generator__templateEngines.md"
 				}
 			]
 		}

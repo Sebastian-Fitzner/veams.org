@@ -5,7 +5,7 @@
 	@include sprites-bg-svg();
 }
 @mixin sprites-bg-size() {
-	background-size: 255px 70px;
+	background-size: 1215px 300px;
 }
 %sprites-bg-size {
 	@include sprites-bg-size();
@@ -32,12 +32,42 @@
 	@include sprites-github-mark();
 }
 
+@mixin sprites-veams-generator() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 202px;
+	height: 79px;
+	background-position: -40px 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-veams-generator {
+	@include sprites-veams-generator();
+}
+
+@mixin sprites-veams-generator-symbol() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 137px;
+	height: 117px;
+	background-position: -250px 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-veams-generator-symbol {
+	@include sprites-veams-generator-symbol();
+}
+
 @mixin sprites-veams-std() {
 	@extend %sprites-bg-size;
 	@extend %sprites-bg-svg;
 	width: 209px;
 	height: 61px;
-	background-position: -40px 0;
+	background-position: -395px 0;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -45,6 +75,21 @@
 
 %sprites-veams-std {
 	@include sprites-veams-std();
+}
+
+@mixin sprites-veams-std-symbol() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 596px;
+	height: 294px;
+	background-position: -610px 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-veams-std-symbol {
+	@include sprites-veams-std-symbol();
 }
 
 

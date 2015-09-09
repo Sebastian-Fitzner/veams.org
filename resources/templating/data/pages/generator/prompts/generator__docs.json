@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Do you want to generate a documentation?",
+		"lead": "Veams-Generator lets you integrate a documentation for your JavaScript, Sass and HTML."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Use JSDoc or Sassdoc to generate developer documentations."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/prompts/generator__docs.md"
+				}
+			]
+		}
+	}
+}

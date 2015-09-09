@@ -125,14 +125,3 @@ The `\{{#ifBlock}}` helper is pretty handy for complex layouts. This helper chec
 * `\{{#repeat}}` or `\{{#times}}` - repeat elements
 * `\{{#limit}}` - limit JSON output
 * and a few more ...
-
-### Reusable Templating with Assemble
-
-Wouldn't it be nice to have a scalable project? That is no problem at all, if you know what you do.
-
-#### Main facts to build a scalable project:
-
- 1. Content/Data should be outsourced with JSON and markdown files
- 2. JSON files hold your basic data, `mergeData` defines options and flexible data like IDs
- 3. General templates are very reusable
- 4. Document your code

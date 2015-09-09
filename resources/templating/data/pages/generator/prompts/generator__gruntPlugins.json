@@ -17,7 +17,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/generator/generator__gruntPlugins.md"
+					"rteMd": "resources/templating/data/pages/generator/prompts/generator__gruntPlugins.md"
 				}
 			]
 		}

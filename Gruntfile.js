@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 	// SASS Task
 	grunt.registerTask('watchCSS', [
 		'sassGlobber:dev',
-		'sass:dev'
+		'sass:defaults'
 	]);
 
 	// Sprites Task
@@ -100,8 +100,7 @@ module.exports = function (grunt) {
 		'uglify',
 		'concurrent:syncing',
 		'sassGlobber:dist',
-		'sass:dist',
-		'sass:universal',
+		'sass:defaults',
 		'combine_mq',
 		'autoprefixer',
 		'cssmin',

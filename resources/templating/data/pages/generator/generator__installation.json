@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Installation of Veams-Generator",
+		"lead": "How to install Veams-Generator and all the dependencies?",
+		"contentTitle": "The Installation of Veams-Generator is easy."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "It bases on NodeJS and Yeoman and uses Grunt/Gulp and Bower/NPM."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/generator__installation.md"
+				}
+			]
+		}
+	}
+}

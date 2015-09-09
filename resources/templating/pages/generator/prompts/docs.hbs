@@ -1,8 +1,9 @@
 ---
-title: <%= generator__testing.metadata.title %>
-lead: <%= generator__testing.metadata.lead %>
-menuLink: "Testing & QA Tools Prompts"
-type: Veams-Generator
+category: Veams-Generator
+title: <%= generator__docs.metadata.title %>
+lead: <%= generator__docs.metadata.lead %>
+menuLink: "Documentation"
+type: Prompts
 sortOrder: 90
 ---
 
@@ -10,7 +11,7 @@ sortOrder: 90
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone"}}
-			{{#with generator__testing.article}}
+			{{#with generator__docs.article}}
 				{{> c-article }}
 			{{/with}}
 		{{/wrapWith}}

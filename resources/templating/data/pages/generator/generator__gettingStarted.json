@@ -1,14 +1,14 @@
 {
 	"metadata": {
-		"title": "Installation of Veams-Generator",
-		"lead": "What is Veams-Generator?",
-		"contentTitle": "Veams-Generator scaffolds out a new application. The Installation of Veams-Generator is easy."
+		"title": "What is Veams-Generator?",
+		"lead": "What is the real benefit of Veams-Generator?",
+		"contentTitle": "Veams-Generator scaffolds out a new application in a blink of an eye - well almost."
 	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Veams-Generator writes your build configuration (Gruntfile, Gulpfile), pulls in relevant build tasks and packages manager dependencies (Bower, npm) that you need for your build. It bases on NodeJS and Yeoman and uses Grunt/Gulp and Bower/NPM."
+			"articleH1": "Veams-Generator writes your build configuration (Gruntfile, Gulpfile), pulls in relevant build tasks and packages manager dependencies (Bower, npm) that you need for your build."
 		},
 		"articleRTE": {
 			"rteModifierClass": "content",

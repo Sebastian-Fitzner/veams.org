@@ -17,7 +17,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/generator/generator__gulpPlugins.md"
+					"rteMd": "resources/templating/data/pages/generator/prompts/generator__gulpPlugins.md"
 				}
 			]
 		}

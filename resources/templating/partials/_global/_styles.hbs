@@ -1,4 +1,8 @@
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,900,300" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="{{assets}}/css/styles.css" />
+{{#is category "Veams-Generator"}}
+	<link rel="stylesheet" href="{{assets}}/css/styles-veams-generator.css" />
+{{else}}
+	<link rel="stylesheet" href="{{assets}}/css/styles-veams.css" />
+{{/is}}

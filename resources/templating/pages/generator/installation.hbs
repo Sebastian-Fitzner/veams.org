@@ -1,16 +1,18 @@
 ---
-title: <%= generator__gruntPlugins.metadata.title %>
-lead: <%= generator__gruntPlugins.metadata.lead %>
-menuLink: "Grunt-Plugins Prompts"
-type: Veams-Generator
-sortOrder: 50
+category: Veams-Generator
+title: <%= generator__installation.metadata.title %>
+lead: <%= generator__installation.metadata.lead %>
+contentTitle: <%= generator__installation.metadata.contentTitle %>
+menuLink: Installation
+type: General
+sortOrder: 10
 ---
 
 {{#extend "lyt-details"}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone"}}
-			{{#with generator__gruntPlugins.article}}
+			{{#with generator__installation.article}}
 				{{> c-article }}
 			{{/with}}
 		{{/wrapWith}}
@@ -19,7 +21,7 @@ sortOrder: 50
 	{{#content "main-bottom"}}
 	{{! WrapWith START: CTA }}
 		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-libs}}
+			{{> c-cta links.generator-usage}}
 		{{/wrapWith}}
 	{{! WrapWith END: CTA }}
 	{{/content}}

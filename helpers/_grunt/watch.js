@@ -26,7 +26,7 @@ module.exports = {
 	},
 	scss: {
 		files: '<%= paths.src %>/scss/**/*',
-		tasks: 'sass:dev',
+		tasks: 'sass:defaults',
 	    options: {
 			spawn: false
 		}

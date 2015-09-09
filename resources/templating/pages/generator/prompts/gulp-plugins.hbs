@@ -1,18 +1,17 @@
 ---
 category: Veams-Generator
-title: <%= generator__usage.metadata.title %>
-lead: <%= generator__usage.metadata.lead %>
-contentTitle: <%= generator__usage.metadata.contentTitle %>
-menuLink: Usage
-type: General
-sortOrder: 20
+title: <%= generator__gulpPlugins.metadata.title %>
+lead: <%= generator__gulpPlugins.metadata.lead %>
+menuLink: "Gulp-Plugins"
+type: Prompts
+sortOrder: 40
 ---
 
 {{#extend "lyt-details"}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone"}}
-			{{#with generator__usage.article}}
+			{{#with generator__gulpPlugins.article}}
 				{{> c-article }}
 			{{/with}}
 		{{/wrapWith}}
@@ -21,7 +20,7 @@ sortOrder: 20
 	{{#content "main-bottom"}}
 	{{! WrapWith START: CTA }}
 		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-task-runners}}
+			{{> c-cta links.generator-libs}}
 		{{/wrapWith}}
 	{{! WrapWith END: CTA }}
 	{{/content}}

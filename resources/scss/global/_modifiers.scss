@@ -19,3 +19,11 @@ GLOBAL MODIFIERS
 .is-centered {
 	text-align: center;
 }
+
+.is-veams {
+	@include sprites-veams-std();
+}
+
+.is-veams-generator {
+	@include sprites-veams-generator();
+}
