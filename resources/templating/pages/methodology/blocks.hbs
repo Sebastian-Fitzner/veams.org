@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__blocks.metadata.title %>
+lead: <%= methodology__blocks.metadata.lead %>
+contentTitle: <%= methodology__blocks.metadata.contentTitle %>
+menuLink: Blocks
+type: General
+sortOrder: 40
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__blocks.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

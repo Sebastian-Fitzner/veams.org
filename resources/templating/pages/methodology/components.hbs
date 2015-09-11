@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__components.metadata.title %>
+lead: <%= methodology__components.metadata.lead %>
+contentTitle: <%= methodology__components.metadata.contentTitle %>
+menuLink: Components
+type: General
+sortOrder: 30
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__components.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

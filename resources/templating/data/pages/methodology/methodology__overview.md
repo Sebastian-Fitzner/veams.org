@@ -50,23 +50,6 @@ You want to know more? See: [Veams-Methodology Regions](/veams-methodology/regio
 
 You want to know more? See: [Veams-Methodology Components](/veams-methodology/components.html)
 
-### Blocks
-
-`Blocks` are very simple to understand. 
-
-1. `Blocks` are content blocks
-2. They are **not reusable**.
-2. `Blocks` can contain modules or components.
-
-When you have worked with Drupal you should see similarities. 
-
-#### Examples
-
-* Logo - Content Block
-* Navigation - Content Block
-* Footer Copy - Content Block
-
-You want to know more? See: [Veams-Methodology Blocks](/veams-methodology/blocks.html)
 
 ### CSS Rules
 

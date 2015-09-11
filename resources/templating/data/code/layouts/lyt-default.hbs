@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	{{#block "metadata"}}
+		{{> _metadata }}
+	{{/block}}
+	{{#block "styles"}}
+		{{> _styles }}
+	{{/block}}
+</head>
+<body class="{{bodyclass}}">
+
+	<div class="page-wrapper">
+
+		<div class="header">
+			<div class="header__inner is-container is-table-lyt">
+				<div class="r-header-left">
+					{{> b-logo }}
+				</div>
+				<div class="r-header-right">
+					{{> b-toggler }}
+					{{> b-github }}
+				</div>
+			</div>
+		</div>
+
+		<!-- Nav
+		================================================== -->
+		<div class="r-off-canvas">
+			<div class="off-canvas__inner is-container">
+				{{> b-nav }}
+			</div>
+		</div>
+
+
+		<!-- Stage
+		================================================== -->
+		<section class="r-stage">
+			<div class="stage__inner is-container">
+				{{> b-stage-content }}
+			</div>
+		</section>
+
+		<div class="r-main">
+			<div class="main__inner is-container">
+				<header class="main__header">
+					<h1 class="main__headline">
+						{{{contentTitle}}}
+					</h1>
+				</header>
+				<div class="main__content">
+					{{#block "main"}}{{/block}}
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer
+		================================================== -->
+		<footer class="footer">
+			<div class="r-footer-container is-container">
+				{{#block "footer"}}
+					{{> b-footer-copy }}
+				{{/block}}
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts
+	================================================== -->
+	{{#block "scripts"}}
+		{{> _scripts }}
+	{{/block}}
+
+</body>
+</html>

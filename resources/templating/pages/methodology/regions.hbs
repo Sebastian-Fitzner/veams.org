@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__regions.metadata.title %>
+lead: <%= methodology__regions.metadata.lead %>
+contentTitle: <%= methodology__regions.metadata.contentTitle %>
+menuLink: Regions
+type: General
+sortOrder: 20
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__regions.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

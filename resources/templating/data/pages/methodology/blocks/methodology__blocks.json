@@ -1,0 +1,22 @@
+{"metadata": {
+		"title": "Take a close look into Blocks",
+		"lead": "Blocks: Static content which is not reusable."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Blocks are unique html snippets. You can only declare them once per page."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/blocks/methodology__blocks.md"
+				}
+			]
+		}
+	}
+}
+

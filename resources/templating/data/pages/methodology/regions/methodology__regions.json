@@ -1,0 +1,22 @@
+{"metadata": {
+		"title": "Take a close look into Regions",
+		"lead": "Regions: An Instrument To Divide Your Layout."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Regions are areas in our layout which can be filled with Blocks and Components."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/regions/methodology__regions.md"
+				}
+			]
+		}
+	}
+}
+

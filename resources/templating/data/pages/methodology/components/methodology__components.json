@@ -1,0 +1,22 @@
+{"metadata": {
+		"title": "Take a close look into Components",
+		"lead": "Components: Generic Elements Which Can Be Used All Over Our Application."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Components have a very important role and are reusable."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/components/methodology__components.md"
+				}
+			]
+		}
+	}
+}
+
