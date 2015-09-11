@@ -5,6 +5,8 @@ TOC
 .b-toc {
 	.toc__headline {
 		@include article-headline;
+
+		margin-bottom: 2.75rem;
 	}
 	.toc__list-item {
 		border-bottom: 1px solid color(highlight-main);

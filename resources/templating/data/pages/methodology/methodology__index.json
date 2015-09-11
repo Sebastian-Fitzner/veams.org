@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Introduction to Veams-Methodology",
+		"lead": "Our Methodology for Common Frontend Problems."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Projects should be developed fast, perhaps involve many developers and stay in effect for some time."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/methodology__index.md"
+				}
+			]
+		}
+	}
+}

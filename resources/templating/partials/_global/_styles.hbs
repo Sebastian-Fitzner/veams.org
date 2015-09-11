@@ -3,6 +3,8 @@
 <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 {{#is category "Veams-Generator"}}
 	<link rel="stylesheet" href="{{assets}}/css/styles-veams-generator.css" />
+{{else}}{{#is category "Veams-Methodology"}}
+	<link rel="stylesheet" href="{{assets}}/css/styles-veams-methodology.css" />
 {{else}}
 	<link rel="stylesheet" href="{{assets}}/css/styles-veams.css" />
-{{/is}}
+{{/is}}{{/is}}

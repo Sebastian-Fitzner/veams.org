@@ -1,7 +1,7 @@
 module.exports = {
 	bsFiles: {
 		src: [
-			'<%= paths.dev %>/css/styles.css', 
+			'<%= paths.dev %>/css/*.css',
 			'<%= paths.dev %>/js/**/*.js',
 			'<%= paths.dev %>/**/*.html'
 		]

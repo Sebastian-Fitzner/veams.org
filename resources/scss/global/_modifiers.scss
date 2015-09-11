@@ -13,7 +13,7 @@ GLOBAL MODIFIERS
 
 .is-table-lyt {
 	@include fill-parent();
-	@include row(table);
+	@include display(table);
 }
 
 .is-centered {
@@ -26,4 +26,8 @@ GLOBAL MODIFIERS
 
 .is-veams-generator {
 	@include sprites-veams-generator();
+}
+
+.is-veams-methodology {
+	@include sprites-veams-methodology();
 }

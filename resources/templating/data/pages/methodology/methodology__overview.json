@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Overview of Veams-Methodology",
+		"lead": "Main Instruments of the Veams-Methodology"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Cluster your web application with instruments provided by Veams-Methodology."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/methodology__overview.md"
+				}
+			]
+		}
+	}
+}

@@ -30,15 +30,12 @@ class navigationView extends App.ComponentView {
 	/**
 	 * Events property
 	 */
-	get events() {}
+	get events() {
+	}
 
 	initialize(obj) {
 		this._options = Helpers.defaults(obj.options || {}, this._options);
 		this.offset = App.settings.height;
-
-		this.$el.css({
-			top: this.offset
-		});
 
 		this.bindEvents();
 	}
@@ -52,14 +49,16 @@ class navigationView extends App.ComponentView {
 
 	// Renders the view's template to the UI
 	render() {
-		
+		this.$el.css({
+			top: this.offset
+		});
 
 		// Maintains chainability
 		return this;
 	}
 
 	toggleNavigation(e) {
-		if(e && e.preventDefault) e.preventDefault();
+		if (e && e.preventDefault) e.preventDefault();
 
 		this.$el.toggleClass(this.options.activeClass);
 	}

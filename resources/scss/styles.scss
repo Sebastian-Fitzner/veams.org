@@ -1,12 +1,12 @@
 
 // Reset your styles via reset or normalize
 @import "../bower-components/veams-scss/resources/scss/veams-reset";
+@import "../bower-components/bourbon/app/assets/stylesheets/bourbon";
 
 // Global Variables and Settings
 @import "global/_vars";
 @import "../bower-components/veams-scss/resources/scss/veams";
- 
-@import "../bower-components/bourbon/app/assets/stylesheets/bourbon";
+
 @import "../bower-components/neat/app/assets/stylesheets/neat";
 
 // Icons
