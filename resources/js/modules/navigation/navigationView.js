@@ -18,7 +18,8 @@ class navigationView extends App.ComponentView {
 	// options property
 	get _options() {
 		return {
-			activeClass: 'is-active'
+			activeClass: 'is-active',
+			scrollClass: 'isnt-scrollable'
 		}
 	}
 
@@ -61,6 +62,7 @@ class navigationView extends App.ComponentView {
 		if (e && e.preventDefault) e.preventDefault();
 
 		this.$el.toggleClass(this.options.activeClass);
+		$('body').toggleClass(this.options.scrollClass);
 	}
 }
 

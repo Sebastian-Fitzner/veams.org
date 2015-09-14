@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Let's bring it together.",
+		"lead": "Modules, Options and Atoms: How we use it."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "How do we use all attributes together?"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/javascript/bringItTogether/methodology__jsTogether.md"
+				}
+			]
+		}
+	}
+}
+

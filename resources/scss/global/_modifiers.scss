@@ -2,6 +2,9 @@
 GLOBAL MODIFIERS
 =================================================== */
 
+/* ---------------------------------------------------
+Layout Modifiers
+--------------------------------------------------- */
 .is-container {
 	/*
 	General Styles
@@ -20,6 +23,14 @@ GLOBAL MODIFIERS
 	text-align: center;
 }
 
+.isnt-scrollable {
+	overflow: hidden;
+}
+
+
+/* ---------------------------------------------------
+Logo Modifiers
+--------------------------------------------------- */
 .is-veams {
 	@include sprites-veams-std();
 }
@@ -31,3 +42,4 @@ GLOBAL MODIFIERS
 .is-veams-methodology {
 	@include sprites-veams-methodology();
 }
+

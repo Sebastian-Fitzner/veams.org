@@ -3,18 +3,44 @@ Navigation
 =================================================== */
 
 .b-nav {
+	.nav__wrapper {
+		@include span-columns(3);
+		@include nth-omega(4n);
+
+		margin-bottom: 2.5rem;
+
+		@include bp(1140px) {
+			@include omega-reset(4n);
+			@include span-columns(6);
+			@include nth-omega(2n);
+		}
+
+		@include media(map-get($bp, mobile-l)) {
+			@include omega-reset(2n);
+			@include span-columns(12);
+		}
+	}
+
 	.nav__headline {
 		color: color(highlight-light);
 		font-family: $font-family;
 		font-size: 4rem;
 		font-weight: $font-light;
 		line-height: 1.35;
-		margin-bottom: 1rem;
+		margin-bottom: 1.6rem;
 		margin-top: 1rem;
+
+		span {
+			clear: left;
+			display: block;
+			font-size: 2.1rem;
+			margin-top: -0.5rem;
+		}
 	}
 
 	.nav__list-item {
 		padding: 0.5rem 0;
+		margin: 0.2rem 0;
 	}
 	.nav__link {
 		@include transition(color $transition-duration/2 $transition-ease-method);

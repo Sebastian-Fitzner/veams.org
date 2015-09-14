@@ -52,14 +52,44 @@ Global Styles
 		font-style: italic;
 	}
 	ol {
-		margin-left: 6rem;
+		counter-reset: listCounter;
+		margin-left: 3rem;
+
 		li {
-			margin: 1rem 0;
+			counter-increment: listCounter;
+			list-style: none;
+			margin: 2.3rem 0;
+			position: relative;
+			padding-left: 3.5rem;
+			font-size: 1.8rem;
+
+			&::before {
+				@extend %pseudo;
+
+				content: counter(listCounter) '.';
+				font-weight: 500;
+				z-index: 1;
+				color: color(white);
+				top: 0;
+				left: 0;
+
+			}
+
+			&::after {
+				@extend %pseudo;
+				@include fx-triangle($size: 35px 25px 25px, $color: color(highlight-main-dark), $rotation: -15deg);
+
+				top: -8px;
+				left: -18px;
+				z-index: 0;
+				opacity: 0.9;
+			}
 		}
+
 	}
 	ul {
 		list-style: none;
-		margin-left: 2rem;
+		margin-left: 3rem;
 		margin-bottom: 1rem;
 
 		&:last-child {

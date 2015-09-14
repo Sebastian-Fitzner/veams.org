@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__cssIntro.metadata.title %>
+lead: <%= methodology__cssIntro.metadata.lead %>
+contentTitle: <%= methodology__cssIntro.metadata.contentTitle %>
+menuLink: Introduction
+type: 03 | Classes <span>Systematic</span>
+sortOrder: 10
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__cssIntro.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Take a close look into JavaScript Atoms.",
+		"lead": "Atoms: A Nice Way To Bind Event Handlers."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Atoms are helpers to define event handlers in your markup."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/javascript/atoms/methodology__jsAtoms.md"
+				}
+			]
+		}
+	}
+}
+

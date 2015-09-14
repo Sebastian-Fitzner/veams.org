@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "CSS naming convention.",
+		"lead": "A general overview how we like to define classes."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "BEM in light mode mixed with Components, Regions and Blocks."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/css/introduction/methodology__cssIntro.md"
+				}
+			]
+		}
+	}
+}
+

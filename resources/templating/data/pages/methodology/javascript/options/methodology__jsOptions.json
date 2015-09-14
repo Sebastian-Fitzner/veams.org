@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Take a close look into JavaScript Options.",
+		"lead": "Options: A Way To Provide Custom Options Via Markup."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Options are very useful and easy to add."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/javascript/options/methodology__jsOptions.md"
+				}
+			]
+		}
+	}
+}
+

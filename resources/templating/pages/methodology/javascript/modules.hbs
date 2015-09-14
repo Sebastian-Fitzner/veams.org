@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__jsModules.metadata.title %>
+lead: <%= methodology__jsModules.metadata.lead %>
+contentTitle: <%= methodology__jsModules.metadata.contentTitle %>
+menuLink: Modules
+type: 04 | JavaScript <span>Binding and Handling</span>
+sortOrder: 10
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__jsModules.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

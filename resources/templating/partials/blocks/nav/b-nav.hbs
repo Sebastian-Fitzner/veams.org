@@ -4,17 +4,21 @@ block: nav
 
 <nav class="b-nav" id="navigation">
 	{{#each type}}
-		<h2 class="nav__headline">{{type}}</h2>
-		<ul class="nav__list">
-			{{#withSort ../pages 'data.sortOrder'}}
-				{{#is data.type ../type}}
-					<li class="nav__list-item">
-						<a href="{{autolink}}" class="nav__link{{#is ../../../page.dest this.dest}} is-active{{/is}}">
-							{{{data.menuLink}}}
-						</a>
-					</li>
-				{{/is}}
-			{{/withSort}}
-		</ul>
+		<div class="nav__wrapper">
+			<h2 class="nav__headline">
+				{{{type}}}
+			</h2>
+			<ul class="nav__list">
+				{{#withSort ../pages 'data.sortOrder'}}
+					{{#is data.type ../type}}
+						<li class="nav__list-item">
+							<a href="{{autolink}}" class="nav__link{{#is ../../../page.dest this.dest}} is-active{{/is}}">
+								{{{data.menuLink}}}
+							</a>
+						</li>
+					{{/is}}
+				{{/withSort}}
+			</ul>
+		</div>
 	{{/each}}
 </nav>
