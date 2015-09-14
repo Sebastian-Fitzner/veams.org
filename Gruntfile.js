@@ -56,6 +56,12 @@ module.exports = function (grunt) {
 		'handlebars',
 		'replace:jsTemplates',
 		'browserify:dev'
+	]);// JS Task
+	grunt.registerTask('jsDist', [
+		'handlebars',
+		'replace:jsTemplates',
+		'browserify:dist',
+		'uglify'
 	]);
 
 	// Picture Task (This task creates an additional JSON file with the path to your picture)

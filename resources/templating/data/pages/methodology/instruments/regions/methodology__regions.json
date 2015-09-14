@@ -13,10 +13,9 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/methodology/regions/methodology__regions.md"
+					"rteMd": "resources/templating/data/pages/methodology/instruments/regions/methodology__regions.md"
 				}
 			]
 		}
 	}
 }
-

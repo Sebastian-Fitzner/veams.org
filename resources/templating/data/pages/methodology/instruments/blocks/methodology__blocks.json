@@ -13,7 +13,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/methodology/blocks/methodology__blocks.md"
+					"rteMd": "resources/templating/data/pages/methodology/instruments/blocks/methodology__blocks.md"
 				}
 			]
 		}

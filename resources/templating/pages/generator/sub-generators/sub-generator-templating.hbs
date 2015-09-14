@@ -1,17 +1,17 @@
 ---
 category: Veams-Generator
-title: <%= generator__subGenerators.metadata.title %>
-lead: <%= generator__subGenerators.metadata.lead %>
-menuLink: "Sub-Generators"
-type: General
-sortOrder: 30
+title: <%= generator__sgTemplating.metadata.title %>
+lead: <%= generator__sgTemplating.metadata.lead %>
+menuLink: "Templating Helpers"
+type: "Sub-Generators"
+sortOrder: 20
 ---
 
 {{#extend "lyt-details"}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone"}}
-			{{#with generator__subGenerators.article}}
+			{{#with generator__sgTemplating.article}}
 				{{> c-article }}
 			{{/with}}
 		{{/wrapWith}}

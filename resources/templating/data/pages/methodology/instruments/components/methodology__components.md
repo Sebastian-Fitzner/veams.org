@@ -1,19 +1,19 @@
 ### General 
 
-`Components` are reusable HTML snippets. That means, one page can display multiple identical `Components` with different data. 
+Components are reusable HTML snippets. That means, one page can display multiple identical Components with different data. 
 
-1. `Components` are always closely related to content. 
-2. The content in `Components` is variable and will change on different contexts/pages.
-3. `Components` are generic so that they can be used all over your project. 
-4. `Components` can contain `Components`.
+1. Components are always closely related to content. 
+2. The content in Components is variable and will change on different contexts/pages.
+3. Components are generic so that they can be used all over your project. 
+4. Components can contain Components.
 
-### Why do we use `Components`?
+### Why do we use Components?
 
 Because of reusability. With reusability you can build building block libraries (we had, see [Veams-Components](/veams-components/index.html)).
 
 ### Structure
 
-When we use `Components`, we prefix them with `c-` (or `_c-` for Sass files). The declaration helps us structuring our code base.
+When we use Components, we prefix them with `c-` (or `_c-` for Sass files). The declaration helps us structuring our code base.
 
 #### Example Snippet
 
@@ -25,7 +25,7 @@ When we use `Components`, we prefix them with `c-` (or `_c-` for Sass files). Th
 
 When you use a Template Engine, it is important to create a folder for your components. Each component gets its own folder. 
 
-Our block folder structure can look like this: 
+Our Components folder structure can look like this: 
 
 ``` bash
     └───partials
@@ -62,8 +62,6 @@ For each Component we create a Sass file. The folder can look like this:
               _c-video.scss
 ```
 
-[You want to know, how we write our Sass files?](/how-to/sass/structure.html) 
-
 ### Examples
 
 Here are some examples: 
@@ -73,8 +71,6 @@ Here are some examples:
 * picture - Pictures can be placed in figures.
 * teaser - When we use teasers in sliders and other modules and the content is flexible then we define it as component.
 * list-item
-
-
 
 #### c-figure.hbs
 {{embed "resources/templating/data/code/components/c-figure.hbs"}}

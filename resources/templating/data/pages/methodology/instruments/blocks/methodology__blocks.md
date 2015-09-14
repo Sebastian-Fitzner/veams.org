@@ -1,23 +1,23 @@
 ### General 
 
-`Blocks` are partials which are very simple to understand. 
+Blocks are partials which are very simple to understand. 
 
 1. Blocks are unique snippets, this means you can add an `id` to it.  
 2. Blocks can contain components. 
 3. They are **not reusable**.
 
-You do not have to use `blocks` when you think it is not necessary - this is up to you.  
+You do not have to use Blocks when you think it is not necessary - this is up to you.  
 
-### Why do we use `Blocks`?
+### Why do we use Blocks?
 
-We use `Blocks`, because ...  
+We use Blocks, because ...  
 
 1. ... sometimes we need to create simple snippets without thinking about generalization
 2. ... we need to define unique elements which should not be used a second time on the same page 
 
 ### Structure
 
-When we use `blocks`, we prefix them with `b-` (or `_b-` for scss files). The declaration helps us structuring our code base.
+When we use Blocks, we prefix them with `b-` (or `_b-` for scss files). The declaration helps us structuring our code base.
 
 #### Example Snippet
 
@@ -47,7 +47,7 @@ Our block folder structure can look like this:
 
 The styles are scoped to the block. 
 
-For each block we create a scss file. The folder can look like this: 
+For each Block we create a Sass file. The folder can look like this: 
 
 ``` bash
 ├───scss
@@ -56,8 +56,6 @@ For each block we create a scss file. The folder can look like this:
 			_b-release.scss
 			_b-footer-copy.scss
 ```
-
-[You want to know, how we write our Sass files?](/how-to/sass/structure.html) 
 
 ### Examples
 

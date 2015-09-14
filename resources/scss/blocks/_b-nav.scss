@@ -5,14 +5,14 @@ Navigation
 .b-nav {
 	.nav__wrapper {
 		@include span-columns(3);
-		@include nth-omega(4n);
+		@include omega(4n);
 
 		margin-bottom: 2.5rem;
 
 		@include bp(1140px) {
 			@include omega-reset(4n);
 			@include span-columns(6);
-			@include nth-omega(2n);
+			@include omega(2n);
 		}
 
 		@include media(map-get($bp, mobile-l)) {

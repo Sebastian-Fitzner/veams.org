@@ -13,7 +13,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/methodology/components/methodology__components.md"
+					"rteMd": "resources/templating/data/pages/methodology/instruments/components/methodology__components.md"
 				}
 			]
 		}

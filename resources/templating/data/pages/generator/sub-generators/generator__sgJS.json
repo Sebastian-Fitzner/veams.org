@@ -1,0 +1,23 @@
+{
+
+	"metadata": {
+		"title": "Use Sub-Generators with Veams-Generator",
+		"lead": "While you are developing you can easily scaffold Views, Models and Collections."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Scaffold BackboneJS models, views and collection in ES Harmony, CommonJS or AMD syntax while you are developing!"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/generator/sub-generators/generator__sgJS.md"
+				}
+			]
+		}
+	}
+}

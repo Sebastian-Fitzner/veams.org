@@ -38,7 +38,7 @@ To bind our JavaScript to our DOM elements the Veams-Methodology do not use clas
 - Options handling (`data-js-options`)
 - Event handling (`data-js-atom`)
 
-__Of course it makes no sense to use this part of the methodology when your application involves a framework which is already using declarative bindings.
+_Of course it makes no sense to use this part of the methodology when your application involves a framework which is already using declarative bindings._
 
 #### Class Systematics
 
