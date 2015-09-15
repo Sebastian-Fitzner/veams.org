@@ -7,20 +7,20 @@
 	&::after {
 		@extend %pseudo;
 		@include animation(rotateBig linear $transition-duration*140 infinite);
-		@include fx-triangle($size: 340px 170px 170px, $color: color(highlight-light), $rotation: 170deg);
+		@include fx-triangle($size: 360px 190px 190px, $color: color(highlight-light), $rotation: 170deg);
 
 		right: 20px;
-		bottom: -50px;
+		bottom: -20px;
 		z-index: 1;
 		mix-blend-mode: multiply;
 	}
 	&::before {
 		@extend %pseudo;
 		@include animation(rotateSmall linear $transition-duration*100 infinite);
-		@include fx-triangle($size: 220px 110px 110px, $color: color(highlight-main), $rotation: -290deg);
+		@include fx-triangle($size: 240px 130px 130px, $color: color(highlight-main), $rotation: -290deg);
 
 		right: 45px;
-		bottom: -15px;
+		bottom: -10px;
 		z-index: 2;
 		mix-blend-mode: multiply;
 
@@ -40,9 +40,14 @@
 			@include animation(rotateSmaller linear $transition-duration*70 infinite);
 			@include fx-triangle($size: 90px 45px 45px, $color: color(highlight-light), $rotation: 45deg);
 			right: 45px;
-			bottom: 15px;
+			bottom: 45px;
 			z-index: 2;
 			mix-blend-mode: hard-light;
+
+			@include media(map-get($bp, mobile-l)) {
+				display: none;
+			}
+			
 		}
 	}
 
@@ -58,6 +63,26 @@
 
 		@include media(map-get($bp, mobile-p)) {
 			mix-blend-mode: hard-light;
+		}
+	}
+
+	.stage-content__sub {
+		font-size: 2.75rem;
+		font-weight: $font-light;
+		font-family: $font-family;
+		line-height: 1.35;
+		display: block;
+		margin-top: 2rem;
+		color: color(highlight-main-dark);
+		text-transform: uppercase;
+		max-width: 55%;
+
+		@include media(map-get($bp, tablet-l)) {
+			max-width: 75%;
+		}
+
+		@include media(map-get($bp, tablet-p)) {
+			max-width: 100%;
 		}
 	}
 }

@@ -14,12 +14,34 @@ module.exports = {
 			'type'
 		]
 	},
-	veamsSCSS: {
+	veamsSass: {
 		options: {
 		},
 		files: [{
-			cwd: '<%= paths.src %>/templating/pages/scss',
-			dest: '<%= paths.dev %>/veams-scss',
+			cwd: '<%= paths.src %>/templating/pages/sass',
+			dest: '<%= paths.dev %>/sass',
+			expand: true,
+			flatten: false,
+			src: ['**/*.hbs']
+		}]
+	},
+	veamsJS: {
+		options: {
+		},
+		files: [{
+			cwd: '<%= paths.src %>/templating/pages/js',
+			dest: '<%= paths.dev %>/js',
+			expand: true,
+			flatten: false,
+			src: ['**/*.hbs']
+		}]
+	},
+	veamsComponents: {
+		options: {
+		},
+		files: [{
+			cwd: '<%= paths.src %>/templating/pages/components',
+			dest: '<%= paths.dev %>/components',
 			expand: true,
 			flatten: false,
 			src: ['**/*.hbs']
@@ -30,7 +52,7 @@ module.exports = {
 		},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/methodology',
-			dest: '<%= paths.dev %>/veams-methodology',
+			dest: '<%= paths.dev %>/methodology',
 			expand: true,
 			flatten: false,
 			src: ['**/*.hbs']

@@ -21,4 +21,16 @@ block: nav
 			</ul>
 		</div>
 	{{/each}}
+	{{#unless category}}
+		{{#with links.nav}}
+			{{#each data}}
+				{{> b-nav__items this}}
+			{{/each}}
+		{{/with}}
+
+	{{else}}
+		<div class="nav__back">
+			{{> c-cta links.veams}}
+		</div>
+	{{/unless}}
 </nav>

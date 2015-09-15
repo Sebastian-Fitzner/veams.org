@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__cssContext.metadata.title %>
+lead: <%= methodology__cssContext.metadata.lead %>
+contentTitle: <%= methodology__cssContext.metadata.contentTitle %>
+menuLink: Context Styling
+type: 03 | Classes <span>Systematic In Detail</span>
+sortOrder: 20
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__cssContext.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

@@ -1,0 +1,21 @@
+---
+category: Veams-Methodology
+title: <%= methodology__cssModifiers.metadata.title %>
+lead: <%= methodology__cssModifiers.metadata.lead %>
+contentTitle: <%= methodology__cssModifiers.metadata.contentTitle %>
+menuLink: Modifier Styling
+type: 03 | Classes <span>Systematic In Detail</span>
+sortOrder: 30
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with methodology__cssModifiers.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Context styles in Veams.",
+		"lead": "How to scope styles to a specific HTML element."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Contexts are a simple way to prevent inheritance of styles."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/css/context/methodology__cssContext.md"
+				}
+			]
+		}
+	}
+}
+

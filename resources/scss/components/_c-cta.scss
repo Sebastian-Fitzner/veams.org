@@ -32,14 +32,6 @@ Global Styles
 /* ---------------------------------------------------
 Modifier
 --------------------------------------------------- */
-.c-cta--home {
-	&:hover {
-	}
-
-	.cta__icon {
-	}
-	.cta__upper-content {
-	}
-	.cta__content {
-	}
+.c-cta--overlay {
+	width: 100%;
 }

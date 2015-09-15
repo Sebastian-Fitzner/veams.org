@@ -5,7 +5,7 @@
 	@include sprites-bg-svg();
 }
 @mixin sprites-bg-size() {
-	background-size: 1425px 300px;
+	background-size: 1635px 300px;
 }
 %sprites-bg-size {
 	@include sprites-bg-size();
@@ -77,12 +77,27 @@
 	@include sprites-veams-methodology();
 }
 
+@mixin sprites-veams-sass() {
+	@extend %sprites-bg-size;
+	@extend %sprites-bg-svg;
+	width: 202px;
+	height: 79px;
+	background-position: -605px 0;
+	@at-root .no-svg & {
+		@extend %sprites-bg-png;
+	}
+}
+
+%sprites-veams-sass {
+	@include sprites-veams-sass();
+}
+
 @mixin sprites-veams-std() {
 	@extend %sprites-bg-size;
 	@extend %sprites-bg-svg;
 	width: 209px;
 	height: 61px;
-	background-position: -605px 0;
+	background-position: -815px 0;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -97,7 +112,7 @@
 	@extend %sprites-bg-svg;
 	width: 596px;
 	height: 294px;
-	background-position: -820px 0;
+	background-position: -1030px 0;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}

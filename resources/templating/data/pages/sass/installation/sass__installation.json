@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "How to install Veams-Sass.",
+		"lead": "Veams-Sass Installation In Detail."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "In general there are no requirements. Just download the package and import the files you need."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/sass/installation/sass__installation.md"
+				}
+			]
+		}
+	}
+}
+

@@ -1,0 +1,21 @@
+---
+category: Veams-Sass
+title: <%= sass__installation.metadata.title %>
+lead: <%= sass__installation.metadata.lead %>
+contentTitle: <%= sass__installation.metadata.contentTitle %>
+menuLink: Installation
+type: 01 | General
+sortOrder: 20
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with sass__installation.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

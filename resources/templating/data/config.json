@@ -1,8 +1,6 @@
 {
 	"title": "Veams",
 	"types": {
-		"generator": {
-			"name": "Veams-Generator"
-		}
+		"extensions": "Veams-Extensions"
 	}
 }

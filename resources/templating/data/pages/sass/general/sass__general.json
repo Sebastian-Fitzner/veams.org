@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Sass Starterkit for Veams.",
+		"lead": "Veams-Sass is a simple utility library to extend Veams."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Why do we need Veams-Sass?"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/sass/general/sass__general.md"
+				}
+			]
+		}
+	}
+}
+

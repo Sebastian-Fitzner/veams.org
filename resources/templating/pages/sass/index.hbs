@@ -1,0 +1,21 @@
+---
+category: Veams-Sass
+title: <%= sass__general.metadata.title %>
+lead: <%= sass__general.metadata.lead %>
+contentTitle: <%= sass__general.metadata.contentTitle %>
+menuLink: Introduction
+type: 01 | General
+sortOrder: 00
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with sass__general.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

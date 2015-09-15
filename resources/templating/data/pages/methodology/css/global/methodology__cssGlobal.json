@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Global styles in Veams.",
+		"lead": "How we share styles in instruments."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Global styles are useful - when you have a common rule to handle them."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/css/global/methodology__cssGlobal.md"
+				}
+			]
+		}
+	}
+}
+

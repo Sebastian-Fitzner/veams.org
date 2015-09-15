@@ -1,0 +1,21 @@
+---
+category: Veams-Sass
+title: <%= sass__docs.metadata.title %>
+lead: <%= sass__docs.metadata.lead %>
+contentTitle: <%= sass__docs.metadata.contentTitle %>
+menuLink: Documentation
+type: 02 | Discovering
+sortOrder: 10
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with sass__docs.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

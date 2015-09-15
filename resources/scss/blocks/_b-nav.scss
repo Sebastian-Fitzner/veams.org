@@ -3,6 +3,28 @@ Navigation
 =================================================== */
 
 .b-nav {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+
+	.nav__back {
+		@include centering(h);
+
+		margin-top: 3rem;
+		text-align: center;
+		display: block;
+		clear: both;
+		bottom: 0;
+		width: 100%;
+
+		@include media(map-get($bp, tablet-l)) {
+			@include omega-reset(2n);
+			@include span-columns(12);
+
+			position: relative;
+		}
+	}
 	.nav__wrapper {
 		@include span-columns(3);
 		@include omega(4n);
@@ -15,9 +37,11 @@ Navigation
 			@include omega(2n);
 		}
 
-		@include media(map-get($bp, mobile-l)) {
+		@include media(map-get($bp, tablet-p)) {
 			@include omega-reset(2n);
 			@include span-columns(12);
+
+			float: right;
 		}
 	}
 

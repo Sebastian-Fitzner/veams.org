@@ -100,6 +100,7 @@ The _helpers_ folder contains your grunt/gulp tasks and configuration files for 
 * **_gulp:** Contains Configuration files for your gulp modules.
 * **configs:** Configuration files for specific grunt/gulp tasks like `jscs`.
 * **templates:** Contains templates for grunticon or svg-sprites.
+* **config.js:** Contains all variables which are used in `Gulpfile.js` or `Gruntfile.js`.
 
 ### Resources
 

@@ -41,7 +41,7 @@ Veams-Methodology does not use the following of `BEM`:
 
 ### Instruments And Prefixing
 
-The class systematic of Veams determines that we have to prefix our instruments (Regions, Components, Blocks). As a result these instruments are very easy recognizable:
+The class systematic of Veams determines that we have to prefix our instruments (Regions, Components, Blocks). As a result these instruments are very easy to recognize:
 
 1. Regions (`.r-`)
 2. Components (`.c-`)
@@ -49,7 +49,7 @@ The class systematic of Veams determines that we have to prefix our instruments 
 
 ### File/Folder Structure
 
-As a result we get a folder structure which is following the Veams-Methodology: 
+As a result we get a folders structure which is following the Veams-Methodology: 
 
 **Sass**
 

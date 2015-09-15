@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Modifier styles in Veams.",
+		"lead": "How we change a state of an HTML element."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Modifiers are a nice way to handle other states of an element."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/methodology/css/modifiers/methodology__cssModifiers.md"
+				}
+			]
+		}
+	}
+}
+
