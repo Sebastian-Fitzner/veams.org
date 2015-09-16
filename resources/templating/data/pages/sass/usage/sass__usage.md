@@ -1,6 +1,6 @@
 ### How to use
 
-Just import the files you need into your project.
+Just import the files you need for your project.
 
 **Example:**
 

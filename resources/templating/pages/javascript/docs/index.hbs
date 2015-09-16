@@ -1,0 +1,21 @@
+---
+category: Veams-JS
+title: <%= js__usage.metadata.title %>
+lead: <%= js__usage.metadata.lead %>
+contentTitle: <%= js__usage.metadata.contentTitle %>
+menuLink: Usage
+type: 02 | Discovering
+sortOrder: 00
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with js__usage.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

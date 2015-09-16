@@ -29,8 +29,8 @@ module.exports = {
 		options: {
 		},
 		files: [{
-			cwd: '<%= paths.src %>/templating/pages/js',
-			dest: '<%= paths.dev %>/js',
+			cwd: '<%= paths.src %>/templating/pages/javascript',
+			dest: '<%= paths.dev %>/javascript',
 			expand: true,
 			flatten: false,
 			src: ['**/*.hbs']

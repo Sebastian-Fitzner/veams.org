@@ -6,7 +6,7 @@
 
 import App from '../../app';
 import ButtonView from './button';
-import AppModule from '../_global/moduleView';
+import AppModule from '../_global/module';
 
 var $ = App.$;
 
@@ -14,7 +14,7 @@ class ButtonInit extends AppModule {
 	/**
 	 * Constructor fn for our class
 	 *
-	 * @see moduleView.js
+	 * @see module.js
 	 *
 	 * @param {obj} obj - Object which is passed to our class
 	 * @param {obj.el} obj - element which will be saved in this.el

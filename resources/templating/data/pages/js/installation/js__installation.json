@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "How to install Veams-JS.",
+		"lead": "Veams-JS Installation In Detail."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "By using ES Harmony or CommonJS Veams-JS depends on NodeJS."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/js/installation/js__installation.md"
+				}
+			]
+		}
+	}
+}
+

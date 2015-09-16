@@ -1,6 +1,6 @@
 import Helpers from '../../utils/helpers';
 import App from '../../app';
-import AppModule from '../_global/moduleView';
+import AppModule from '../_global/module';
 
 var $ = App.$;
 

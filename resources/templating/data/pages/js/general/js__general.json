@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "JS Starter Kit for Veams.",
+		"lead": "Veams-JS contains a simple setup for a general JavaScript workflow."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "What is the purpose of Veams-JS?"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/js/general/js__general.md"
+				}
+			]
+		}
+	}
+}
+

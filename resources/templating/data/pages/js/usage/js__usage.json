@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "How to use Veams-JS.",
+		"lead": "Veams-JS Usage In Detail."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-JS: Which files need to be included?"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/js/usage/js__usage.md"
+				}
+			]
+		}
+	}
+}
+

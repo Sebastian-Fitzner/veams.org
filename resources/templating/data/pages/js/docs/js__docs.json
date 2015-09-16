@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Sass Starterkit for Veams.",
+		"lead": "Documentation is currently in development."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "You can take a look at the repository."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/js/docs/js__docs.md"
+				}
+			]
+		}
+	}
+}
+
