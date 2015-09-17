@@ -80,4 +80,12 @@ Navigation
 			color: color(highlight-main);
 		}
 	}
+
+	.nav__placeholder {
+		color: color(white);
+		font-size: 2.4rem;
+		font-family: $font-family;
+		font-weight: $font-light;
+		text-transform: uppercase;
+	}
 }

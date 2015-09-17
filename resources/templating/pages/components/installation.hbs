@@ -1,0 +1,21 @@
+---
+category: Veams-Components
+title: <%= components__installation.metadata.title %>
+lead: <%= components__installation.metadata.lead %>
+contentTitle: <%= components__installation.metadata.contentTitle %>
+menuLink: Installation
+categoryType: 01 | General
+sortOrder: 20
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with components__installation.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

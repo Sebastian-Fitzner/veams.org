@@ -1,0 +1,32 @@
+---
+block: nav
+---
+
+<nav class="b-nav" id="navigation">
+	{{#each category}}
+		{{#with ../links.nav}}
+			{{#each data}}
+				<div class="nav__wrapper">
+					<h2 class="nav__headline">
+						{{{type}}}
+					</h2>
+					<ul class="nav__list">
+						{{#each data}}
+							<li class="nav__list-item">
+								{{#if url}}
+									<a href="{{url}}" class="nav__link{{#is menuLink ../../../../category}} is-active{{/is}}">
+										{{{menuLink}}}
+									</a>
+								{{else}}
+									<span class="nav__placeholder">
+										{{{placeholder}}}
+									</span>
+								{{/if}}
+							</li>
+						{{/each}}
+					</ul>
+				</div>
+			{{/each}}
+		{{/with}}
+	{{/each}}
+</nav>

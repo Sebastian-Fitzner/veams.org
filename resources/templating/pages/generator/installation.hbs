@@ -4,7 +4,7 @@ title: <%= generator__installation.metadata.title %>
 lead: <%= generator__installation.metadata.lead %>
 contentTitle: <%= generator__installation.metadata.contentTitle %>
 menuLink: Installation
-type: General
+categoryType: General
 sortOrder: 10
 ---
 
@@ -17,12 +17,5 @@ sortOrder: 10
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}
-	{{/content}}
-	{{#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-usage}}
-		{{/wrapWith}}
-	{{! WrapWith END: CTA }}
 	{{/content}}
 {{/extend}}

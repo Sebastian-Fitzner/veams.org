@@ -1,0 +1,21 @@
+---
+category: Veams-Components
+title: <%= components__usage.metadata.title %>
+lead: <%= components__usage.metadata.lead %>
+contentTitle: <%= components__usage.metadata.contentTitle %>
+menuLink: Usage
+categoryType: 02 | Discovering
+sortOrder: 00
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with components__usage.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

@@ -22,6 +22,7 @@
 // Mixins
 @import "utils/mixins/_buttons";
 @import "utils/mixins/_headlines";
+@import "utils/mixins/_links";
 @import "utils/mixins/_triangle";
 
 // Extends
@@ -34,6 +35,7 @@
 @import "global/sticky";
 
 // Regions
+@import "layout/_footer";
 @import "layout/_header";
 @import "layout/_main";
 @import "layout/_off-canvas";
@@ -48,10 +50,12 @@
 @import "components/_c-teaser";
 
 // Blocks
+@import "blocks/_b-footer-copy";
 @import "blocks/_b-github";
 @import "blocks/_b-logo";
 @import "blocks/_b-nav";
 @import "blocks/_b-stage-content";
+@import "blocks/_b-subnav";
 @import "blocks/_b-toc";
 @import "blocks/_b-toggler";
 

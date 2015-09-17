@@ -4,7 +4,7 @@ title: <%= generator__gettingStarted.metadata.title %>
 lead: <%= generator__gettingStarted.metadata.lead %>
 contentTitle: <%= generator__gettingStarted.metadata.contentTitle %>
 menuLink: What is Veams-Generator?
-type: General
+categoryType: General
 sortOrder: 00
 ---
 
@@ -16,13 +16,6 @@ sortOrder: 00
 				{{> c-article }}
 			{{/with}}
 		{{/wrapWith}}
-	{{! WrapWith END:  }}
-	{{/content}}
-	{{#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-installation}}
-		{{/wrapWith}}
-	{{! WrapWith END: CTA }}
+		{{! WrapWith END:  }}
 	{{/content}}
 {{/extend}}

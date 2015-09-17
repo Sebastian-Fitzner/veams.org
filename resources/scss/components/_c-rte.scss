@@ -31,15 +31,7 @@ Global Styles
 	}
 
 	a {
-		@include transition(300ms ease all);
-
-		color: color(highlight-main-dark);
-		text-decoration: dotted;
-
-		&:hover {
-			color: color(highlight-main);
-			text-decoration: underline;
-		}
+		@include link-std;
 	}
 
 	strong,

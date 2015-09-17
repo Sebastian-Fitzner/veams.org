@@ -1,0 +1,21 @@
+---
+category: Veams-Components
+title: <%= components__general.metadata.title %>
+lead: <%= components__general.metadata.lead %>
+contentTitle: <%= components__general.metadata.contentTitle %>
+menuLink: Introduction
+categoryType: 01 | General
+sortOrder: 00
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START: Zone }}
+		{{#wrapWith "p-zone"}}
+			{{#with components__general.article}}
+				{{> c-article }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Zone }}
+	{{/content}}
+{{/extend}}

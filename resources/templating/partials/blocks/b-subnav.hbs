@@ -1,0 +1,27 @@
+---
+block: sub navigation
+---
+
+<div class="b-subnav">
+	<h2 class="subnav__headline">
+		{{page.data.category}}
+	</h2>
+	{{#each categoryType}}
+		<div class="subnav__wrapper" data-js-module="accordion">
+			<h3 class="subnav__cat" data-js-atom="toggle-control">
+				{{{categoryType}}}
+			</h3>
+			<ul class="subnav__list" data-js-atom="toggle-content">
+				{{#withSort ../pages 'data.sortOrder'}}
+					{{#is data.categoryType ../categoryType}}
+						<li class="subnav__list-item">
+							<a href="{{autolink}}" class="subnav__link{{#is ../../../page.dest this.dest}} is-active{{/is}}">
+								{{{data.menuLink}}}
+							</a>
+						</li>
+					{{/is}}
+				{{/withSort}}
+			</ul>
+		</div>
+	{{/each}}
+</div>

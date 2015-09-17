@@ -3,7 +3,7 @@ category: Veams-Generator
 title: <%= generator__gulpPlugins.metadata.title %>
 lead: <%= generator__gulpPlugins.metadata.lead %>
 menuLink: "Gulp-Plugins"
-type: Prompts
+categoryType: Prompts
 sortOrder: 40
 ---
 
@@ -16,12 +16,5 @@ sortOrder: 40
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}
-	{{/content}}
-	{{#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-libs}}
-		{{/wrapWith}}
-	{{! WrapWith END: CTA }}
 	{{/content}}
 {{/extend}}

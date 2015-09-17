@@ -21,7 +21,8 @@ module.exports = {
 			},
 			refSize: "medium",
 			unit: 5,
-			cssSuffix: "scss"
+			cssSuffix: "scss",
+			layout: "packed"
 		}
 	}
 };

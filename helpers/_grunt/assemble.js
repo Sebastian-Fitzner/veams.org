@@ -11,6 +11,8 @@ module.exports = {
 		],
 		collections: [
 			'sitemap',
+			'category',
+			'categoryType',
 			'type'
 		]
 	},
@@ -30,7 +32,7 @@ module.exports = {
 		},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/javascript',
-			dest: '<%= paths.dev %>/javascript',
+			dest: '<%= paths.dev %>/js',
 			expand: true,
 			flatten: false,
 			src: ['**/*.hbs']

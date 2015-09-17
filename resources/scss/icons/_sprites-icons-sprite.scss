@@ -5,7 +5,7 @@
 	@include sprites-bg-svg();
 }
 @mixin sprites-bg-size() {
-	background-size: 2055px 300px;
+	background-size: 605px 595px;
 }
 %sprites-bg-size {
 	@include sprites-bg-size();
@@ -22,7 +22,7 @@
 	@extend %sprites-bg-svg;
 	width: 33px;
 	height: 32px;
-	background-position: 0 0;
+	background-position: -565px -300px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -37,7 +37,7 @@
 	@extend %sprites-bg-svg;
 	width: 202px;
 	height: 79px;
-	background-position: -40px 0;
+	background-position: -145px -300px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -52,7 +52,7 @@
 	@extend %sprites-bg-svg;
 	width: 202px;
 	height: 79px;
-	background-position: -250px 0;
+	background-position: -355px -300px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -67,7 +67,7 @@
 	@extend %sprites-bg-svg;
 	width: 137px;
 	height: 117px;
-	background-position: -460px 0;
+	background-position: 0 -300px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -82,7 +82,7 @@
 	@extend %sprites-bg-svg;
 	width: 202px;
 	height: 79px;
-	background-position: -605px 0;
+	background-position: 0 -425px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -97,7 +97,7 @@
 	@extend %sprites-bg-svg;
 	width: 202px;
 	height: 79px;
-	background-position: -815px 0;
+	background-position: -210px -425px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -112,7 +112,7 @@
 	@extend %sprites-bg-svg;
 	width: 202px;
 	height: 79px;
-	background-position: -1025px 0;
+	background-position: 0 -510px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -127,7 +127,7 @@
 	@extend %sprites-bg-svg;
 	width: 209px;
 	height: 61px;
-	background-position: -1235px 0;
+	background-position: -210px -510px;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}
@@ -142,7 +142,7 @@
 	@extend %sprites-bg-svg;
 	width: 596px;
 	height: 294px;
-	background-position: -1450px 0;
+	background-position: 0 0;
 	@at-root .no-svg & {
 		@extend %sprites-bg-png;
 	}

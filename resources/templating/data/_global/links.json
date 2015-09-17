@@ -2,6 +2,19 @@
 	"nav": {
 		"data": [
 			{
+				"type": "Getting Started",
+				"data": [
+					{
+						"url": "/",
+						"menuLink": "Home"
+					},
+					{
+						"url": "/getting-started.html",
+						"menuLink": "Getting Started"
+					}
+				]
+			},
+			{
 				"type": "Veams-Extensions",
 				"data": [
 					{
@@ -21,8 +34,16 @@
 						"menuLink": "Veams-Components"
 					},
 					{
-						"url": "/javascript/",
-						"menuLink": "Veams-JS"
+						"url": "/js/",
+						"menuLink": "Veams-JavaScript"
+					}
+				]
+			},
+			{
+				"type": "Best Practices",
+				"data": [
+					{
+						"placeholder": "Coming Soon ..."
 					}
 				]
 			}
@@ -35,9 +56,9 @@
 		"ctaIcon": false,
 		"ctaContent": "Back to Veams"
 	},
-	"veams-intro": {
+	"veams-getting-started": {
 		"ctaButton": false,
-		"ctaTarget": "introduction.html",
+		"ctaTarget": "getting-started.html",
 		"ctaModifierClass": "home",
 		"ctaIcon": false,
 		"ctaContent": "Getting Started"

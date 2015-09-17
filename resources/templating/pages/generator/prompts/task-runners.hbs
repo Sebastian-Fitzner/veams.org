@@ -3,7 +3,7 @@ category: Veams-Generator
 title: <%= generator__taskRunners.metadata.title %>
 lead: <%= generator__taskRunners.metadata.lead %>
 menuLink: "Task-Runners"
-type: Prompts
+categoryType: Prompts
 sortOrder: 20
 ---
 
@@ -16,13 +16,5 @@ sortOrder: 20
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}
-	{{/content}}
-	{{#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-grunt}}
-			{{> c-cta links.generator-gulp}}
-		{{/wrapWith}}
-	{{! WrapWith END: CTA }}
 	{{/content}}
 {{/extend}}

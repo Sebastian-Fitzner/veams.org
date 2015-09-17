@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Components Starter Kit for Veams.",
+		"lead": "Veams-Components is a building blocks library to speed up templating in projects."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Why do we need Veams-Sass?"
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/components/general/components__general.md"
+				}
+			]
+		}
+	}
+}
+

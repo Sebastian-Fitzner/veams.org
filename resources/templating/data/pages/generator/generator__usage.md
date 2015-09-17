@@ -6,7 +6,7 @@ yo veams
 
 That's it.
 
-**Just answer the questions and generate your individual project.**
+[**Just answer the questions and generate your individual project.**](/generator/prompts/)
 
 All dependencies and task files will be automagically downloaded and configured. You can start your project in your console via 
 

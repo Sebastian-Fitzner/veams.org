@@ -3,7 +3,7 @@ category: Veams-Generator
 title: <%= generator__gruntPlugins.metadata.title %>
 lead: <%= generator__gruntPlugins.metadata.lead %>
 menuLink: "Grunt-Plugins"
-type: Prompts
+categoryType: Prompts
 sortOrder: 30
 ---
 
@@ -16,12 +16,5 @@ sortOrder: 30
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}
-	{{/content}}
-	{{#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{#wrapWith "w-simple" classes="is-left"}}
-			{{> c-cta links.generator-libs}}
-		{{/wrapWith}}
-	{{! WrapWith END: CTA }}
 	{{/content}}
 {{/extend}}

@@ -1,16 +1,18 @@
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,900,300" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
-{{#is category "Veams-Generator"}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams-generator.css" />
-{{else}}{{#is category "Veams-Methodology"}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams-methodology.css" />
-{{else}}{{#is category "Veams-Sass"}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams-sass.css" />
-{{else}}{{#is category "Veams-JS"}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams-js.css" />
-{{else}}{{#is category "Veams-Components"}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams-components.css" />
-{{else}}
-	<link rel="stylesheet" href="{{assets}}/css/styles-veams.css" />
-{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}
+{{#each category}}
+	{{#is category "Veams-Generator"}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams-generator.css" />
+	{{else}}{{#is category "Veams-Methodology"}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams-methodology.css" />
+	{{else}}{{#is category "Veams-Sass"}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams-sass.css" />
+	{{else}}{{#is category "Veams-JavaScript"}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams-js.css" />
+	{{else}}{{#is category "Veams-Components"}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams-components.css" />
+	{{else}}
+		<link rel="stylesheet" href="{{assets}}/css/styles-veams.css" />
+	{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}
+{{/each}}

@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "How to use Veams-Sass.",
+		"lead": "Veams-Components Usage In Detail."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Components is splitted up into different files, so can decide which one you want to use."
+		},
+		"articleRTE": {
+			"rteModifierClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/components/usage/components__usage.md"
+				}
+			]
+		}
+	}
+}
+
