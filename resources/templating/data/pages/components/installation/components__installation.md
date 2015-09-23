@@ -8,5 +8,5 @@ If you want to install it with Bower, here are the requirements:
 When you have `Bower` already installed just execute:
 
 ``` bash
-bower install veams-sass --save
+bower install veams-components --save
 ```

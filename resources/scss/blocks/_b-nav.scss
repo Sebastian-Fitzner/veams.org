@@ -26,13 +26,13 @@ Navigation
 		}
 	}
 	.nav__wrapper {
-		@include span-columns(3);
-		@include omega(4n);
+		@include span-columns(4);
+		@include omega(3n);
 
 		margin-bottom: 2.5rem;
 
 		@include bp(1140px) {
-			@include omega-reset(4n);
+			@include omega-reset(3n);
 			@include span-columns(6);
 			@include omega(2n);
 		}

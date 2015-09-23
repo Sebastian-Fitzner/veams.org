@@ -14,8 +14,6 @@ import TOC from './modules/toc/tocView';
 import ButtonInit from './modules/button/button-init';
 import Toggle from './modules/toggle/ui-toggle';
 import EqualRows from './modules/equal-row-height/equal-row-heights';
-import Form from './modules/form/form';
-import FormAjax from './modules/form/form-ajax';
 
 "use strict";
 
@@ -42,15 +40,29 @@ class Core {
 
 	render(context) {
 
-		$('pre code', context).each(function(i, block) {
-			var height = $(this).outerHeight(),
+		$('pre code', context).each(function (i, block) {
+			let height = $(this).outerHeight(),
 				heightMax = 230;
 
 			HLJS.highlightBlock(block);
 
 			if (height > heightMax) {
-				$(this).addClass('js-close').attr('data-max-height', height).css('height', heightMax).parent().append('<button class="js-toggle"/>');
+				$(this).addClass('is-close').attr('data-max-height', height).css('height', heightMax).parent().append('<button class="c-cta--code-toggle" data-js-atom="toggle-code" />');
 			}
+		});
+
+		$('[data-js-atom="toggle-code"]', context).on('click', function () {
+			let el = $(this).prev('code'),
+				elData = el.data('max-height');
+
+			if (el.outerHeight() > 230) {
+				el.css('height', '230px');
+			} else {
+				el.css('height', elData + 30);
+			}
+
+			$(this).toggleClass('is-active').prev('code').toggleClass('is-close');
+
 		});
 
 		/**
@@ -95,25 +107,6 @@ class Core {
 		Helpers.loadModule({
 			el: '[data-js-module="toggle"]',
 			Module: Toggle,
-			render: false,
-			context: context
-		});
-
-		/**
-		 * Init Forms
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module~="form"]',
-			Module: Form,
-			context: context
-		});
-
-		/**
-		 * Init AjaxForm
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module~="form-ajax"]',
-			Module: FormAjax,
 			render: false,
 			context: context
 		});

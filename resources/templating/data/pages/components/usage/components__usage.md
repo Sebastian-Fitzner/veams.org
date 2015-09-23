@@ -1,43 +1,26 @@
 ### How to use
 
-Just import the files you need for your project.
-
-**Example:**
-
-``` scss
-@import "veams-reset"; // or "veams-normalize"
-@import "veams";
-@import "veams-animations"; // optional, because it adds keyframes to your css
-```
+Just copy and paste the files you need to your project. 
 
 ### Main Files
 
-To start of just import either `_veams-reset` or `_veams-normalize` at the beginning of your Sass file.
+#### `components`
 
-### `_veams-reset.scss`
+Here you can find general components. Just copy and paste the files you need into your project (`resources/templating/partials/components`). 
 
-`_veams-reset.scss` contains your resets, font-base size and settings: 
-- _reset.scss
-- _font-base.scss
-- _settings.scss
+1. Each component has a data (JSON) and style (SCSS) file in the same folder. 
+2. The `JSON` file is your blueprint.
+3. The Sass file should be included.
 
-### `_veams-normalize.scss`
+#### `wrap-with`
 
-`_veams-normalize.scss` contains your normalize.scss, font-base size and settings: 
-- _normalize.scss
-- _font-base.scss
-- _settings.scss
+In the `wrap-with` folder you can find partials which can be used to wrap other content. 
+These partials can be used to wrap components and modules and structure your code base. 
 
-### `_veams-helpers.scss`
+Just copy and paste a `wrap-with` into `resources/templating/partials/wrap-with`.. 
 
-`_veams-helpers.scss` contains helpers and layout mixins.
+#### `markdown`
 
-This file is imported in `_veams.scss`.
+I created some markdown files to speed up the integration of dummy content. 
 
-### `_veams.scss`
-
-`_veams.scss` contains all major helpers and mixins.
-
-### `_veams-animations`
-
-`_veams-animations.scss` contains custom keyframes and animation sets. You have to import this file manually when you want to use it.
+Just choose the files you need from the `markdown` folder.

@@ -30,8 +30,62 @@ Global Styles
 }
 
 /* ---------------------------------------------------
-Modifier
+Overlay
 --------------------------------------------------- */
 .c-cta--overlay {
 	width: 100%;
+}
+
+/* ---------------------------------------------------
+Toggle Code
+--------------------------------------------------- */
+.c-cta--code-toggle {
+	@include reset-btn();
+
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	display: block;
+	width: 36px;
+	height: 24px;
+	opacity: 0.5;
+	transition: opacity $transition-duration $transition-ease-method;
+
+	&:hover {
+		cursor: pointer;
+		opacity: 1;
+	}
+
+	&::after,
+	&::before {
+		@extend %pseudo;
+
+		width: 20px;
+		height: 2px;
+		background-color: color(highlight-main-dark);
+		top: 8px;
+		transition: right $transition-duration $transition-ease-method;
+	}
+	&::after {
+		@extend %pseudo;
+
+		transform: rotate(-45deg);
+		right: 0;
+	}
+	&::before {
+		@extend %pseudo;
+
+		transform: rotate(45deg);
+		right: 14px;
+	}
+
+	&.is-active {
+		&::after {
+			right: 14px;
+		}
+		&::before {
+			right: 0;
+		}
+	}
+
 }

@@ -7,7 +7,7 @@
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Why do we need Veams-Sass?"
+			"articleH1": "Why do we need Veams-Components?"
 		},
 		"articleRTE": {
 			"rteModifierClass": "content",
@@ -20,4 +20,3 @@
 		}
 	}
 }
-
