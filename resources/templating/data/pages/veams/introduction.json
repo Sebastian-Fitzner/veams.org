@@ -7,7 +7,7 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": false,
+				"teaserLink": "/generator/",
 				"teaserFigure": {
 					"figureModifierClass": "teaser-intro",
 					"pictureAlt": "Veams Generator",
@@ -33,7 +33,7 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": false,
+				"teaserLink": "/methodology/",
 				"teaserFigure": {
 					"figureModifierClass": "teaser-intro",
 					"pictureAlt": "Veams Methodolgy",
@@ -59,7 +59,7 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": false,
+				"teaserLink": "/sass/",
 				"teaserFigure": {
 					"figureModifierClass": "teaser-intro",
 					"pictureAlt": "Veams Sass",
@@ -85,7 +85,7 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": false,
+				"teaserLink": "/components/",
 				"teaserFigure": {
 					"figureModifierClass": "teaser-intro",
 					"pictureAlt": "Veams Components",
@@ -111,7 +111,7 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": false,
+				"teaserLink": "/js/",
 				"teaserFigure": {
 					"figureModifierClass": "teaser-intro",
 					"pictureAlt": "Veams JavaScript",

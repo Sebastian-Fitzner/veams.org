@@ -40,6 +40,7 @@ class Core {
 
 	render(context) {
 
+		// I am lazy ...
 		$('pre code', context).each(function (i, block) {
 			let height = $(this).outerHeight(),
 				heightMax = 230;
@@ -62,7 +63,6 @@ class Core {
 			}
 
 			$(this).toggleClass('is-active').prev('code').toggleClass('is-close');
-
 		});
 
 		/**

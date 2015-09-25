@@ -29,6 +29,18 @@ Global Styles
 		color: #000;
 		background: lighten(color(highlight-main), 20);
 	}
+	
+	h5 {
+		font-size: 1.75rem;
+		font-weight: $font-light;
+		line-height: 1.35;
+
+		margin: 2rem 0;
+		padding: 0.5rem;
+
+		color: #000;
+		background: color(white);
+	}
 
 	a {
 		@include link-std;

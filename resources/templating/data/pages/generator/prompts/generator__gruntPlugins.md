@@ -11,7 +11,6 @@ helpers/_grunt
 
 Veams provides standard Grunt plugins. These are:
 
- * [grunt-combine-mq](https://github.com/frontendfriends/grunt-combine-mq) - When you use mixins for media queries in your Sass files, you can combine your media queries with this module.
  * [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent) - Run grunt tasks concurrently.
  * [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clean your directories.
  * [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) - Minify your CSS.
@@ -27,7 +26,9 @@ Veams provides standard Grunt plugins. These are:
 * [grunt-bless](https://github.com/stefanjudis/grunt-bless) - Split your css after you reach size limit for ie9.
 * [grunt-browser-sync](https://npmjs.org/package/grunt-browser-sync) - Sync and auto-reload your local server over multiple devices.
 * [grunt-browserify](https://github.com/jmreidy/grunt-browserify) - Use a node-style require() to organize your browser code and load modules installed by npm.
+* [grunt-combine-mq](https://github.com/frontendfriends/grunt-combine-mq) - When you use mixins for media queries in your Sass files, you can combine your media queries with this module.
 * [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy) - a preconfigured proxy for developing clientside API interfaces in your web app, with CORS, Basic Authentication support and http methods.
+* [grunt-contrib-handlebars](https://www.npmjs.com/package/grunt-contrib-handlebars) - Precompile Handlebars templates to JST file.
 * [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) - Minify your HTML files.
 * [grunt-contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs) - Optimize RequireJS projects using r.js.
 * [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) - Minify files with UglifyJS.

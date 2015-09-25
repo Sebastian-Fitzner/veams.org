@@ -133,6 +133,18 @@ Intro Teasers
 		@include span-columns(12);
 	}
 
+	.teaser__link {
+		background-color: transparent;
+		color: color(highlight-dark);
+		text-decoration: none;
+		transition: all $transition-duration $transition-ease-method;
+		display: block;
+
+		&:hover {
+			background-color: color(highlight-main);
+		}
+	}
+
 	.teaser__wrapper {
 		position: relative;
 	}
