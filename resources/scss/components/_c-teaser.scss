@@ -20,6 +20,8 @@ Global Styles
 		font-weight: $font-bold;
 		font-family: $font-family;
 		margin-bottom: 1rem;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	.teaser__content {
 	}

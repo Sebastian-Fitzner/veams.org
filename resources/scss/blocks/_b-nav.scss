@@ -74,6 +74,8 @@ Navigation
 		font-weight: $font-bold;
 		color: color(white);
 		text-decoration: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 
 		&:hover,
 		&.is-active {
