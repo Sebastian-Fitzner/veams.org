@@ -1,13 +1,13 @@
 {
 	"metadata": {
 		"title": "Documentation of Veams-Sass",
-		"lead": "Documentation is currently in development."
+		"lead": "The documentation for Veams-Sass is written with `SassDoc`."
 	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "You can take a look at the repository."
+			"articleH1": "Where we can find the documentation?"
 		},
 		"articleRTE": {
 			"rteModifierClass": "content",

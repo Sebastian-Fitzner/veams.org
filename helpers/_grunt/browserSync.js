@@ -7,6 +7,7 @@ module.exports = {
 		]
 	},
 	options: {
+		port: 3002,
 		host: "localhost",
 		server: {
 			baseDir: '<%= paths.dev %>',

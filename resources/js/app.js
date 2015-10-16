@@ -1,4 +1,6 @@
 import Helpers from './utils/helpers';
+import Events from './utils/events';
+
 var $ = require('jquery');
 var Exoskeleton = require('exoskeleton');
 
@@ -25,6 +27,7 @@ export default (function () {
 	// Add globals
 	App.Exoskeleton = Exoskeleton;
 	App.$ = $;
+	App.Events = Events;
 
 	/**
 	 * Create custom view with own properties and
@@ -63,8 +66,12 @@ export default (function () {
 	App.settings = {};
 
 	// ----------------------------------
-	// CHECKING
+	// GLOBAL EVENTS
 	// ----------------------------------
+
+	/**
+	 * Triggers
+	 */
 
 	// Media Query
 	var head = document.querySelectorAll('head');
@@ -88,15 +95,7 @@ export default (function () {
 		}
 	}
 
-	// ----------------------------------
-	// GLOBAL EVENTS
-	// ----------------------------------
-
-	/**
-	 * Triggers
-	 */
-
-		// Resize event
+	// Trigger global resize event
 	window.onresize = function (e) {
 		var currentMedia = window.getComputedStyle(head[0], null).getPropertyValue('font-family');
 
@@ -106,19 +105,18 @@ export default (function () {
 			App.currentMedia = currentMedia;
 			console.log('App.currentMedia: ', App.currentMedia);
 
-			App.Vent.trigger('mediachange', {
-				type: 'mediachange',
+			App.Vent.trigger(App.Events.mediachange, {
+				type: App.Events.mediachange,
 				currentMedia: currentMedia,
 				oldMedia: oldMedia
 			});
 		}
 
-		App.Vent.trigger('resize', e);
+		App.Vent.trigger(App.Events.resize, e);
 	};
 
-	// Scroll event
 	document.onscroll = function (e) {
-		App.Vent.trigger('scroll', e);
+		App.Vent.trigger(App.Events.scroll, e);
 	};
 
 	/**
@@ -126,7 +124,7 @@ export default (function () {
 	 */
 
 		// Redirect
-	App.Vent.on('dom:redirect', (obj) => {
+	App.Vent.on(App.Events.DOMredirect, (obj) => {
 		if (!obj && !obj.url) throw new Error('Object is not defined. Please provide an url in your object!');
 
 		// Redirect to page

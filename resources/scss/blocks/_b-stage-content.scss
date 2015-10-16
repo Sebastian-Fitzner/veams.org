@@ -27,6 +27,8 @@
 	}
 
 	.stage-content__head {
+		@include font-smooting();
+
 		font-size: 1.8rem;
 		font-family: $font-family;
 		font-weight: $font-bold;
@@ -34,13 +36,12 @@
 		display: block;
 		padding-bottom: 1rem;
 		color: color(highlight-main);
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
 
 		&::after {
 			@extend %pseudo;
 			@include animation(rotateSmaller linear $transition-duration*70 infinite);
 			@include fx-triangle($size: 90px 45px 45px, $color: color(highlight-light), $rotation: 45deg);
+
 			right: 45px;
 			bottom: 45px;
 			z-index: 2;
@@ -54,6 +55,8 @@
 	}
 
 	.stage-content__lead {
+		@include font-smooting();
+
 		font-family: $font-family;
 		font-weight: $font-light;
 		max-width: 550px;
@@ -62,8 +65,6 @@
 		display: block;
 		margin-top: 1rem;
 		color: color(highlight-dark);
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
 
 		@include media(map-get($bp, mobile-p)) {
 			mix-blend-mode: hard-light;

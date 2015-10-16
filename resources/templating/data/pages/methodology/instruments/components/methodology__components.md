@@ -13,12 +13,14 @@ Because of reusability. With reusability you can build building block libraries 
 
 ### Structure
 
-When we use Components, we prefix them with `c-` (or `_c-` for Sass files). The declaration helps us structuring our code base.
+When we use Components, we prefix them with `c-` (or `_c-` for Sass files). The declaration helps us structuring our code base. 
+
+Furthermore we have to define a context, see [Context Handling with Veams](/methodology/class-systematic/context-handling.html).
 
 #### Example Snippet
 
 ``` hbs
-<article class="c-article--default" data-css="c-article"></article>
+<article class="c-article--default" data-css="c-article--default"></article>
 ```
 
 ### File/Folder Structure

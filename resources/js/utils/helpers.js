@@ -31,10 +31,7 @@ Helpers.loadModule = function (obj) {
 	if (!obj.el) throw new Error('In order to work with loadModule you need to define an element as string!');
 	if (!obj.Module) throw new Error('In order to work with loadModule you need to define a Module!');
 
-	var moduleList = Helpers.querySelectorArray({
-		el: obj.el,
-		context: obj.context
-	});
+	var moduleList = Helpers.querySelectorArray(obj.el, obj.context);
 	var renderOnInit = obj.render !== false;
 
 	Helpers.forEach(moduleList, (i, el) => {
@@ -148,18 +145,16 @@ Helpers.extendMethod = function (to, from, methodName) {
 /**
  * Get dom elements in an array
  *
- * @param {Object} obj - Selector and context
- * @param {Object} obj.el - Required: selector
- * @param {Object} obj.context - Optional: context
+ * @param {Object} el - Required: selector
+ * @param {Object} context - Optional: context
  *
  * @return {Array}
  */
-Helpers.querySelectorArray = function (obj) {
-	if (!obj.el) throw new Error('In order to work with querySelectorAll you need to define an element as string!');
-	var el = obj.el;
-	var context = (obj.context) || document;
+Helpers.querySelectorArray = function (el, context) {
+	if (!el) throw new Error('In order to work with querySelectorAll you need to define an element as string!');
+	var currentContext = (context) || document;
 
-	return Array.prototype.slice.call((context).querySelectorAll(el));
+	return Array.prototype.slice.call((currentContext).querySelectorAll(el));
 };
 
 /**
@@ -402,11 +397,9 @@ Helpers.getOuterHeight = function (el, outer) {
  */
 Helpers.templatizer = function (obj) {
 	if (!'content' in document.createElement('template')) return;
-	if (!obj && !obj.templateName) throw new Error('You need to path a template namespace as string!');
+	if (!obj && !obj.templateName) throw new Error('You need to pass a template namespace as string!');
 
-	Helpers.querySelectorArray({
-		el: obj.templateName
-	}).forEach(function (tpl) {
+	Helpers.querySelectorArray(obj.templateName).forEach(function (tpl) {
 		let parent = tpl.parentNode;
 		let content = tpl.content.children[0];
 

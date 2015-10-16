@@ -54,11 +54,19 @@ Navigation
 		margin-bottom: 1.6rem;
 		margin-top: 1rem;
 
+		@include media(map-get($bp, mobile-l)) {
+			font-size: 2.5rem;
+		}
+
 		span {
 			clear: left;
 			display: block;
 			font-size: 2.1rem;
 			margin-top: -0.5rem;
+
+			@include media(map-get($bp, mobile-l)) {
+				font-size: 1.7rem;
+			}
 		}
 	}
 

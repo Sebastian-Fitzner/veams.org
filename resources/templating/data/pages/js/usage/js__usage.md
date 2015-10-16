@@ -46,3 +46,9 @@ This file is written in plain JavaScript.
 All files in the `modules` folder are optional and work in progress. Keep that in mind.
 
 There are `scss` and `hbs` files for some modules, which you can use in your project. 
+
+### Initializing and Event Binding
+
+To initialize our Modules we use a custom `loadModule` function which you should used in the `main.js`. 
+
+Furthermore we expect that you be well versed with our [`Veams-Methodology`](/methodology/javascript/modules.html). In this section we explain how we define our markup and provide options. 

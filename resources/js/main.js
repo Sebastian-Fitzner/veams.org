@@ -107,7 +107,6 @@ class Core {
 		Helpers.loadModule({
 			el: '[data-js-module="toggle"]',
 			Module: Toggle,
-			render: false,
 			context: context
 		});
 
@@ -143,9 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	 * via custom event 'DOMchanged'
 	 */
 	App.Vent.on('DOMchanged', (context) => {
-		Helpers.querySelectorArray({
-			el: context
-		}).forEach((itemContext) => {
+		Helpers.querySelectorArray(context).forEach((itemContext) => {
 			console.log('Dom has changed. Initialising new modules in: ', itemContext);
 			core.render(itemContext);
 		});

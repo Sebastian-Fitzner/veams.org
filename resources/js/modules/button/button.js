@@ -15,24 +15,24 @@ class ButtonView extends App.ComponentView {
 	 * Options for the view
 	 */
 	get _options() {
-  return {
-    activeClass: 'is-active',
-    context: false,
-    singleOpen: false
-  }
+		return {
+			activeClass: 'is-active',
+			context: false,
+			singleOpen: false
+		}
 	}
 
 	set _options(opts) {
-  this.options = opts;
+		this.options = opts;
 	}
 
 	/**
 	 * Events method
 	 */
 	get events() {
-  return {
-    click: 'onClick'
-  }
+		return {
+			click: 'onClick'
+		}
 	}
 
 	/**
@@ -41,9 +41,9 @@ class ButtonView extends App.ComponentView {
 	 * @param {obj} obj - contains options as JSON which will be merged with predefined options
 	 */
 	initialize(obj) {
-  this._options = Helpers.defaults(obj.options || {}, this._options); // get/set default options
+		this._options = Helpers.defaults(obj.options || {}, this._options); // get/set default options
 
-  this.bindEvents();
+		this.bindEvents();
 	}
 
 	/**
@@ -52,14 +52,14 @@ class ButtonView extends App.ComponentView {
 	 * Listen to open and close events
 	 */
 	bindEvents() {
-  this.listenTo(App.Vent, 'button:close', this.close);
-  this.listenTo(App.Vent, 'button:open', this.open);
+		this.listenTo(App.Vent, App.Events.btnClose, this.close);
+		this.listenTo(App.Vent, App.Events.btnOpen, this.open);
 	}
 
 	// Renders the view's template to the UI
 	render() {
-  // Maintains chainability
-  return this;
+		// Maintains chainability
+		return this;
 	}
 
 	/**
@@ -68,11 +68,11 @@ class ButtonView extends App.ComponentView {
 	 * Trigger events so that each button can listen to that and react by option singleOpen
 	 */
 	handleClasses() {
-  this.$el.is('.' + this.options.activeClass) ? App.Vent.trigger('button:close', {
-    'el': this.$el
-  }) : App.Vent.trigger('button:open', {
-    'el': this.$el
-  });
+		this.$el.is('.' + this.options.activeClass) ? App.Vent.trigger(App.Events.btnClose, {
+			'el': this.$el
+		}) : App.Vent.trigger(App.Events.btnOpen, {
+			'el': this.$el
+		});
 	}
 
 	/**
@@ -84,10 +84,10 @@ class ButtonView extends App.ComponentView {
 	 * @param {obj} obj.el - element
 	 */
 	close(obj) {
-  if (Helpers.checkNodeEquality(this.$el[0], obj.el[0])) {
-    if (this.options.activeClass) this.$el.removeClass(this.options.activeClass);
-    if (this.options.context) this.$el.closest(this.options.context).removeClass(this.options.activeClass);
-  }
+		if (Helpers.checkNodeEquality(this.$el[0], obj.el[0])) {
+			if (this.options.activeClass) this.$el.removeClass(this.options.activeClass);
+			if (this.options.context) this.$el.closest(this.options.context).removeClass(this.options.activeClass);
+		}
 	}
 
 	/**
@@ -101,14 +101,14 @@ class ButtonView extends App.ComponentView {
 	 * @param {obj} obj.el - element
 	 */
 	open(obj) {
-  if (Helpers.checkNodeEquality(this.$el[0], obj.el[0])) {
-    if (this.options.activeClass) this.$el.addClass(this.options.activeClass);
-    if (this.options.context) this.$el.closest(this.options.context).addClass(this.options.activeClass);
-  } else {
-    if (Helpers.checkElementInContext(obj.el, this.options.context) && this.options.singleOpen === "true") {
-      if (this.options.activeClass) this.$el.removeClass(this.options.activeClass);
-    }
-  }
+		if (Helpers.checkNodeEquality(this.$el[0], obj.el[0])) {
+			if (this.options.activeClass) this.$el.addClass(this.options.activeClass);
+			if (this.options.context) this.$el.closest(this.options.context).addClass(this.options.activeClass);
+		} else {
+			if (Helpers.checkElementInContext(obj.el, this.options.context) && this.options.singleOpen === "true") {
+				if (this.options.activeClass) this.$el.removeClass(this.options.activeClass);
+			}
+		}
 	}
 
 	/**
@@ -120,14 +120,14 @@ class ButtonView extends App.ComponentView {
 	 * @param {event} e - event object
 	 */
 	onClick(e) {
-  e.preventDefault();
+		e.preventDefault();
 
-  if (typeof this.clickHandler === 'function') {
-    this.clickHandler.apply(this, arguments);
-    if (this.options.activeClass) this.handleClasses();
-  } else {
-    console.log('You need to inherit from ' + this + ' and override the onClick method or pass a function to ' + this + '.clickHandler !');
-  }
+		if (typeof this.clickHandler === 'function') {
+			this.clickHandler.apply(this, arguments);
+			if (this.options.activeClass) this.handleClasses();
+		} else {
+			console.log('You need to inherit from ' + this + ' and override the onClick method or pass a function to ' + this + '.clickHandler !');
+		}
 	}
 }
 

@@ -1,15 +1,4 @@
 module.exports = {
-	livereload: {
-		options: {
-			livereload: '<%= connect.options.livereload %>'
-		},
-		files: [
-			'<%= paths.dev %>/{,*/}*.html',
-			'<%= paths.dev %>/css/{,*/}*.css',
-			'<%= paths.dev %>/js/{,*/}*.js',
-			'<%= paths.dev %>/img/**/*.{jpg,png}'
-		]
-	},
 	ajax: {
 		files: '<%= paths.src %>/ajax/**/*.{json,html}',
 		tasks: 'sync:ajax'
@@ -27,6 +16,13 @@ module.exports = {
 	scss: {
 		files: '<%= paths.src %>/scss/**/*',
 		tasks: 'sass:defaults',
+	    options: {
+			spawn: false
+		}
+	},
+	sassdoc: {
+		files: '<%= paths.src %>/bower-components/veams-sass/**/*.scss',
+		tasks: 'sassdoc',
 	    options: {
 			spawn: false
 		}

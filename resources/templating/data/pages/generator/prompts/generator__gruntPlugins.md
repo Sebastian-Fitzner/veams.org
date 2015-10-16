@@ -11,35 +11,189 @@ helpers/_grunt
 
 Veams provides standard Grunt plugins. These are:
 
- * [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent) - Run grunt tasks concurrently.
- * [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - Clean your directories.
- * [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) - Minify your CSS.
- * [grunt-sass-globber](https://github.com/Sebastian-Fitzner/grunt-sass-globber) - This module provides a simple globbing functionality for Sass files like the ruby gem `sass-globbing`.
- * [jit-grunt](https://github.com/shootaroo/jit-grunt) - A JIT(Just In Time) plugin loader for Grunt.
- * [time-grunt](https://github.com/sindresorhus/time-grunt) - Displays the execution time of grunt tasks.
+#### grunt-concurrent
+
+Run grunt tasks concurrently. In Veams we have a `hintAndDocs` task. 
+
+[Link to grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent) 
+
+#### grunt-contrib-clean
+
+Clean your directories. In Veams we use this module to clean up the folders `_output` and `_dist`.
+
+[Link to grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
+
+#### grunt-contrib-cssmin
+
+Minify your CSS. 
+
+[Link to grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
+
+#### grunt-sass-globber 
+
+This module provides a simple globbing functionality for Sass files like the ruby gem `sass-globbing`.
+In Veams we have a `styles.scss` file in which you can use globbing functionality. The plugin generates a `styles.tmp.scss` with all files included. 
+
+[Link to grunt-sass-globber](https://github.com/Sebastian-Fitzner/grunt-sass-globber) 
+
+#### jit-grunt
+
+ A JIT(Just In Time) plugin loader for Grunt. Veams integrates `jit-grunt`, because otherwise Grunt slows down with every plugin installed.
+
+[Link to jit-grunt](https://github.com/shootaroo/jit-grunt)
+
+#### time-grunt
+
+Displays the execution time of grunt tasks.
+
+[Link to time-grunt](https://github.com/sindresorhus/time-grunt)
 
 ### Optional Grunt Plugins
 
-***But you can also apply additional Grunt plugins to your project. Just choose specific ones:***
+***But you can also apply additional Grunt plugins to your project. Just choose specific ones: ***
 
-* [grunt-autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) - Autoprefixer parses CSS and adds vendor-prefixed CSS properties using the Can I Use database.
-* [grunt-bless](https://github.com/stefanjudis/grunt-bless) - Split your css after you reach size limit for ie9.
-* [grunt-browser-sync](https://npmjs.org/package/grunt-browser-sync) - Sync and auto-reload your local server over multiple devices.
-* [grunt-browserify](https://github.com/jmreidy/grunt-browserify) - Use a node-style require() to organize your browser code and load modules installed by npm.
-* [grunt-combine-mq](https://github.com/frontendfriends/grunt-combine-mq) - When you use mixins for media queries in your Sass files, you can combine your media queries with this module.
-* [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy) - a preconfigured proxy for developing clientside API interfaces in your web app, with CORS, Basic Authentication support and http methods.
-* [grunt-contrib-handlebars](https://www.npmjs.com/package/grunt-contrib-handlebars) - Precompile Handlebars templates to JST file.
-* [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) - Minify your HTML files.
-* [grunt-contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs) - Optimize RequireJS projects using r.js.
-* [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) - Minify files with UglifyJS.
-* [grunt-csscomb](https://github.com/csscomb/grunt-csscomb) - The grunt plugin for sorting CSS properties in specific order.
-* [grunt-dr-svg-sprites](https://github.com/drdk/grunt-dr-svg-sprites) - Generate SVG Sprites with scss files. We provide a custom template to generate mixins and extends.
-* [grunt-grunticon](https://github.com/filamentgroup/grunticon) - Generate SVG-URI-SASS files with png fallbacks.
-* [grunt-image-size-export](https://github.com/Sebastian-Fitzner/grunt-image-size-export) - Pass a folder of images to this module and get information like width, height, filename, path and breakpoints.
-* [grunt-modernizr](https://github.com/Modernizr/grunt-modernizr) - grunt-modernizr sifts through your project files, gathers up your references to Modernizr tests and outputs a lean, mean Modernizr machine.
-* [grunt-phantomas](https://github.com/stefanjudis/grunt-phantomas) - PhantomJS-based web performance metrics collector and monitoring tool.
-* [grunt-photobox](https://github.com/stefanjudis/grunt-photobox) - Take snapshots from homepage
-* [grunt-postcss-separator](https://github.com/Sebastian-Fitzner/grunt-postcss-separator) - Split up your Data-URI or anything else into a separate CSS file.
-* [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images) - Produces images at different sizes (be sure you have installed GraphicsMagick).
-* [grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin) - Minify SVG using SVGO.
-* [grunt-version](https://github.com/kswedberg/grunt-version) - Grunt task to handle versioning of a project.
+#### grunt-accessibility (QA Plugin)
+
+Uses AccessSniff and HTML Codesniffer to grade your sites accessibility using different levels of the WCAG guidelines.
+
+[Link to grunt-accessibility](https://github.com/yargalot/grunt-accessibility) 
+
+#### grunt-autoprefixer (CSS Plugin)
+
+Autoprefixer parses CSS and adds vendor-prefixed CSS properties using the Can I Use database.
+
+[Link to grunt-autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) 
+
+#### grunt-bless (CSS Plugin)
+
+Split your css after you reach size limit for Internet Explorer 9.
+
+[Link to grunt-bless](https://github.com/stefanjudis/grunt-bless)
+
+#### grunt-browser-sync (Server Plugin)
+
+Sync and auto-reload your local server over multiple devices.
+
+[Link to grunt-browser-sync](https://npmjs.org/package/grunt-browser-sync)
+
+#### grunt-browserify (JavaScript Packaging Plugin)
+
+ Use a node-style require() or ES Harmony to organize your browser code and load modules installed by npm. 
+ 
+ In Veams we use ES Harmony when you select this plugin. 
+ 
+[Link to grunt-browserify](https://github.com/jmreidy/grunt-browserify)
+
+#### grunt-combine-mq (CSS Plugin)
+
+Combine matching media queries into one media query definition. Useful for CSS generated by preprocessors using nested media queries.
+
+[Link to grunt-combine-mq](https://github.com/frontendfriends/grunt-combine-mq)
+
+#### grunt-contrib-handlebars (JavaScript Templating Plugin)
+
+Precompile Handlebars templates to JST file.
+
+[Link to grunt-contrib-handlebars](https://www.npmjs.com/package/grunt-contrib-handlebars)
+
+#### grunt-contrib-htmlmin (HTML and Minification Plugin)
+
+ Minify your HTML files.
+ 
+[Link to grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin)
+
+#### grunt-contrib-requirejs (JavaScript Packaging Plugin)
+
+Optimize RequireJS projects using r.js. 
+
+In Veams we use `Almond` to provide a minimal AMD API footprint that includes loader plugin support. `Almond` is only useful for built/bundled AMD modules and does not do dynamic loading.
+[Link to grunt-contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs) 
+
+#### grunt-contrib-uglify (JavaScript Minification Plugin)
+
+ Minify files with UglifyJS.
+
+[Link to grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+
+#### grunt-csscomb (CSS Plugin)
+The grunt plugin for sorting CSS properties in specific order.
+
+[Link to grunt-csscomb](https://github.com/csscomb/grunt-csscomb)
+
+#### grunt-dr-svg-sprites (Icons Plugin)
+
+Generate SVG Sprites with scss files.
+ 
+Veams provides a custom template (`helpers/templates/svg-sprites/stylesheet.hbs` to generate mixins and extends.
+
+[Link to grunt-dr-svg-sprites](https://github.com/drdk/grunt-dr-svg-sprites)
+
+#### grunt-grunticon (Icons Plugin)
+
+Generate SVG-URI-SASS files with png fallbacks.
+
+[Link to grunt-grunticon](https://github.com/filamentgroup/grunticon)
+
+#### grunt-image-size-export (Images Plugin)
+
+Pass a folder of images to this module and get information like width, height, filename, path and breakpoints. 
+
+In Veams we use this plugin in combination with `grunt-responsive-images` to automate responsive image handling. 
+
+[Link to grunt-image-size-export](https://github.com/Sebastian-Fitzner/grunt-image-size-export)
+
+#### grunt-includes (Files Plugin)
+
+A grunt task for including a file within another file (think php includes). Circular imports will break the recursive strategy. All includes retain parent and child indentation.
+
+In Veams we use this module to have a simple JavaScript packaging solution. 
+
+[Link to grunt-includes](https://www.npmjs.com/package/grunt-includes)
+
+#### grunt-modernizr (JavaScript Plugin)
+
+grunt-modernizr sifts through your project files, gathers up your references to Modernizr tests and outputs a lean, mean Modernizr machine.
+
+[Link to grunt-modernizr](https://github.com/Modernizr/grunt-modernizr) 
+
+#### grunt-phantomas (Performance Plugin)
+
+PhantomJS-based web performance metrics collector and monitoring tool.
+
+[Link to grunt-phantomas](https://github.com/stefanjudis/grunt-phantomas)
+
+#### grunt-photobox (QA plugin)
+
+Plugin to prevent your project of broken layout via screenshot photo sessions of your site. 
+
+[Link to grunt-photobox](https://github.com/stefanjudis/grunt-photobox)
+
+#### grunt-postcss-separator (CSS Plugin)
+
+Split up your Data-URI or anything else into a separate CSS file.
+
+In Veams we use this plugin in combination with `grunt-grunticon` to export Data-URIs in another file and load this file asynchronous. 
+
+[Link to grunt-postcss-separator](https://github.com/Sebastian-Fitzner/grunt-postcss-separator)
+
+#### grunt-responsive-images (Images Plugin)
+
+Produces images at different sizes (be sure you have installed GraphicsMagick). 
+
+See `grunt-image-size-export` for further enhancements. 
+
+[Link to grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
+
+#### grunt-svgmin (Icons Plugin)
+
+Minify SVG using SVGO.
+
+In Veams we only need this for `grunt-grunticon`. `grunt-dr-svg-sprites` has already SVG minification built in.
+
+[Link to grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
+
+#### grunt-version (Versioning Plugin)
+
+Grunt task to handle versioning of a project.
+
+[Link to grunt-version](https://github.com/kswedberg/grunt-version)

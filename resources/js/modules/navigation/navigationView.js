@@ -45,7 +45,7 @@ class navigationView extends App.ComponentView {
 	 * Bind all events
 	 */
 	bindEvents() {
-		App.Vent.on('navigation:toggle', this.toggleNavigation.bind(this))
+		App.Vent.on(App.Events.navigationToggle, this.toggleNavigation.bind(this))
 	}
 
 	// Renders the view's template to the UI

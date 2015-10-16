@@ -111,6 +111,7 @@ module.exports = function (grunt) {
 		'autoprefixer',
 		'cssmin',
 		'assemble',
+		'sassdoc:dist',
 		'concurrent:build'
 	]);
 

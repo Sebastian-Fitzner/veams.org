@@ -1,6 +1,4 @@
-### Which tool do we use to create a documentation?
-
-To add documentation for Veams-Sass we are using `SassDoc`. 
+Just take a look into the separate [documentation section](/sass/docs/_output/). 
 
 ### Is there a demo?
 
