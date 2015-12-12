@@ -36,6 +36,8 @@
 		display: block;
 		padding-bottom: 1rem;
 		color: color(highlight-main);
+		position: relative;
+		z-index: 1;
 
 		&::after {
 			@extend %pseudo;
@@ -65,6 +67,8 @@
 		display: block;
 		margin-top: 1rem;
 		color: color(highlight-dark);
+		position: relative;
+		z-index: 1;
 
 		@include media(map-get($bp, mobile-p)) {
 			mix-blend-mode: hard-light;
@@ -81,6 +85,8 @@
 		color: color(highlight-main-dark);
 		text-transform: uppercase;
 		max-width: 55%;
+		position: relative;
+		z-index: 1;
 
 		@include media(map-get($bp, tablet-l)) {
 			max-width: 75%;
