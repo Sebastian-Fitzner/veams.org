@@ -11,16 +11,16 @@
 					{
 						"url": "/getting-started.html",
 						"menuLink": "Getting Started"
+					},
+					{
+						"url": "/installation.html",
+						"menuLink": "Installation"
 					}
 				]
 			},
 			{
 				"type": "Veams-Extensions",
 				"data": [
-					{
-						"url": "/generator/",
-						"menuLink": "Veams-Generator"
-					},
 					{
 						"url": "/methodology/",
 						"menuLink": "Veams-Methodology"
@@ -63,12 +63,12 @@
 		"ctaIcon": false,
 		"ctaContent": "Getting Started"
 	},
-	"generator": {
+	"veams-cli": {
 		"ctaButton": false,
-		"ctaTarget": "/generator/",
+		"ctaTarget": "/installation.html",
 		"ctaContextClass": "article",
 		"ctaIcon": false,
-		"ctaContent": "Installation of Veams-Generator"
+		"ctaContent": "Installation of Veams-Cli"
 	},
 	"generator-installation": {
 		"ctaButton": false,

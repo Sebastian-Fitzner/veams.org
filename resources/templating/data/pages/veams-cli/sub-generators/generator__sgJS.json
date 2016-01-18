@@ -15,7 +15,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/generator/sub-generators/generator__sgJS.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/sub-generators/generator__sgJS.md"
 				}
 			]
 		}

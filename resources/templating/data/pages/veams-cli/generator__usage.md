@@ -6,7 +6,7 @@ yo veams
 
 That's it.
 
-[**Just answer the questions and generate your individual project.**](/generator/prompts/)
+[**Just answer the questions and generate your individual project.**](/veams-cli/project/)
 
 All dependencies and task files will be automagically downloaded and configured. You can start your project in your console via 
 
@@ -41,7 +41,7 @@ Let's dive in and see our new structure:
 │   ├───bower-components
 │   ├───js
 │   ├───scss
-│   │   ├───global
+│   │   ├───globals
 │   │   ├───icons
 │   │   └───utils
 │   │       ├───extends
@@ -121,7 +121,7 @@ The _resources_ folder is your working directory. That is the folder in which yo
 │   │   ├───blocks
 │   │   ├───components
 │   │   ├───docs
-│   │   ├───global
+│   │   ├───globals
 │   │   ├───icons
 │   │   └───utils
 │   │       ├───extends
@@ -129,7 +129,7 @@ The _resources_ folder is your working directory. That is the folder in which yo
 │   └───templating
 │       ├───data
 │       │   ├───blocks
-│       │   └───global
+│       │   └───globals
 │       │   └───pages
 │       ├───docs
 │       ├───helpers
@@ -145,7 +145,6 @@ Contains your ajax files like JSON and HTML. All files will be copied to the **_
 #### assets:
 
 Contains your assets like fonts, images, media, icons and more. All sub folders will be copied to the **_output** directory.
-
 
 #### js:
 

@@ -57,7 +57,7 @@ module.exports = {
 		files: [
 			'<%= paths.src %>/templating/pages/generator/**/{,*/}*.{md,hbs,json}'
 		],
-		tasks: ['assemble:veamsGenerator'],
+		tasks: ['assemble:veamsCli'],
 		options: {
 			spawn: false
 		}

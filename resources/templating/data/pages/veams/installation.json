@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Installation of Veams",
+		"lead": "How to install Veams and all the dependencies?",
+		"contentTitle": "The Installation of Veams is easy."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams (or better Veams-Cli) bases on NodeJS."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams/installation.md"
+				}
+			]
+		}
+	}
+}

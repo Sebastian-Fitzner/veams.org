@@ -1,0 +1,21 @@
+---
+category: Veams
+title: <%= installation.metadata.title %>
+lead: <%= installation.metadata.lead %>
+contentTitle: <%= installation.metadata.contentTitle %>
+menuLink: Installation
+categoryType: Introduction
+sortOrder: 30
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START:  }}
+		{{#wrapWith "p-zone-veams"}}
+			{{#with installation.article}}
+				{{> c-article-veams }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END:  }}
+	{{/content}}
+{{/extend}}

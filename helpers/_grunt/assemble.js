@@ -61,10 +61,10 @@ module.exports = {
 			src: ['**/*.hbs']
 		}]
 	},
-	veamsGenerator: {
+	veamsCli: {
 		options: {},
 		files: [{
-			cwd: '<%= paths.src %>/templating/pages/generator',
+			cwd: '<%= paths.src %>/templating/pages/veams-cli',
 			dest: '<%= paths.dev %>/generator',
 			expand: true,
 			flatten: false,

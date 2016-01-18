@@ -15,7 +15,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/generator/generator__gettingStarted.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/generator__gettingStarted.md"
 				}
 			]
 		}
