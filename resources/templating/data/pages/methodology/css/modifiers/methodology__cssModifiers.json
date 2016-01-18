@@ -10,7 +10,7 @@
 			"articleH1": "Modifiers are a nice way to handle other states of an element."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

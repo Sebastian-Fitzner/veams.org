@@ -1,0 +1,34 @@
+---
+title: Figure - Build Better Prototypes with Veams
+menuLink: Figure
+sortOrder: 30
+sitemap: Standard Components
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+
+	{{! WrapWith START: Figure }}
+		{{#wrapWith "p-zone-veams" headline="Simple Figure" bg-color="highlight-1"}}
+			{{#with figure.simple}}
+				{{> c-figure}}
+			{{/with}}
+		{{/wrapWith}}
+		{{! WrapWith END: Figure }}
+		{{! WrapWith START: Figure }}
+		{{#wrapWith "p-zone-veams" headline="Figure with Caption"}}
+			{{#with figure.caption}}
+				{{> c-figure}}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Figure }}
+		{{! WrapWith START: Figure }}
+		{{#wrapWith "p-zone-veams" headline="Video in Figure"}}
+			{{#with figure.video}}
+				{{> c-figure}}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END: Figure }}
+
+	{{/content}}
+{{/extend}}

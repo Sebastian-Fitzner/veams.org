@@ -1,0 +1,9 @@
+[submodule "veams-components"]
+	path = veams-components
+	url = git@github.com:Sebastian-Fitzner/veams-components.git
+[submodule "veams-js"]
+	path = veams-js
+	url = git@github.com:Sebastian-Fitzner/veams-js.git
+[submodule "veams-sass"]
+	path = veams-sass
+	url = git@github.com:Sebastian-Fitzner/veams-sass.git

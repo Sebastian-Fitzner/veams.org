@@ -10,7 +10,7 @@
 			"articleH1": "Where we can find the documentation?"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

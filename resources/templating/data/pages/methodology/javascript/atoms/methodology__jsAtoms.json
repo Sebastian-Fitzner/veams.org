@@ -10,7 +10,7 @@
 			"articleH1": "Atoms are helpers to define event handlers in your markup."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

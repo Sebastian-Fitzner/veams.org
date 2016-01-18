@@ -11,7 +11,7 @@
 			"articleH1": "Scaffold BackboneJS models, views and collection in ES Harmony, CommonJS or AMD syntax while you are developing!"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

@@ -9,7 +9,7 @@
 			"articleH1": "Blocks are unique html snippets. You can only declare them once per page."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

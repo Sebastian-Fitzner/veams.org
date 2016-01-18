@@ -11,7 +11,7 @@
 			"articleH1": "How? It is really easy ..."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

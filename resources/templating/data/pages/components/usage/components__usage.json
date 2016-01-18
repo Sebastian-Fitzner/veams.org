@@ -10,7 +10,7 @@
 			"articleH1": "Veams-Components is splitted up into different files, so can decide which one you want to use."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

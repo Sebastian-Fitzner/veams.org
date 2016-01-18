@@ -5,7 +5,7 @@ component: article
 <article class="c-article{{#if articleModifierClass}}--{{articleModifierClass}}{{/if}}{{#if articleClasses}} {{articleClasses}}{{/if}}" data-css="c-article">
 
 	{{#if articleHeader}}
-		{{> c-article__header articleHeader}}
+		{{> c-article-veams__header articleHeader}}
 	{{/if}}
 
 	{{#if articleFigure }}
@@ -27,7 +27,7 @@ component: article
 	</div>
 
 	{{#if articleFooter}}
-		{{> c-article__footer articleFooter}}
+		{{> c-article-veams__footer articleFooter}}
 	{{/if}}
 
 </article>

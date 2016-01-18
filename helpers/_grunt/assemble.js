@@ -1,12 +1,17 @@
 module.exports = {
 	options: {
 		assets: '<%= paths.dev %>',
-		data: '<%= paths.src %>/templating/data/**/*.json',
+		data: [
+			'<%= paths.src %>/templating/data/**/*.json',
+			'./veams-components/components/**/*.json'
+		],
 		helpers: '<%= paths.src %>/templating/helpers/**/*.js',
 		layoutdir: '<%= paths.src %>/templating/layouts/',
-		layout: false, 
+		layout: false,
 		partials: [
 			'<%= paths.src %>/templating/partials/**/*.hbs',
+			'./veams-components/components/**/*.hbs',
+			'./veams-components/wrap-with/**/*.hbs',
 			'<%= paths.src %>/templating/layouts/*.hbs'
 		],
 		collections: [
@@ -17,8 +22,7 @@ module.exports = {
 		]
 	},
 	veamsSass: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/sass',
 			dest: '<%= paths.dev %>/sass',
@@ -28,8 +32,7 @@ module.exports = {
 		}]
 	},
 	veamsJS: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/javascript',
 			dest: '<%= paths.dev %>/js',
@@ -39,8 +42,7 @@ module.exports = {
 		}]
 	},
 	veamsComponents: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/components',
 			dest: '<%= paths.dev %>/components',
@@ -50,8 +52,7 @@ module.exports = {
 		}]
 	},
 	veamsMethodology: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/methodology',
 			dest: '<%= paths.dev %>/methodology',
@@ -61,8 +62,7 @@ module.exports = {
 		}]
 	},
 	veamsGenerator: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/generator',
 			dest: '<%= paths.dev %>/generator',
@@ -72,8 +72,7 @@ module.exports = {
 		}]
 	},
 	veams: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/',
 			dest: '<%= paths.dev %>/',

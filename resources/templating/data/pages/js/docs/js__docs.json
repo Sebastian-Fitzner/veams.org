@@ -10,7 +10,7 @@
 			"articleH1": "You can take a look at the repository."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

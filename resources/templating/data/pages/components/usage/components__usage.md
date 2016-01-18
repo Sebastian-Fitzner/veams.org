@@ -6,11 +6,16 @@ Just copy and paste the files you need to your project.
 
 #### `components`
 
-Here you can find general components. Just copy and paste the files you need into your project (`resources/templating/partials/components`). 
+Here you can find standard and JavaScript components. Just copy and paste the files you need into your project (`resources/templating/partials/components`). 
 
-1. Each component has a data (JSON) and style (SCSS) file in the same folder. 
-2. The `JSON` file is your blueprint.
-3. The Sass file should be included.
+1. Each component has a partial (Handlebars), data (JSON), page (Handlebars) and style (SCSS) file in the same folder. 
+2. Optionally there is a JavaScript file.
+3. The `JSON` file is your blueprint.
+4. The Sass file should be included.
+
+#### `mvc`
+
+In the `mvc` folder you can find JavaScript components which are using a MV* framework.
 
 #### `wrap-with`
 

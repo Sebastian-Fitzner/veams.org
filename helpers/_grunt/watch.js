@@ -10,20 +10,23 @@ module.exports = {
 	assets: {
 		files: [
 			'<%= paths.src %>/assets/**/*'
-			],
+		],
 		tasks: 'sync:assets'
 	},
 	scss: {
-		files: '<%= paths.src %>/scss/**/*',
+		files: [
+			'<%= paths.src %>/scss/**/*',
+			'veams-components/**/*.scss'
+		],
 		tasks: 'sass:defaults',
-	    options: {
+		options: {
 			spawn: false
 		}
 	},
 	sassdoc: {
 		files: '<%= paths.src %>/bower-components/veams-sass/**/*.scss',
 		tasks: 'sassdoc',
-	    options: {
+		options: {
 			spawn: false
 		}
 	},
@@ -32,9 +35,66 @@ module.exports = {
 		tasks: 'sass:universal'
 	},
 	templating: {
-		files: ['<%= paths.src %>/{templating/data,templating/layouts,templating/partials,templating/pages}/**/{,*/}*.{md,hbs,json}'],
-	    tasks: ['assemble'],
-	    options: {
+		files: [
+			'veams-components/**/{,*/}*.{md,hbs,json}',
+			'<%= paths.src %>/{templating/data,templating/layouts,templating/partials}/**/{,*/}*.{md,hbs,json}'
+		],
+		tasks: ['assemble'],
+		options: {
+			spawn: false
+		}
+	},
+	tplComponents: {
+		files: [
+			'<%= paths.src %>/templating/pages/components/**/{,*/}*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veamsComponents'],
+		options: {
+			spawn: false
+		}
+	},
+	tplGenerator: {
+		files: [
+			'<%= paths.src %>/templating/pages/generator/**/{,*/}*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veamsGenerator'],
+		options: {
+			spawn: false
+		}
+	},
+	tplJS: {
+		files: [
+			'<%= paths.src %>/templating/pages/js/**/{,*/}*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veamsJS'],
+		options: {
+			spawn: false
+		}
+	},
+	tplMethodology: {
+		files: [
+			'<%= paths.src %>/templating/pages/methodology/**/{,*/}*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veamsMethodology'],
+		options: {
+			spawn: false
+		}
+	},
+	tplVeams: {
+		files: [
+			'<%= paths.src %>/templating/pages/*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veams'],
+		options: {
+			spawn: false
+		}
+	},
+	tplSasss: {
+		files: [
+			'<%= paths.src %>/templating/pages/sass/**/*.{md,hbs,json}'
+		],
+		tasks: ['assemble:veamsSass'],
+		options: {
 			spawn: false
 		}
 	}

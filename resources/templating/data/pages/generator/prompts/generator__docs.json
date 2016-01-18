@@ -10,7 +10,7 @@
 			"articleH1": "Use JSDoc or Sassdoc to generate developer documentations."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

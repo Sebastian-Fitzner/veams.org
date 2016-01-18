@@ -2,10 +2,7 @@
     "version": "0.1.0",
     "dependencies": {
         "bourbon": "~4.2.4",
-        "neat": "~1.7.2",
-        "veams-components": "~1.0.0",
-        "veams-js": "~2.0.0",
-        "veams-scss": "~1.0.1"
+        "neat": "~1.7.2"
     },
     "name": "veams website"
 }

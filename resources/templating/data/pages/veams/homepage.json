@@ -6,7 +6,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Task Runners: Gulp & Grunt",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-01--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-01--320.jpg",
@@ -19,7 +19,7 @@
 				},
 				"teaserHeadline": "Task Runners",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/task-runners.md"
@@ -32,7 +32,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Sass Frameworks",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-02--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-02--320.jpg",
@@ -45,7 +45,7 @@
 				},
 				"teaserHeadline": "Sass and Sass Frameworks",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/sass.md"
@@ -58,7 +58,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Static Site Generator",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-03--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-03--320.jpg",
@@ -71,7 +71,7 @@
 				},
 				"teaserHeadline": "Static Site Generator",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/static-sites.md"
@@ -84,7 +84,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Testing",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-05--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-05--320.jpg",
@@ -97,7 +97,7 @@
 				},
 				"teaserHeadline": "Testing",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/testing.md"
@@ -110,7 +110,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Simple Picture",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-04--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-04--320.jpg",
@@ -123,7 +123,7 @@
 				},
 				"teaserHeadline": "JS Packaging and Managing",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/js.md"
@@ -136,7 +136,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "JS Frameworks",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-06--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-06--320.jpg",
@@ -149,7 +149,7 @@
 				},
 				"teaserHeadline": "JavaScript Frameworks",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/js-frameworks.md"
@@ -162,7 +162,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Veams Extensions",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-07--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-07--320.jpg",
@@ -175,7 +175,7 @@
 				},
 				"teaserHeadline": "Veams Extensions",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/veams-extensions.md"
@@ -188,7 +188,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": false,
 				"teaserFigure": {
-					"figureModifierClass": "teaser-home",
+					"figureContextClass": "teaser-home",
 					"pictureAlt": "Sub Generators",
 					"pictureUrlStd": "img/temp/pictures/teaser-home/pic-08--769.jpg",
 					"picture320": "img/temp/pictures/teaser-home/pic-08--320.jpg",
@@ -201,7 +201,7 @@
 				},
 				"teaserHeadline": "Sub Generators",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-home",
+					"rteContextClass": "teaser-home",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/home/sub-generators.md"

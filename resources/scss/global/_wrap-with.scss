@@ -2,6 +2,9 @@
 All WrapWith elements
 =================================================== */
 
+/* ---------------------------------------------------
+Teasers
+--------------------------------------------------- */
 .wrapper--teaser-home {
 	margin: 3rem 0;
 	float: left;
@@ -9,4 +12,20 @@ All WrapWith elements
 
 .wrapper--teaser-intro {
 	@extend %float;
+}
+
+/* ---------------------------------------------------
+Zone
+--------------------------------------------------- */
+.zone {
+	margin-bottom: 4rem;
+
+	.zone__header-headline {
+		@include article-headline;
+
+		font-weight: 300;
+		padding: 1rem;
+		background: color(highlight-dark);
+		color: color(white);
+	}
 }

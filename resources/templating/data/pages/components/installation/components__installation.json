@@ -10,7 +10,7 @@
 			"articleH1": "In general there are no requirements. Just download the package and take the files you need."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

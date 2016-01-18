@@ -9,7 +9,7 @@
 			"articleH1": "Modules are a great way to define a section with JavaScript functionality."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

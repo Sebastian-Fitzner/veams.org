@@ -10,7 +10,7 @@
 			"articleH1": "Veams-JS: Which files need to be included?"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

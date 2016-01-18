@@ -10,7 +10,7 @@
 			"articleH1": "BEM in light mode mixed with Regions, Components and Blocks."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

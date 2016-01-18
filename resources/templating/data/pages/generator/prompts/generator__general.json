@@ -10,7 +10,7 @@
 			"articleH1": "Provide a project name and some informations about you."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

@@ -10,7 +10,7 @@
 			"articleH1": "Projects should be developed fast, perhaps involve many developers and stay in effect for some time. That is the reason to use Veams-Methodology."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

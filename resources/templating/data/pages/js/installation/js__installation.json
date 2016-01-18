@@ -10,7 +10,7 @@
 			"articleH1": "By using ES Harmony or CommonJS Veams-JS depends on NodeJS."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

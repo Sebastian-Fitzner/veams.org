@@ -10,7 +10,7 @@
 			"articleH1": "Why do we need Veams-Components?"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

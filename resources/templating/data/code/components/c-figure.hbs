@@ -2,7 +2,7 @@
 component: figure
 ---
 
-<figure {{#if figureId}}id="{{figureId}}" {{/if}}class="c-figure{{#if figureModifierClass}}--{{figureModifierClass}}{{/if}}{{#if figureClasses}} {{figureClasses}}{{/if}}" data-css="c-figure">
+<figure {{#if figureId}}id="{{figureId}}" {{/if}}class="c-figure{{#if figureContextClass}}--{{figureContextClass}}{{/if}}{{#if figureClasses}} {{figureClasses}}{{/if}}" data-css="c-figure">
 	<div class="figure__wrapper">
 		{{#if pictureUrlStd}}
 			{{> c-picture}}

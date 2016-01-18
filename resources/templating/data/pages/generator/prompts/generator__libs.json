@@ -6,7 +6,7 @@
 			"articleH1": "Veams has some great frameworks included. Just install them without any configuration."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

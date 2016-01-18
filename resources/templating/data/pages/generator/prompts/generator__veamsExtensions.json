@@ -10,7 +10,7 @@
 			"articleH1": "Veams-Generator combines all Veams Extensions in one single place."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

@@ -1,0 +1,26 @@
+---
+title: Form - Build Better Prototypes with Veams
+menuLink: Form
+sortOrder: 40
+sitemap: Standard Components
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+
+	{{! WrapWith START: Form }}
+		{{#wrapWith "p-zone-veams" headline="Form Elements" bg-color="highlight-1"}}
+		{{! WrapWith START: Form Wrapper }}
+			{{#with form}}
+
+				{{#each fieldsets}}
+					{{> c-form__fieldset }}
+				{{/each}}
+
+			{{/with}}
+		{{! WrapWith END: Form Wrapper }}
+		{{/wrapWith}}
+	{{! WrapWith END: Form }}
+
+	{{/content}}
+{{/extend}}

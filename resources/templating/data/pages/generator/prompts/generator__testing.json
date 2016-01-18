@@ -10,7 +10,7 @@
 			"articleH1": "You can add Testing and Quality Assurance Tools."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

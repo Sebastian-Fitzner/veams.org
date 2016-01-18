@@ -13,7 +13,7 @@
 			"articleH1": "Veams-Generator provides also a setup with Gulp-Plugins. Just add them in the prompts."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

@@ -10,7 +10,7 @@
 			"articleH1": "Options are very useful and easy to add."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

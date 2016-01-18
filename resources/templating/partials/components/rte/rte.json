@@ -1,9 +1,0 @@
-{
-	"rteModifierClass": "content",
-	"rteClasses": "is-small",
-	"rtes": [
-		{
-			"rteMd": "markdown/text.md"
-		}
-	]
-}

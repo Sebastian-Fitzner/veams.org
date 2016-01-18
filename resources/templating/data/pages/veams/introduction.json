@@ -9,7 +9,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": "/generator/",
 				"teaserFigure": {
-					"figureModifierClass": "teaser-intro",
+					"figureContextClass": "teaser-intro",
 					"pictureAlt": "Veams Generator",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-01--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-01--320.jpg",
@@ -22,7 +22,7 @@
 				},
 				"teaserHeadline": "Veams Generator",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-intro",
+					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/generator.md"
@@ -35,7 +35,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": "/methodology/",
 				"teaserFigure": {
-					"figureModifierClass": "teaser-intro",
+					"figureContextClass": "teaser-intro",
 					"pictureAlt": "Veams Methodolgy",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-02--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-02--320.jpg",
@@ -48,7 +48,7 @@
 				},
 				"teaserHeadline": "Veams Methodology",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-intro",
+					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/methodology.md"
@@ -61,7 +61,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": "/sass/",
 				"teaserFigure": {
-					"figureModifierClass": "teaser-intro",
+					"figureContextClass": "teaser-intro",
 					"pictureAlt": "Veams Sass",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-03--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-03--320.jpg",
@@ -74,7 +74,7 @@
 				},
 				"teaserHeadline": "Veams Sass",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-intro",
+					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/sass.md"
@@ -87,7 +87,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": "/components/",
 				"teaserFigure": {
-					"figureModifierClass": "teaser-intro",
+					"figureContextClass": "teaser-intro",
 					"pictureAlt": "Veams Components",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-04--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-04--320.jpg",
@@ -100,7 +100,7 @@
 				},
 				"teaserHeadline": "Veams Components",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-intro",
+					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/components.md"
@@ -113,7 +113,7 @@
 				"teaserJSAtom": "equal-child",
 				"teaserLink": "/js/",
 				"teaserFigure": {
-					"figureModifierClass": "teaser-intro",
+					"figureContextClass": "teaser-intro",
 					"pictureAlt": "Veams JavaScript",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-05--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-05--320.jpg",
@@ -126,7 +126,7 @@
 				},
 				"teaserHeadline": "Veams JavaScript",
 				"teaserRTE": {
-					"rteModifierClass": "teaser-intro",
+					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
 							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/js.md"
@@ -143,7 +143,7 @@
 			"articleH1": "That's it. To cut the matter short:"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

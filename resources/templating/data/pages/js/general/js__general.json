@@ -10,7 +10,7 @@
 			"articleH1": "What is the purpose of Veams-JS?"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

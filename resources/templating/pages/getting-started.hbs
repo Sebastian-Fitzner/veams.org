@@ -15,7 +15,7 @@ sortOrder: 10
 		{{#wrapWith "w-simple" modifier="teaser-intro"}}
 			{{#with introduction.teasers}}
 				{{#each data}}
-					{{> c-teaser }}
+					{{> c-teaser-veams }}
 				{{/each}}
 			{{/with}}
 		{{/wrapWith}}
@@ -23,9 +23,9 @@ sortOrder: 10
 	{{/content}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
-		{{#wrapWith "p-zone"}}
+		{{#wrapWith "p-zone-veams"}}
 			{{#with introduction.article}}
-				{{> c-article }}
+				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}

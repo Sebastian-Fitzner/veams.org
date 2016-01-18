@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"title": "Veams-Components",
+		"lead": "Standard Component: Article"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Demo usage of articles."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/components/installation/components__installation.md"
+				}
+			]
+		}
+	}
+}
+

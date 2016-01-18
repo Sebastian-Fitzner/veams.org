@@ -10,7 +10,7 @@
 			"articleH1": "How do we use all attributes together?"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

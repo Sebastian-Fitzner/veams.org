@@ -11,7 +11,7 @@
 			"articleH1": "Veams-Generator writes your build configuration (Gruntfile, Gulpfile), pulls in relevant build tasks and packages manager dependencies (Bower, npm) that you need for your build."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

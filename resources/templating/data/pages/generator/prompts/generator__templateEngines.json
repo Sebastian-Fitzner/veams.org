@@ -10,7 +10,7 @@
 			"articleH1": "HandlebarsJS - Veams template engine for static site generation."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

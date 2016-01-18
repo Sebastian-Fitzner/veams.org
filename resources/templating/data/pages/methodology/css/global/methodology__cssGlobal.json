@@ -10,7 +10,7 @@
 			"articleH1": "Global styles are useful - when you have a common rule to handle them."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

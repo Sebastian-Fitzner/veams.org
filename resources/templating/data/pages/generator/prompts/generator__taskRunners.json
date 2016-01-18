@@ -10,7 +10,7 @@
 			"articleH1": "Veams-Generator makes different task runners available."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

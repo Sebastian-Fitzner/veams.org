@@ -10,7 +10,7 @@
 			"articleH1": "Contexts are a simple way to prevent inheritance of styles."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

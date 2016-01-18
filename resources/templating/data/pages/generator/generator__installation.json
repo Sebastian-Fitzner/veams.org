@@ -11,7 +11,7 @@
 			"articleH1": "It bases on NodeJS and Yeoman and uses Grunt/Gulp and Bower/NPM."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

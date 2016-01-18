@@ -9,7 +9,7 @@
 			"articleH1": "Components have a very important role and are reusable."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

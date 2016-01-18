@@ -11,7 +11,7 @@
 			"articleH1": "Add provided Grunt tasks while you are developing!"
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{

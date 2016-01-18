@@ -12,12 +12,12 @@ sortOrder: 00
 {{#extend "lyt-default"}}
 	{{#content "main"}}
 	{{! WrapWith START:  }}
-		{{#wrapWith "p-zone"}}
+		{{#wrapWith "p-zone-veams"}}
 			{{! WrapWith START:  }}
 			{{#wrapWith "w-simple" modifier="teaser-home"}}
 				{{#with homepage.teasers}}
 					{{#each data}}
-						{{> c-teaser }}
+						{{> c-teaser-veams }}
 					{{/each}}
 				{{/with}}
 			{{/wrapWith}}

@@ -9,7 +9,7 @@
 			"articleH1": "Regions are areas in our layout which can be filled with Blocks and Components."
 		},
 		"articleRTE": {
-			"rteModifierClass": "content",
+			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{
