@@ -1,20 +1,20 @@
 {
 	"metadata": {
 		"title": "Which task runner do you want to use?",
-		"lead": "Veams-Generator supplies the most famous Task Runners. Just choose one of them - or both!"
+		"lead": "Veams supplies the most famous Task Runners. Just choose one of them - or both!"
 	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Veams-Generator makes different task runners available."
+			"articleH1": "Veams makes different task runners available."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/project/generator__taskRunners.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__taskRunners.md"
 				}
 			]
 		}

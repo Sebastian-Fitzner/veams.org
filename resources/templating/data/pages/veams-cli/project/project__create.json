@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"title": "How to use Veams-Generator",
+		"title": "How to use Veams-Cli",
 		"lead": "Just one line in your console and after a cup of coffee be productive!",
 		"contentTitle": "Scaffold your project and make custom configurations."
 	},
@@ -15,7 +15,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/generator__usage.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__create.md"
 				}
 			]
 		}

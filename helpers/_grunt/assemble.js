@@ -65,7 +65,7 @@ module.exports = {
 		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/veams-cli',
-			dest: '<%= paths.dev %>/generator',
+			dest: '<%= paths.dev %>/veams-cli',
 			expand: true,
 			flatten: false,
 			src: ['**/*.hbs']

@@ -5,21 +5,18 @@ block: logo
 <div class="b-logo">
 	<h1 class="logo__headline">
 		<a class="logo__link
-		{{#each category}}
-		{{#is category "Veams-Generator"}} is-veams-generator
-		{{else}}{{#is category "Veams-Sass"}} is-veams-sass
+		{{#each category}}{{#is category "Veams-Sass"}} is-veams-sass
 		{{else}}{{#is category "Veams-Methodology"}} is-veams-methodology
 		{{else}}{{#is category "Veams-JavaScript"}} is-veams-js
 		{{else}}{{#is category "Veams-Components"}} is-veams-components
 		{{else}} is-veams
-		{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}{{/each}}" href="
-		{{#each category}}{{#is category "Veams-Generator"}}/generator/
-				{{else}}{{#is category "Veams-Sass"}}/sass/
+		{{/is}}{{/is}}{{/is}}{{/is}}{{/each}}" href="
+		{{#each category}}{{#is category "Veams-Sass"}}/sass/
 				{{else}}{{#is category "Veams-Methodology"}}/methodology/
 				{{else}}{{#is category "Veams-JavaScript"}}/js/
 				{{else}}{{#is category "Veams-Components"}}/components/
 				{{else}}/
-				{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}">
+				{{/is}}{{/is}}{{/is}}{{/is}}">
 		{{/each}}
 			Veams
 		</a>

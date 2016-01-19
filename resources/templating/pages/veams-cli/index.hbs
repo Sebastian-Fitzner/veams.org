@@ -1,10 +1,10 @@
 ---
-category: Veams-Generator
-title: <%= generator__gettingStarted.metadata.title %>
-lead: <%= generator__gettingStarted.metadata.lead %>
-contentTitle: <%= generator__gettingStarted.metadata.contentTitle %>
-menuLink: What is Veams-Generator?
-categoryType: General
+category: Veams
+title: <%= cli__gettingStarted.metadata.title %>
+lead: <%= cli__gettingStarted.metadata.lead %>
+contentTitle: <%= cli__gettingStarted.metadata.contentTitle %>
+menuLink: What is Veams-Cli?
+categoryType: 01 | General
 sortOrder: 00
 ---
 
@@ -12,10 +12,11 @@ sortOrder: 00
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__gettingStarted.article}}
+			{{#with cli__gettingStarted.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}
 		{{! WrapWith END:  }}
 	{{/content}}
 {{/extend}}
+

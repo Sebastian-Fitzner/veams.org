@@ -1,9 +1,9 @@
 ---
 category: Veams-Generator
-title: <%= generator__taskRunners.metadata.title %>
-lead: <%= generator__taskRunners.metadata.lead %>
-menuLink: "Task-Runners"
-categoryType: Prompts
+title: <%= project__taskRunners.metadata.title %>
+lead: <%= project__taskRunners.metadata.lead %>
+menuLink: "Task-Runners Questions"
+categoryType: 02 | Create a new project
 sortOrder: 20
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 20
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__taskRunners.article}}
+			{{#with project__taskRunners.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

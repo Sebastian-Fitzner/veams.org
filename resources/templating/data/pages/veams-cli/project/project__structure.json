@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "How does your project looks like?",
+		"lead": "In-depth look into the structure of your new project"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Let's dive in and see our new structure ..."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__structure.md"
+				}
+			]
+		}
+	}
+}

@@ -2,9 +2,7 @@
 <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 {{#each category}}
-	{{#is category "Veams-Generator"}}
-		<link rel="stylesheet" href="{{assets}}/css/styles-veams-generator.css" />
-	{{else}}{{#is category "Veams-Methodology"}}
+	{{#is category "Veams-Methodology"}}
 		<link rel="stylesheet" href="{{assets}}/css/styles-veams-methodology.css" />
 	{{else}}{{#is category "Veams-Sass"}}
 		<link rel="stylesheet" href="{{assets}}/css/styles-veams-sass.css" />
@@ -14,5 +12,5 @@
 		<link rel="stylesheet" href="{{assets}}/css/styles-veams-components.css" />
 	{{else}}
 		<link rel="stylesheet" href="{{assets}}/css/styles-veams.css" />
-	{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}
+	{{/is}}{{/is}}{{/is}}{{/is}}
 {{/each}}

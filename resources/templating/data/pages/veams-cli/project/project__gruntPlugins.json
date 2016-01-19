@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"title": "Which Grunt-Plugins do you want to use?",
-		"lead": "Choose Grunt-Plugins and Veams-Generator writes the configuration for you!",
+		"lead": "Choose Grunt-Plugins and Veams writes the configuration for you!",
 		"menuLink": "Grunt Plugins",
 		"type": "Veams-Generator",
 		"sortOrder": "04"
@@ -10,14 +10,14 @@
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Veams-Generator provides a ton of useful Grunt-Plugins. Just add them in the prompts."
+			"articleH1": "Veams provides a ton of useful Grunt-Plugins. Just add them in the prompts."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/project/generator__gruntPlugins.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__gruntPlugins.md"
 				}
 			]
 		}

@@ -6,7 +6,7 @@ A Task Runner is a tool to automate the work you have to do. Because we all know
 
 The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort.
 
-Grunt is Veams major Task Runner. That's why Veams-Generator provides a ton of plugins you can choose from. 
+Grunt is Veams major Task Runner. That's why Veams provides a ton of plugins you can choose from. 
 
 ### Gulp 
 

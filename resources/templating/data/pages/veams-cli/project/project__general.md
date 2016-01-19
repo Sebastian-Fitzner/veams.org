@@ -1,4 +1,4 @@
-### Installation Routine
+### Prompt No. 1 :: Installation Routine
 
 You can choose between two installation routines: 
 
@@ -18,10 +18,10 @@ By choosing `Minimal Installation` you will get the following setup:
 - Assemble as Template Engine
 - Extended Layouts
 
-### Application|Project Name
+### Prompt No. 2 :: Application|Project Name
 
 Define a name for your new application. This name will be saved in the `package.json` and `Readme.MD`. 
 
-### Author Name
+### Prompt No. 3 :: Author Name
 
 You can provide an author name. This name will be saved in the `package.json`.

@@ -55,7 +55,7 @@ module.exports = {
 	},
 	tplGenerator: {
 		files: [
-			'<%= paths.src %>/templating/pages/generator/**/{,*/}*.{md,hbs,json}'
+			'<%= paths.src %>/templating/pages/veams-cli/**/{,*/}*.{md,hbs,json}'
 		],
 		tasks: ['assemble:veamsCli'],
 		options: {
