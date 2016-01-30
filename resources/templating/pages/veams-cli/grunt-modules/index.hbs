@@ -1,27 +1,20 @@
 ---
 category: Veams
-title: <%= generator__sgGrunt.metadata.title %>
-lead: <%= generator__sgGrunt.metadata.lead %>
-menuLink: "Grunt Tasks"
-categoryType: "Sub-Generators"
-sortOrder: 10
+title: <%= grunt__sgGrunt.metadata.title %>
+lead: <%= grunt__sgGrunt.metadata.lead %>
+menuLink: "Add Provided Grunt Modules"
+categoryType: Install Grunt Modules <span>while you are developing</span>
+sortOrder: 00
 ---
 
 {{#extend "lyt-details"}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__sgGrunt.article}}
+			{{#with grunt__sgGrunt.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}
 	{{! WrapWith END:  }}
 	{{/content}}
-	{{!#content "main-bottom"}}
-	{{! WrapWith START: CTA }}
-		{{!#wrapWith "w-simple" classes="is-left"}}
-			{{!> c-cta links.generator-veams-extensions}}
-		{{!/wrapWith}}
-	{{! WrapWith END: CTA }}
-	{{!/content}}
 {{/extend}}

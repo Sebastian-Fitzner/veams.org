@@ -1,0 +1,23 @@
+{
+
+	"metadata": {
+		"title": "Using blueprints in Veams.",
+		"lead": "Create components, blocks or generic partials based on a blueprint provided by Veams."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Easily create a component with all necessary files in seconds."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/blueprint/bp__new.md"
+				}
+			]
+		}
+	}
+}

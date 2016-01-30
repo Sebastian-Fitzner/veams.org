@@ -1,9 +1,9 @@
 ---
-category: Veams-Generator
-title: <%= generator__templateEngines.metadata.title %>
-lead: <%= generator__templateEngines.metadata.lead %>
-menuLink: "Template Engines"
-categoryType: Prompts
+category: Veams
+title: <%= project__templateEngines.metadata.title %>
+lead: <%= project__templateEngines.metadata.lead %>
+menuLink: "Question: Template Engines"
+categoryType: 02 | Create a new project
 sortOrder: 50
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 50
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__templateEngines.article}}
+			{{#with project__templateEngines.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

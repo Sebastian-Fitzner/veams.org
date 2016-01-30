@@ -1,9 +1,9 @@
 ---
 category: Veams
-title: <%= generator__docs.metadata.title %>
-lead: <%= generator__docs.metadata.lead %>
-menuLink: "Documentation"
-categoryType: Prompts
+title: <%= project__docs.metadata.title %>
+lead: <%= project__docs.metadata.lead %>
+menuLink: "Question: Documentation"
+categoryType: 02 | Create a new project
 sortOrder: 90
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 90
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__docs.article}}
+			{{#with project__docs.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

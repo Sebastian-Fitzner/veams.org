@@ -1,23 +1,3 @@
-### Assemble
-
-Assemble is a component and static site generator that makes it dead simple to build modular sites, documentation and components from reusable templates and data.
-
-**You want to know more or want to have an in-depth look? Here you go: [assemble.io](http://assemble.io)**
-
-### Assemble Plugins
-
-In the installation routine you can choose specific modules for Assemble:
-
- * assemble-contrib-permalinks
- * assemble-contrib-sitemap
- * assemble-related-pages
-
-### Extended Layouts
-
-Assemble comes with another pretty nice helper to solve problems with complexity in layouts. This helpers are `\{{#block}}`,`\{{#extend}}` and `\{{#content}}` and makes it easy for us to extend specific sections in your layout. 
-
-We suggest you to add this in the prompts. 
-
 ### Handlebars Helpers
 
 **The most important resource for helpers is provided by Assemble.io. There are tons of useful helpers, so be sure you check out http://assemble.io/helpers/ ...**
@@ -48,7 +28,6 @@ This helper is integrated in Veams. When you want to know more about the helper,
 
 Veams provides a helper to construct a general template snippet (\{{#wrapWith}}) which can be used as enclosing markup in our pages and/or partials. This helper is very useful when we have to build complex grid systems with repetitive code.
 
-
 ##### Example
 
 **WrapWith Template**: 
@@ -73,7 +52,7 @@ Veams also added a helper to merge JSON objects. This is very useful because you
 ##### Example
 
 ``` hbs
-\{{#mergeData myJsonFile '{"myKey": "myValue"}'}}
+\{{#mergeData myJsonFile data='{"myKey": "myValue"}'}}
    \{{> my-partial}}
 \{{/mergeData}}
 ```

@@ -1,7 +1,6 @@
 {
-
 	"metadata": {
-		"title": "Use Sub-Generators with Veams-Generator",
+		"title": "Use Veams to install helper files.",
 		"lead": "While you are developing you can easily extend your projects with custom templating helpers."
 	},
 	"article": {
@@ -15,7 +14,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/template-helper/generator__sgTemplating.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/template-helper/tplHelper__sgTemplating.md"
 				}
 			]
 		}

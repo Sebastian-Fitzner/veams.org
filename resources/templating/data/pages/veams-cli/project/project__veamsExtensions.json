@@ -7,14 +7,14 @@
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Veams-Generator combines all Veams Extensions in one single place."
+			"articleH1": "Veams combines all Veams Extensions in one single place."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/project/generator__veamsExtensions.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__veamsExtensions.md"
 				}
 			]
 		}

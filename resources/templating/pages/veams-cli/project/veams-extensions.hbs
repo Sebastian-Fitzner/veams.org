@@ -1,9 +1,9 @@
 ---
-category: Veams-Generator
-title: <%= generator__veamsExtensions.metadata.title %>
-lead: <%= generator__veamsExtensions.metadata.lead %>
-menuLink: "Veams-Extensions"
-categoryType: Prompts
+category: Veams
+title: <%= project__veamsExtensions.metadata.title %>
+lead: <%= project__veamsExtensions.metadata.lead %>
+menuLink: "Question: Veams-Extensions"
+categoryType: 02 | Create a new project
 sortOrder: 70
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 70
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__veamsExtensions.article}}
+			{{#with project__veamsExtensions.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}
@@ -20,7 +20,7 @@ sortOrder: 70
 	{{!#content "main-bottom"}}
 	{{! WrapWith START: CTA }}
 		{{!#wrapWith "w-simple" classes="is-left"}}
-			{{!> c-cta links.generator-veams-extensions}}
+			{{!> c-cta links.project-veams-extensions}}
 		{{!/wrapWith}}
 	{{! WrapWith END: CTA }}
 	{{!/content}}

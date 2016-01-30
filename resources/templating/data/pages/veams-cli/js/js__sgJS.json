@@ -1,7 +1,7 @@
 {
 
 	"metadata": {
-		"title": "Use Sub-Generators with Veams-Generator",
+		"title": "Add JavaScript files to your project.",
 		"lead": "While you are developing you can easily scaffold Views, Models and Collections."
 	},
 	"article": {
@@ -15,7 +15,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/sub-generators/generator__sgJS.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/js/js__sgJS.md"
 				}
 			]
 		}

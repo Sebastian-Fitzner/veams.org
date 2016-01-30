@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Custom handlebars helpers",
+		"lead": "Veams provides custom handlebars helpers to enhance the template workflow in your project."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Use custom helpers to construct general template snippets, merge data objects, limit your JSON output and more!"
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/template-helper/tplHelper__templateHelpers.md"
+				}
+			]
+		}
+	}
+}

@@ -1,9 +1,9 @@
 ---
-category: Veams-Generator
-title: <%= generator__testing.metadata.title %>
-lead: <%= generator__testing.metadata.lead %>
-menuLink: "Testing & QA Tools"
-categoryType: Prompts
+category: Veams
+title: <%= project__testing.metadata.title %>
+lead: <%= project__testing.metadata.lead %>
+menuLink: "Question: Testing & QA Tools"
+categoryType: 02 | Create a new project
 sortOrder: 80
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 80
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__testing.article}}
+			{{#with project__testing.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

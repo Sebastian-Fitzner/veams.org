@@ -3,7 +3,7 @@
 		"title": "Which Gulp-Plugins do you want to use?",
 		"lead": "Choose Gulp-Plugins and Veams-Generator writes the configuration for you!",
 		"menuLink": "Gulp Plugins",
-		"type": "Veams-Generator",
+		"type": "Veams",
 		"sortOrder": "05"
 	},
 	"article": {
@@ -17,7 +17,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/project/generator__gulpPlugins.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/project/project__gulpPlugins.md"
 				}
 			]
 		}

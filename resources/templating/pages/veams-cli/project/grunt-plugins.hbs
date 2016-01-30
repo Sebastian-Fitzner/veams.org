@@ -1,9 +1,9 @@
 ---
-category: Veams-Generator
-title: <%= generator__gruntPlugins.metadata.title %>
-lead: <%= generator__gruntPlugins.metadata.lead %>
-menuLink: "Grunt-Plugins"
-categoryType: Prompts
+category: Veams
+title: <%= project__gruntPlugins.metadata.title %>
+lead: <%= project__gruntPlugins.metadata.lead %>
+menuLink: "Question: Grunt-Plugins"
+categoryType: 02 | Create a new project
 sortOrder: 30
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 30
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__gruntPlugins.article}}
+			{{#with project__gruntPlugins.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

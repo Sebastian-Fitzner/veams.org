@@ -1,0 +1,23 @@
+{
+
+	"metadata": {
+		"title": "Installing blueprints in Veams.",
+		"lead": "Veams gives you the possibility to install custom blueprints into your projects."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Easily install a component, block or partial with all necessary files in seconds."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/blueprint/bp__install.md"
+				}
+			]
+		}
+	}
+}

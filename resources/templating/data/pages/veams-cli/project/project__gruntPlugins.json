@@ -3,7 +3,7 @@
 		"title": "Which Grunt-Plugins do you want to use?",
 		"lead": "Choose Grunt-Plugins and Veams writes the configuration for you!",
 		"menuLink": "Grunt Plugins",
-		"type": "Veams-Generator",
+		"type": "Veams",
 		"sortOrder": "04"
 	},
 	"article": {

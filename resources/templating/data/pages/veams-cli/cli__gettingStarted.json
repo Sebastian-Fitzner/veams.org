@@ -1,23 +1,23 @@
 {
-  "metadata": {
-    "title": "What is Veams-Cli?",
-    "lead": "What is the real benefit of Veams-Cli?",
-    "contentTitle": "Veams-Cli scaffolds out a new (simple or complex) application in a few minutes or helps you to install components or blueprints."
-  },
-  "article": {
-    "articleModiferClass": false,
-    "articleClasses": false,
-    "articleHeader": {
-      "articleH1": "Veams-Cli provides a command line interface for scaffolds and build processes ... "
-    },
-    "articleRTE": {
-      "rteContextClass": "content",
-      "rteClasses": "is-small",
-      "rtes": [
-        {
-          "rteMd": "resources/templating/data/pages/veams-cli/cli__gettingStarted.md"
-        }
-      ]
-    }
-  }
+	"metadata": {
+		"title": "What is Veams-Cli?",
+		"lead": "What is the real benefit of Veams-Cli?",
+		"contentTitle": "Veams-Cli scaffolds out a new (simple or complex) application in a few minutes or helps you to install components or blueprints."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Cli provides a command line interface for scaffolds and build processes ... "
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/cli__gettingStarted.md"
+				}
+			]
+		}
+	}
 }

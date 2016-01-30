@@ -1,9 +1,9 @@
 ---
-category: Veams-Generator
-title: Libraries and Frameworks in Veams-Generator
-lead: Add famous Sass and JavaScript Libraries/Frameworks to your project.
-menuLink: "Frameworks and Libraries"
-categoryType: Prompts
+category: Veams
+title: <%= project__libs.metadata.title %>
+lead: <%= project__libs.metadata.lead %>
+menuLink: "Question: Frameworks and Libraries"
+categoryType: 02 | Create a new project
 sortOrder: 60
 ---
 
@@ -11,7 +11,7 @@ sortOrder: 60
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with generator__libs.article}}
+			{{#with project__libs.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

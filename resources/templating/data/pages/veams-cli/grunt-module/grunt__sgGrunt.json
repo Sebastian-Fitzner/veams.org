@@ -1,8 +1,8 @@
 {
 
 	"metadata": {
-		"title": "Use Sub-Generators with Veams-Generator",
-		"lead": "While you are developing you can easily extend your projects with Grunt tasks."
+		"title": "Use Veams to install Grunt modules",
+		"lead": "While you are developing you can easily extend your projects by installing further Grunt modules."
 	},
 	"article": {
 		"articleModiferClass": false,
@@ -15,7 +15,7 @@
 			"rteClasses": "is-small",
 			"rtes": [
 				{
-					"rteMd": "resources/templating/data/pages/veams-cli/grunt-module/generator__sgGrunt.md"
+					"rteMd": "resources/templating/data/pages/veams-cli/grunt-module/grunt__sgGrunt.md"
 				}
 			]
 		}
