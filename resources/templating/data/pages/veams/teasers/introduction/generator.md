@@ -1,1 +1,0 @@
-A custom Yeoman generator builds the base and helps in scaffolding and automating many things.

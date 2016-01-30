@@ -2,7 +2,7 @@
 	"nav": {
 		"data": [
 			{
-				"type": "Getting Started",
+				"type": "Overview",
 				"data": [
 					{
 						"url": "/",
@@ -10,11 +10,32 @@
 					},
 					{
 						"url": "/getting-started.html",
-						"menuLink": "Getting Started"
+						"menuLink": "Introduction"
 					},
 					{
 						"url": "/installation.html",
 						"menuLink": "Installation"
+					}
+				]
+			},
+			{
+				"type": "Getting Started",
+				"data": [
+					{
+						"url": "/veams-cli/",
+						"menuLink": "Veams-Cli"
+					},
+					{
+						"url": "/veams-cli/project/",
+						"menuLink": "Create a new project"
+					},
+					{
+						"url": "/veams-cli/blueprint/",
+						"menuLink": "Using blueprints"
+					},
+					{
+						"url": "/veams-cli/template-helpers/",
+						"menuLink": "Templating helpers"
 					}
 				]
 			},

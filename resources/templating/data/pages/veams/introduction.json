@@ -7,10 +7,10 @@
 			{
 				"teaserModifierClass": "intro",
 				"teaserJSAtom": "equal-child",
-				"teaserLink": "/generator/",
+				"teaserLink": "/veams-cli/",
 				"teaserFigure": {
 					"figureContextClass": "teaser-intro",
-					"pictureAlt": "Veams Generator",
+					"pictureAlt": "Veams-Cli",
 					"pictureUrlStd": "img/temp/pictures/teaser-intro/pic-01--769.jpg",
 					"picture320": "img/temp/pictures/teaser-intro/pic-01--320.jpg",
 					"picture320_2x": "img/temp/pictures/teaser-intro/pic-01--320_2x.jpg",
@@ -20,12 +20,12 @@
 					"picture768_2x": "img/temp/pictures/teaser-intro/pic-01--768_2x.jpg",
 					"picture769": "img/temp/pictures/teaser-intro/pic-01--769.jpg"
 				},
-				"teaserHeadline": "Veams Generator",
+				"teaserHeadline": "Veams-Cli",
 				"teaserRTE": {
 					"rteContextClass": "teaser-intro",
 					"rtes": [
 						{
-							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/generator.md"
+							"rteMd": "resources/templating/data/pages/veams/teasers/introduction/cli.md"
 						}
 					]
 				}

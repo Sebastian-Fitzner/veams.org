@@ -1,0 +1,1 @@
+A custom Cli builds the base and helps in scaffolding and automating many things.
