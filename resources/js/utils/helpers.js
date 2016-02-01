@@ -380,12 +380,13 @@ Helpers.isInViewport = function (el, useBounds) {
  * @return {number}
  */
 Helpers.getOuterHeight = function (el, outer) {
-	var height = el[0].offsetHeight;
+	var height = el.offsetHeight;
 
 	if (outer) {
-		var style = getComputedStyle(el[0]);
+		var style = getComputedStyle(el);
 		height += parseInt(style.paddingTop) + parseInt(style.paddingBottom);
 	}
+
 	return height;
 };
 

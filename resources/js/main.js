@@ -13,6 +13,7 @@ import Navigation from './modules/navigation/navigationView';
 import TOC from './modules/toc/tocView';
 import ButtonInit from './modules/button/button-init';
 import Toggle from './modules/toggle/ui-toggle';
+import Accordion from './modules/accordion/accordion';
 import EqualRows from './modules/equal-row-height/equal-row-heights';
 
 "use strict";
@@ -107,6 +108,15 @@ class Core {
 		Helpers.loadModule({
 			el: '[data-js-module="toggle"]',
 			Module: Toggle,
+			context: context
+		});
+
+		/**
+		 * Init Accordion
+		 */
+		Helpers.loadModule({
+			el: '[data-js-module="accordion"]',
+			Module: Accordion,
 			context: context
 		});
 

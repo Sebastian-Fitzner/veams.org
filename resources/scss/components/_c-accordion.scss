@@ -1,0 +1,16 @@
+/* ===================================================
+Accordion
+=================================================== */
+
+[data-css="c-accordion"] {
+	.is-closed {
+		height: 0;
+		transition: height $transition-ease-method $transition-duration/2;
+		overflow: hidden;
+	}
+
+	.is-open {
+		transition: height $transition-ease-method $transition-duration/2;
+		overflow: hidden;
+	}
+}

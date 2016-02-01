@@ -28,6 +28,13 @@ TOC
 		color: color(highlight-dark);
 		font-weight: 500;
 		text-transform: uppercase;
+		border-bottom: 1px solid color(white);
+
+		&:hover {
+			background: color(higlight-dark);
+			color: color(highlight-main-dark);
+			cursor: pointer;
+		}
 
 		span {
 			display: block;
@@ -39,8 +46,11 @@ TOC
 	.subnav__list-item {
 		border-bottom: 1px solid color(highlight-main);
 
+		&:last-child {
+			border-bottom: none 0;
+		}
 		&:first-child {
-			border-top: 1px solid color(highlight-main);
+			// border-top: 1px solid color(highlight-main);
 		}
 	}
 
