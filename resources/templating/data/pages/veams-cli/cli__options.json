@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Options in Veams-Cli",
+		"lead": "Which options and commands does Veams-Cli providing?"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Cli provides a whole set of pretty neat commands and automatisms."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/cli__options.md"
+				}
+			]
+		}
+	}
+}

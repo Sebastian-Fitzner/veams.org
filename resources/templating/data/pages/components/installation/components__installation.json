@@ -1,13 +1,13 @@
 {
 	"metadata": {
-		"title": "How to install Veams-Sass.",
-		"lead": "Veams-Components installation in detail."
+		"title": "How to install a Veams-Component.",
+		"lead": "Veams-Component installation process in detail."
 	},
 	"article": {
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "In general there are no requirements. Just download the package and take the files you need."
+			"articleH1": "A really nice part of Veams is that you can install Veams-Components with Veams-Cli. That means, all files will be copied to your folders and all snippets get inserted."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",

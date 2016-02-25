@@ -1,0 +1,23 @@
+{
+
+	"metadata": {
+		"title": "Using blueprints in Veams.",
+		"lead": "Add components or blocks to your project automatically while you are developing."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Easily create a component or block with all necessary files and insert the files and snippets in your current project in seconds."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/blueprint/bp__add.md"
+				}
+			]
+		}
+	}
+}

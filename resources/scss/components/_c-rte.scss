@@ -159,6 +159,55 @@ Global Styles
 	pre {
 		position: relative;
 	}
+
+	/*
+	Table
+	----------------------- */
+	table {
+		overflow-x: auto;
+		overflow-y: hidden;
+		width: 100%;
+
+		/*
+		Sub Elements
+		----------------------- */
+		tbody {
+			margin-bottom: 0;
+			width: 100%;
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		th {
+			padding: 15px;
+			font-weight: normal;
+			text-align: left;
+		}
+		td {
+			padding: 15px 20px;
+			text-align: left;
+		}
+	}
+
+		/*
+		Sub Elements
+		----------------------- */
+		tbody tr {
+			&:nth-child(n+1) {
+				background-color: transparent;
+			}
+			&:nth-child(2n+2) {
+				background-color: color(white);
+			}
+		}
+
+		/*
+		States
+		----------------------- */
+		th {
+			background-color: color(highlight-main-dark);
+			color: #FFFFFF;
+		}
 }
 
 /* ---------------------------------------------------

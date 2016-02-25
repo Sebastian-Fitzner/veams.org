@@ -11,7 +11,9 @@ Veams is build to speed up your workflow and keep it performant. It comes with f
 * Install new modules in your working project.
 * Add custom handlebars helper files.
 * Scaffold blueprints like Backbone Views, Models and Collections.
+* Add Veams-Components automatically
+* Scaffold components or blocks in seconds and place it in your project
 
 ### How do you start? 
 
-We suggest to install the generator. All Veams extensions are available in this generator and you can test them if you like.
+We suggest to install the Veams-Cli. All Veams extensions are available in this CLI and you can test them if you like.

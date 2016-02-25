@@ -1,0 +1,27 @@
+---
+category: Veams
+title: <%= bp__add.metadata.title %>
+lead: <%= bp__add.metadata.lead %>
+menuLink: "Add a Block or Component"
+categoryType: 03 | Using Blueprints <span>Components, Blocks or Partials</span>
+sortOrder: 20
+---
+
+{{#extend "lyt-details"}}
+	{{#content "main-left"}}
+	{{! WrapWith START:  }}
+		{{#wrapWith "p-zone-veams"}}
+			{{#with bp__add.article}}
+				{{> c-article-veams }}
+			{{/with}}
+		{{/wrapWith}}
+	{{! WrapWith END:  }}
+	{{/content}}
+	{{!#content "main-bottom"}}
+	{{! WrapWith START: CTA }}
+		{{!#wrapWith "w-simple" classes="is-left"}}
+			{{!> c-cta links.tplHelper-veams-extensions}}
+		{{!/wrapWith}}
+	{{! WrapWith END: CTA }}
+	{{!/content}}
+{{/extend}}

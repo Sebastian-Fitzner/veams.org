@@ -1,10 +1,6 @@
-### How to use
-
-Just copy the files you need into the `js` folder in your project. But let's dive in to get a grasp.
-
 ### Main Files
 
-To start of just add the following files to your `js` root directory.
+To start of you need to make sure you have following files in your `js` root directory.
 
 - `app.js` 
 - `main.js`
@@ -20,35 +16,30 @@ This file is written in plain JavaScript.
 
 #### main.js
 
-`Main.js` contains all modules and is the main entry point. Here you declare the initialization of your modules. 
+`main.js` contains all modules and is the main entry point. Here you declare the initialization of your modules. 
 
 #### helpers.js
 
-`Helpers.js` exports many helper functions which will be used all over your application.
+`helpers.js` exports many helper functions which will be used all over your application.
 
 This file is written in plain JavaScript.
 
 #### events.js
 
-`Events.js` contains a constant which will be used in our Pub/Sub system. 
+`events.js` contains a constant which will be used in our Pub/Sub system. 
 
 #### module.js
 
-`Module.js` exports a class which does the following things:
+`module.js` exports a class which does the following things:
 
 1. Merge options 
 2. Save references like `this.el`, `this.$el` and `this.options`
 2. Fire up the `initialize` method
 3. Fire up the `bindEvens` method in `initialize`
 
-### Modules
-
-All files in the `modules` folder are optional and work in progress. Keep that in mind.
-
-There are `scss` and `hbs` files for some modules, which you can use in your project. 
 
 ### Initializing and Event Binding
 
-To initialize our Modules we use a custom `loadModule` function which you should used in the `main.js`. 
+To initialize our Modules we use a custom `loadModule` function which you should be used in the `main.js`. 
 
 Furthermore we expect that you be well versed with our [`Veams-Methodology`](/methodology/javascript/modules.html). In this section we explain how we define our markup and provide options. 

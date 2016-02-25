@@ -52,7 +52,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: Page
 
 hbs
-\{{! @INSERT :: START @id: component, @tag: component}}
+\{{! @INSERT :: START @id: slider, @tag: component-partial }}
 \{{#with blueprint-bp}}
 	\{{> c-blueprint}}
 \{{/with}}
@@ -61,7 +61,7 @@ hbs
 ### Include: SCSS
 
 scss
-// @INSERT :: START @id: scss-import, @tag: component
+// @INSERT :: START @tag: scss-import // 
 @import "components/_c-blueprint";
 // @INSERT :: END
 
@@ -69,13 +69,13 @@ scss
 
 #### Import
 js
-// @INSERT :: START @id: js-import, @tag: component
+// @INSERT :: START @tag: js-import // 
 import Blueprint from './modules/blueprint/blueprint';
 // @INSERT :: END
 
 #### Initializing in Veams V3
 js
-// @INSERT :: START @id: js-init-v3, @tag: component
+// @INSERT :: START @tag: js-init-v3 // 
 /**
  * Init Blueprint
  */
@@ -98,7 +98,7 @@ For example you want to insert all components snippets into one page, then just 
 ``` hbs
 <h1>My custom page</h1>
 
-\{{! @INSERTPOINT :: @ref: component}}
+\{{! @INSERTPOINT :: @ref: component-partial }}
 
 ```
 

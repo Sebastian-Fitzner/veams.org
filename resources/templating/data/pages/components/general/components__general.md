@@ -1,6 +1,6 @@
 ### General
 
-Veams Components Starter Kit is a simple partials library to speed up your workflow with Veams-Generator.
+Veams Components Starter Kit is a simple partials library to speed up your workflow with Veams.
 
 It is purely written with HandlebarsJS.
 

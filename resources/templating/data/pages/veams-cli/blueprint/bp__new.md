@@ -3,7 +3,7 @@ Veams-cli gives you the possibility to scaffold a new component, block or partia
 You can start to scaffold a new blueprint with:
 
 ``` bash
-veams new blueprint
+veams new blueprint [name]
 ```
 
 These blueprints can be used in all projects. Furthermore you can install them automatically into all of your projects ... 
