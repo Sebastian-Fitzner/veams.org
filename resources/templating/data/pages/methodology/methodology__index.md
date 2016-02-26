@@ -22,11 +22,12 @@ Veams-Methodology is a system for your whole frontend stack. Typical questions -
 
 #### Instruments To Cluster Your Markup
 
-Veams-Methodology uses specific instruments to structure your web application. In general it splits up your project in three main instruments. These are:
+Veams-Methodology uses specific instruments to structure your web application. In general it splits up your project in four main instruments. These are:
 
-* Regions (in Layouts)
+* Regions (in layouts)
 * Components
 * Blocks
+* Utilities
 
 Every instrument has specific attributes.
 

@@ -7,7 +7,7 @@
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "BEM in light mode mixed with Regions, Components and Blocks."
+			"articleH1": "BEM in light mode mixed with Regions, Components, Blocks and Utilities."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",

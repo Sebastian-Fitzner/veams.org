@@ -26,7 +26,7 @@ This helper is integrated in Veams. When you want to know more about the helper,
 
 #### WrapWith Helper (Block Helper)
 
-Veams provides a helper to construct a general template snippet (\{{#wrapWith}}) which can be used as enclosing markup in our pages and/or partials. This helper is very useful when we have to build complex grid systems with repetitive code.
+Veams provides a helper to construct a general template snippet (`\{{#wrapWith}}`) which can be used as enclosing markup in our pages and/or partials. This helper is very useful when we have to build complex grid systems with repetitive code.
 
 ##### Example
 
@@ -39,7 +39,7 @@ Veams provides a helper to construct a general template snippet (\{{#wrapWith}})
 
 **Page**
 ``` hbs
-\{{#wrapWith "section"}}
+\{{#wrapWith "section" classes="is-left"}}
    my custom content or 
    \{{> my-partial}}
 \{{/wrapWith}}

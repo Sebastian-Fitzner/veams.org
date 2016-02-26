@@ -1,0 +1,20 @@
+{
+	"metadata": {
+		"title": "Take a close look into Utilities",
+		"lead": "Utilities: Helper markup to structure your HTML."
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Utilities are generic markup snippets. They are mostly responsible to wrap other markup."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{"rteMd": "resources/templating/data/pages/methodology/instruments/utilities/methodology__utilities.md"}
+			]
+		}
+	}
+}

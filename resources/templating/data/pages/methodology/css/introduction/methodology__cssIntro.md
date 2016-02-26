@@ -7,7 +7,7 @@ Veams is partially using `BEM`. That's why our class systematic looks like this:
 #### Example Snippet
 
 ``` html
-<article class="c-article" data-css="c-article">
+<article class="c-article--default" data-css="c-article">
 	<header class="article__header">
 		<h1 class="article__h1">The PG methodology is designed to be used in large, long lived websites and projects.</h1>
 		<h2 class="article__h2">This is how we make our Sass structure scalable.</h2>
@@ -17,7 +17,7 @@ Veams is partially using `BEM`. That's why our class systematic looks like this:
 </article>
 ``` 
 
-The parent element is `c-article`. In general the classes of the child elements consists of the instruments name without any prefix and two `__`. 
+__The parent element is `c-article--default`. In general the classes of the child elements consists of the instruments name without any prefix and two `__`.__ 
 
 ### Don't 
 
@@ -41,11 +41,14 @@ Veams-Methodology does not use the following of `BEM`:
 
 ### Instruments And Prefixing
 
-The class systematic of Veams determines that we have to prefix our instruments (Regions, Components, Blocks). As a result these instruments are very easy to recognize:
+The class systematic of Veams determines that we have to prefix our instruments (Regions, Components, Blocks, Utilities). As a result these instruments are very easy to recognize:
 
 1. Regions (`.r-`)
 2. Components (`.c-`)
 3. Blocks (`.b-`)
+4. Utilities (`.u-`)
+
+_For Utilities prefixes are optional, because many frameworks already provides helper classes._ 
 
 ### File/Folder Structure
 
@@ -58,6 +61,7 @@ As a result we get a folders structure which is following the Veams-Methodology:
 ├───blocks
 ├───components
 ├───layouts (regions)
+├───utilities
 ``` 
 
 **Templating**
@@ -69,4 +73,5 @@ As a result we get a folders structure which is following the Veams-Methodology:
 ├───partials
 ├─────blocks
 ├─────components
+├─────utilities
 ``` 
