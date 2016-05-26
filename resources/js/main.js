@@ -40,7 +40,6 @@ class Core {
 	}
 
 	render(context) {
-
 		// I am lazy ...
 		$('pre code', context).each(function (i, block) {
 			let height = $(this).outerHeight(),

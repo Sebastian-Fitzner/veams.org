@@ -2,28 +2,6 @@
 
 **The most important resource for helpers is provided by Assemble.io. There are tons of useful helpers, so be sure you check out http://assemble.io/helpers/ ...**
 
-#### Autolink Helper
-
-Generate relative links with the helper `\{{autolink}}` from the "current page" to other destination pages.
-
-Very nice about this helper is, that you do not have to worry about your file output structure. It doesn't matter if you generate your HTML files into a subfolder.
-
-I use it to create my sitemap and navigation.
-
-##### Example: _nav.hbs
-
-``` hbs
-<ul class="nav navbar__nav">
-    \{{#withSort pages 'data.sortOrder'}}
-        <li>
-            <a href="\{{autolink}}" \{{#is ../../page.dest this.dest}} class="active"\{{/is}}>\{{data.menuLink}}</a>
-        </li>
-    \{{/withSort}}
-</ul>
-```
-
-This helper is integrated in Veams. When you want to know more about the helper, here you go: https://github.com/helpers/handlebars-helper-autolink
-
 #### WrapWith Helper (Block Helper)
 
 Veams provides a helper to construct a general template snippet (`\{{#wrapWith}}`) which can be used as enclosing markup in our pages and/or partials. This helper is very useful when we have to build complex grid systems with repetitive code.
@@ -66,7 +44,7 @@ A limited output from our JSON file is a great way for using one content all ove
 ``` hbs
 \{{#limit 0 3 data}}
 	<li class="carousel__items__item">
-		\{{partial "_carousel__content" }}
+		\{{> _carousel__content }}
 	</li>
 \{{/limit}}
 ```
@@ -88,7 +66,7 @@ To repeat the output from your JSON file or any other content we use a custom he
 ```
 \{{#times 3}}
 	<li class="carousel__items__item">
-		\{{partial "_carousel__content" }}
+		\{{> _carousel__content }}
 	</li>
 \{{/times}}
 ```
@@ -102,7 +80,7 @@ To go further we provide a `for` helper to build advanced loops.
 ```
 \{{#for 0 10 2}}
 	<li class="carousel__items__item">
-		\{{partial "_carousel__content" }}
+		\{{> _carousel__content }}
 	</li>
 \{{/for}}
 ```
@@ -122,15 +100,15 @@ The `\{{#if}}` helper is nice. But it has a few limitations. Operators can not b
 
 ``` hbs
 \{{#xif " this.menuLink === 'Home' || this.menuLink === 'Product' " }}
-	\{{partial "_stage" }}
+	\{{> _stage }}
 \{{else}}
-	\{{partial "_mini-stage" }}
+	\{{> _mini-stage }}
 \{{/xif}}
 ```
 
 You need to properly escape the string literals or just alternate single and double quotes like you see in this example. But that's it.
 
-#### ifBlock-Helper for Extended Layouts (Block Helper)
+#### ifBlock-Helper for Extended Layouts (Block Helper) (Assemble)
 
 The `\{{#ifBlock}}` helper is pretty handy for complex layouts. This helper checks when a block is set. When a block is not set the whole markup in your block helper will not be compiled.
 
@@ -143,3 +121,37 @@ The `\{{#ifBlock}}` helper is pretty handy for complex layouts. This helper chec
 	</section>
 \{{/ifBlock}}
 ```
+
+In Mangony you can use aN inline helper which provides a similar functionality.
+
+#### Example:
+
+``` hbs
+{{#if (content "intro")}}
+    <div class="r-intro">
+        {{#block "intro"}}{{/block}}
+    </div>
+{{/if}}
+```
+
+#### Autolink Helper (Assemble)
+
+Generate relative links with the helper `\{{autolink}}` from the "current page" to other destination pages.
+
+Very nice about this helper is, that you do not have to worry about your file output structure. It doesn't matter if you generate your HTML files into a subfolder.
+
+I use it to create my sitemap and navigation.
+
+##### Example: _nav.hbs
+
+``` hbs
+<ul class="nav navbar__nav">
+    \{{#withSort pages 'data.sortOrder'}}
+        <li>
+            <a href="\{{autolink}}" \{{#is ../../page.dest this.dest}} class="active"\{{/is}}>\{{data.menuLink}}</a>
+        </li>
+    \{{/withSort}}
+</ul>
+```
+
+This helper is integrated in Veams. When you want to know more about the helper, here you go: https://github.com/helpers/handlebars-helper-autolink

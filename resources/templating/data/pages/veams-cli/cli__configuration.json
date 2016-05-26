@@ -1,0 +1,22 @@
+{
+	"metadata": {
+		"title": "Configuration of Veams",
+		"lead": "How can you customize Veams?"
+	},
+	"article": {
+		"articleModiferClass": false,
+		"articleClasses": false,
+		"articleHeader": {
+			"articleH1": "Veams-Cli has some default configs which you can override."
+		},
+		"articleRTE": {
+			"rteContextClass": "content",
+			"rteClasses": "is-small",
+			"rtes": [
+				{
+					"rteMd": "resources/templating/data/pages/veams-cli/cli__configuration.md"
+				}
+			]
+		}
+	}
+}

@@ -11,15 +11,28 @@ Veams-cli gives you the possibility to
 
 ### Usage 
 
-Here you can find help instructions how you can use veams-cli. First of all, the first argument is a `command`. 
-Further arguments are defined as `argument` for the `command`.
+The usage of Veams-Cli is simple. 
+
+You have your __namespace__ (`veams`), followed by one __command__ (i.e. `add`), followed by further __arguments__ (i.e. `block navigation`)
+
+##### In short this will look like this: 
+
+**General**
 
 ```bash 
 veams command [arguments]
 ```
 
-#### Commands
+**Example**
 
+``` bash
+veams add block navigation
+```
+
+That is the general handling. 
+
+
+#### Commands
 
 |Command     | Shortcut | Description |
 |------------|----------|-------------------------------------------------------|
@@ -32,12 +45,18 @@ veams command [arguments]
 
 #### Arguments for `add`
 
+_The adding process happens on the fly. You do not have any reference to an external source like in the install routines of Veams._
+
 |Arguments | Shortcut | Description                            | Example |
 |----------|----------|----------------------------------------|---------|
 |block [name] | b | Add a block to your project  | `veams add block navigation` |
 |component [name] | c | Add a component to your project   | `veams add component slider` |
+|custom [name] [folder] | cu | Add a custom type to your project in a specific folder  | `veams add custom special generals` |
+|utility [name] | u | Add a utility to your project   | `veams add utility grid-item` |
 
 #### Arguments for `install`
+
+_To install something with Veams there have to be a source for it, whether provided by Veams or by yourself._
 
 |Arguments              | Shortcut | Description                         | Example |
 |-----------------------|----------|-------------------------------------|--------|

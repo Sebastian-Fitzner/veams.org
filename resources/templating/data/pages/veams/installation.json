@@ -8,7 +8,7 @@
 		"articleModiferClass": false,
 		"articleClasses": false,
 		"articleHeader": {
-			"articleH1": "Veams (or better Veams-Cli) bases on NodeJS."
+			"articleH1": "Veams (or better Veams-Cli) is based on NodeJS."
 		},
 		"articleRTE": {
 			"rteContextClass": "content",

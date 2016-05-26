@@ -1,17 +1,17 @@
 ---
-title: <%= cli__options.metadata.title %>
-lead: <%= cli__options.metadata.lead %>
-contentTitle: <%= cli__options.metadata.contentTitle %>
-menuLink: Commands in Veams-Cli
+title: <%= cli__configuration.metadata.title %>
+lead: <%= cli__configuration.metadata.lead %>
+contentTitle: <%= cli__configuration.metadata.contentTitle %>
+menuLink: Configuration of Veams
 categoryType: 01 | Veams (Veams-Cli)
-sortOrder: 10
+sortOrder: 30
 ---
 
 {{#extend "lyt-details"}}
 	{{#content "main-left"}}
 	{{! WrapWith START:  }}
 		{{#wrapWith "p-zone-veams"}}
-			{{#with cli__options.article}}
+			{{#with cli__configuration.article}}
 				{{> c-article-veams }}
 			{{/with}}
 		{{/wrapWith}}

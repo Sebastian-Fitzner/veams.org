@@ -69,7 +69,7 @@
 					"picture768_2x": "img/temp/pictures/teaser-home/pic-03--768_2x.jpg",
 					"picture769": "img/temp/pictures/teaser-home/pic-03--769.jpg"
 				},
-				"teaserHeadline": "Static Site Generator",
+				"teaserHeadline": "Static Site Generators",
 				"teaserRTE": {
 					"rteContextClass": "teaser-home",
 					"rtes": [

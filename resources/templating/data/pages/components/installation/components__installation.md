@@ -1,6 +1,6 @@
 ### Installation with Veams-Cli
 
-Just choose a Veams-Component and do the following: 
+Just choose a [Veams-Component](http://examples.veams.org/) and do the following: 
 
 ``` bash
 veams install veams-component rte
