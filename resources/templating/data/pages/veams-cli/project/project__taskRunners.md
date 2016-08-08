@@ -10,7 +10,7 @@ Grunt is Veams major Task Runner. That's why Veams provides a ton of plugins you
 
 ### Gulp 
 
-Gulp has not so many plugins available. But Gulp prefers code over configuration and uses the power of node streams.
+Gulp does not have that many plugins available. But Gulp prefers code over configuration and uses the power of node streams.
 
 ### Grunt & Gulp
 
