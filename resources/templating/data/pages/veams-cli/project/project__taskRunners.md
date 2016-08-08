@@ -1,6 +1,6 @@
 ### What is a Task Runner?
 
-A Task Runner is a tool to automate the work you have to do. Because we all know that performing repetitive tasks like minification, compilation, unit testing, linting, etc. are boring.
+A Task Runner is a tool to automate the work you have to do. Because we all know that performing repetitive tasks like minification, compilation, unit testing, linting, etc. is boring.
 
 ### Grunt
 
