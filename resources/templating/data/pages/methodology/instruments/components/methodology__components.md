@@ -20,7 +20,7 @@ Furthermore we have to define a context, see [Context Handling with Veams](/meth
 #### Example Snippet
 
 ``` hbs
-<article class="c-article--default" data-css="c-article--default"></article>
+<article class="c-article--default" data-css="c-article"></article>
 ```
 
 ### File/Folder Structure
