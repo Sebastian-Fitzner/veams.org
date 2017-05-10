@@ -16,7 +16,7 @@ _This image is actually borrowed from Drupal.org._
 
 By using Regions we separate layout styles from our other instruments (`Components` and `Blocks`). The main benefit is drop-in replacement. 
 
-In example we can just replace our `logo` (Block) and replace it with a `language-switcher` (Block) without worrying about layout issues.  
+For example we can just replace our `logo` (Block) and replace it with a `language-switcher` (Block) without worrying about layout issues.
 
 ### Structure
 
@@ -37,7 +37,7 @@ When we use Regions, we prefix them with `r-` (or `_r-` for scss files). The dec
 
 ### File/Folder Structure
 
-Every region should be defined in our layout file (in example `lyt-default.hbs` which you can find in your `templating` directory). 
+Every region should be defined in our layout file (for example `lyt-default.hbs` which you can find in your `templating` directory).
 
 ### Styles and Sass Structure
 
@@ -48,9 +48,9 @@ The folder can look like this:
 ``` bash
 ├───scss
 	└───layout
-			_header.scss
-			_main.scss
-			_footer.scss
+			_r-header.scss
+			_r-main.scss
+			_r-footer.scss
 ```
 
 ### Examples
